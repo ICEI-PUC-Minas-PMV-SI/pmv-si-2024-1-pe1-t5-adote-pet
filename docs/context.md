@@ -16,7 +16,7 @@ Entre os principais motivos do abandono, de acordo com uma pesquisa publicada pe
 
 As ONGs tem o papel fundamental no resgate e acolhimento dos animais expostos à condições vulneráveis, sendo mais de 400 ONGs existentes no País (Levantamento realizado pelo IPB). 
 
-Mesmo com as ONGs atuando na ajuda de animais em situação de abandono e maus-tratos, ainda há dificuldades para a escolha de um lar e um dono para o animal resgatado. Atualmente, **O Brasil não tem um canal confiável que facilite a comunicação geral entre quem quer doar e quem se responsabiliza ser o tutor legal** do animal.
+Mesmo com as ONGs atuando na ajuda de animais em situação de abandono e maus-tratos, ainda há dificuldades para a escolha de um lar e um dono para o animal resgatado. Atualmente, **O Brasil não tem um canal confiável que facilite a comunicação geral entre quem quer doar e quem responsabiliza ser o tutor legal** do animal.
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
