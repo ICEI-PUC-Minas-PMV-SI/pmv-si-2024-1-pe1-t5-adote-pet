@@ -10,11 +10,13 @@ Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, **não** é a hora de comentar sobre a solução/aplicação.
+No Brasil, o **abandono de animais é crime** desde 1998, de acordo com a Lei Federal 9.605/98. Entretanto, no País, a prática do abandono e de maus-tratos cresce exponencialmente. De acordo com a Organização mundial da saúde (OMS), no ano de 2022, existiam cerca de 30 milhões de animais abandonados nas ruas do Brasil, dos quais 10 milhões são gatos e 20 milhões, cães.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
+Entre os principais motivos do abandono, de acordo com uma pesquisa publicada pela Revista de Educação Continuada em Medicina Veterinária e Zootecnia do CRMV-SP, estão os problemas comportamentais dos cães (46,8%); mudanças na disponibilidade de espaço ou nas regras de conduta social do espaço ocupado pelo ser humano (29,1%); o estilo de vida do proprietário do cão (25,4%) e a diferença entre a expectativa ao adquirir o cão e a realidade de cuidados necessários (14,9%).
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+As ONGs tem o papel fundamental do resgate e acolhemineto dos animais expostos à condições vulneráveis, sendo mais de 400 ONGs existentes no País (Levantamento realizado pelo IPB). 
+
+Mesmo com as ONGs atuando na ajuda de animais em situação de abandono e maus-tratos, ainda há dificuldades para a escolha de um lar para o animal resgatado. Atualmente, **O Brasil não tem um canal confiável que facilite a comunicação geral entre quem quer doar e quem se responsabiliza a ser o tutor legal** do animal. 
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
