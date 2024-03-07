@@ -43,9 +43,13 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
+A criação de um aplicativo de match-making focado na adoção de animais atende a um nicho específico e vital dentro da comunidade. O público-alvo dessa plataforma pode ser amplamente categorizado em dois grupos principais: os doadores de animais e os potenciais adotantes.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+Doadores de Animais: Este grupo inclui abrigos de animais, organizações de resgate, e também indivíduos privados que, por várias razões, não podem mais cuidar de seus pets. Estas entidades estão em busca de uma solução eficiente para encontrar lares amorosos e responsáveis para os animais sob seus cuidados, evitando superpopulação em abrigos e até abandono. Eles valorizam a facilidade de uso e a capacidade de alcançar um público mais amplo interessado em adoção.
+
+Potenciais Adotantes: Pessoas interessadas em adotar um animal compõem o segundo grupo. Este segmento varia de famílias que buscam um novo membro, a indivíduos que procuram um companheiro. Eles estão em busca de uma plataforma que ofereça uma variedade de opções de animais para adoção, permitindo filtrar por tipo, idade, tamanho, necessidades especiais, e localização. Além disso, procuram um processo de adoção transparente e seguro, que inclua informações detalhadas sobre a saúde e o comportamento dos animais.
+
+Ambos os grupos se beneficiam de recursos adicionais que o aplicativo pode oferecer, como guias de cuidados com os animais e uma comunidade para compartilhar experiências e conselhos. Criar um ambiente de confiança e facilidade de uso para conectar esses dois públicos é essencial para o sucesso do aplicativo.
 
 > **Links Úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
