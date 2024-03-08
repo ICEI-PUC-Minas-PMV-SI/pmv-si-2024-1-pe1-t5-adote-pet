@@ -29,9 +29,11 @@ Mesmo com as ONGs atuando na ajuda de animais em situação de abandono e maus-t
 
 **Objetivos Especificos:**
 
-1- Auxiliar a entrega de informações para os doadores por meio de cadastros e formulários e perfis de pets e apresentação de eventos de adoção para os adotantes, assim facilitando a adoção para ambos os lados,, com isso ajudando a reduzir parcialmente a superlotação de abrigos e animais em situação de abandono e vulnerabilidade nas ruas.
- 
-2- Oferecer apoio as ONGs e Grupos de proteção aos animais que sejam confiáveis, Criando e destacando uma pagina sobre a mesma para os adotantes, assim dando mais visibilidade. 
+1 - Auxiliar a entrega de informações para os doadores por meio de cadastros, formulários, perfis de pets e divulgação de eventos de adoção para os adotantes - assim facilitando o processo de adoção responsável.
+
+2 - Ajudar a reduzir parcialmente a superlotação de abrigos e o número de animais em situação de abandono e maus-tratos.
+
+3 - Oferecer apoio às ONGs e grupos de Proteção aos animais através da criação de uma página que dê destaque e visibilidade a estas organizações.
  
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
