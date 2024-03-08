@@ -6,7 +6,10 @@
 
 `SEMESTRE: 1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+No Brasil, o abandono de animais é crime desde 1998, porém a prática do abandono e de maus-tratos animais cresce exponencialmente a cada ano.
+Mesmo nesta situação alarmante, é evidente a falta de uma plataforma de comunicação confiável entre potenciais adotantes e doadores de animais.
+
+Assim sendo, este projeto visa ajudar a reduzir o número de animais em situação de vulnerabilidade e a superlotação de ONGs por meio da criação de uma aplicação Web prática que intermedie a comunicação entre adotantes responsáveis e possíveis doadores de animais domésticos.
 
 ## Integrantes
 
