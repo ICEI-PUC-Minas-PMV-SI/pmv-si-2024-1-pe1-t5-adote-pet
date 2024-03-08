@@ -49,8 +49,6 @@ Mesmo diante desta realidade sombria, as ONGs e grupos de Protetores animais tê
 
 Assim sendo, este projeto visa enfrentar esta problemática por meio da criação de uma aplicação web prática que intermedie, através de cadastros, formulários e divulgação de eventos de adoção, a comunicação entre adotantes responsáveis e Organizações não governamentais ou indivíduos que desejem doar animais domésticos. Dessa maneira, busca-se melhorar a condição de superlotação das ONGs e reduzir o número de animais em situação de vulnerabilidade.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
