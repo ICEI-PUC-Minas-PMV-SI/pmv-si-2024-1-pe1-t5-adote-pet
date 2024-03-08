@@ -1,12 +1,11 @@
 # Introdução
 
-Imagine que você deseja apresentar este projeto para investidores que deverão decidir se investem ou não no desenvolvimento da sua ferramenta.
+    Nos últimos anos, tem-se destacado um aumento crescente no número de abandonos de animais doméstico, segundo o Instituto Pet Brasil (IPB), houve um aumento de 126% no número de animais doméstico em situação de vulnerabilidade. Dessa forma, é evidente a importância de um canal confiável de comunicação entre potenciais adotantes e doadores de animais. Esse movimento reflete não apenas um alerta em relação ao bem-estar animal, mas também um mercado em expansão.
 
-A **Introdução** consiste das etapas: *Contextualização -- Definição do problema -- Definição dos Objetivos -- Justificativa*, e tem como função situar o seu trabalho dentro de um contexto de mercado e mostrar a importância da sua proposta para resolver a dor de um usuário.
+    Neste contexto, surge a proposta de uma aplicação web que servirá como intermediário entre adotantes, ONGs e indivíduos que querem doar seus animais. Essa ferramenta não apenas visa facilitar a adoção de animais de estimação, como também fortalecerá as redes de apoio aos abrigos e aos esforços de resgate de animais, que apenas no Brasil possuem mais de 180 mil animais sob sua tutela, conectando-os de forma eficaz com indivíduos dispostos a dar um lar a animais necessitados, dessa maneira, amenizando suas difíceis situações de superlotação.
+    
+    Portanto, considerando o aumento dos casos de abandono e maus-tratos, e a crescente demanda por meios eficazes de facilitar a adoção efetiva, este projeto se apresenta como uma solução oportuna e relevante para um problema social em pleno crescimento.
 
-A Contextualização deve situar sem projeto em um determinado contexto de mercado, a fim de fornecer informações adicionais que possam ajudar a entender melhor o assunto que você irá abordar. Serve também para definir a relevância do seu assunto, uma vez que mostra o tamanho do mercado em que se está inserido. Ela pode envolver a análise de vários aspectos, como o ambiente histórico, cultural, político e social em que o problema a ser atacado surgiu.
-
-Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
 
 ## Problema
 
