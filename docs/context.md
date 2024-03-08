@@ -28,6 +28,7 @@ Mesmo com as ONGs atuando na ajuda de animais em situação de abandono e maus-t
 **Objetivo Principal:** facilitar a comunicação ente adotantes e doadores através de uma aplicação Web que busca intermediar o processo de apresentação e coleta de dados de ambas as partes.
 
 **Objetivos Especificos:**
+
 1- Auxiliar a entrega de informações para os doadores por meio de cadastros e formulários e perfis de pets e apresentação de eventos de adoção para os adotantes, assim facilitando a adoção para ambos os lados,, com isso ajudando a reduzir parcialmente a superlotação de abrigos e animais em situação de abandono e vulnerabilidade nas ruas.
  
 2- Oferecer apoio as ONGs e Grupos de proteção aos animais que sejam confiáveis, Criando e destacando uma pagina sobre a mesma para os adotantes, assim dando mais visibilidade. 
