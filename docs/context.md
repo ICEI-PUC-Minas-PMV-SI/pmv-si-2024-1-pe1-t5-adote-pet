@@ -53,7 +53,7 @@ Assim sendo, este projeto visa enfrentar esta problemática por meio da criaçã
 
 ## Público-Alvo
 
-A criação de um aplicativo de match-making focado na adoção de animais atende a um nicho específico e vital dentro da comunidade. O público-alvo dessa plataforma pode ser amplamente categorizado em dois grupos principais: os **doadores de animais** e os **potenciais adotantes**.
+A criação de uma aplicação Web de match-making focado na adoção de animais atende a um nicho específico e vital dentro da comunidade. O público-alvo dessa plataforma pode ser amplamente categorizado em dois grupos principais: os **doadores de animais** e os **potenciais adotantes**.
 
 **Doadores de Animais**: Este grupo inclui abrigos de animais, organizações de resgate, e também indivíduos privados que, por várias razões, não podem mais cuidar de seus pets. Estas entidades estão em busca de uma solução eficiente para encontrar lares amorosos e responsáveis para os animais sob seus cuidados, evitando superpopulação em abrigos e até abandono. Eles valorizam a facilidade de uso e a capacidade de alcançar um público mais amplo interessado em adoção.
 
