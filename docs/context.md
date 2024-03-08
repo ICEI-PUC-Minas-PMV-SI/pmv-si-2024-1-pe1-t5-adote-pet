@@ -38,11 +38,13 @@ Mesmo com as ONGs atuando na ajuda de animais em situação de abandono e maus-t
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+É importante ressaltar que a existência de animais abandonadas ou mau-tratados não é um fenômeno novo. Porém, segundo o Instituto Pet Brasil (IPB), entre os anos de 2018 e 2020, o número de animais de estimação em condição de vulnerabilidade mais do que dobrou no Brasil - chegando ao exorbitante número de 8,8 milhões de pets. Para fins de comparação, a soma da população de cachorros e gatos em terras brasileiras é de 81,5 milhões, ou seja, 10,8% destes animais estão em condição de vulnerabilidade.
 
-Lembre-se de pesquisar e utilizar números que justifiquem por que é importante que tal problema seja resolvido ou que mostrem o impacto do problema na vida das pessoas.
+Visto que animais abandonados passam por maus-tratos e outros diversos desafios, como frio e fome, esta situação de abandono animal não é só uma adversidade quando pensamos no bem-estar dos animais domésticos, mas também é um desafio à saúde pública. Esta negligência é um dos principais fatores da disseminação de doenças, da reprodução excessiva, de agressões (mordeduras) e acidentes fatais (Souza, 2011).
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Mesmo diante desta realidade sombria, as ONGs e grupos de Protetores animais têm sob suas tutelas aproximadamente 184.960 animais abandonados ou resgatados por maus-tratos (IPB, 2022). Além disso, realizam, também, os cuidados médicos e todo o necessário para que estes animais sejam adotados. Entretanto, estas organizações enfrentam uma realidade difícil, na qual o número de abandonos é maior do que das adoções efetivas (Pastori & Matos, 2015).
+
+Assim sendo, este projeto visa enfrentar esta problemática por meio da criação de uma aplicação web prática que intermedie, através de cadastros, formulários e divulgação de eventos de adoção, a comunicação entre adotantes responsáveis e Organizações não governamentais ou indivíduos que desejem doar animais domésticos. Dessa maneira, busca-se melhorar a condição de superlotação das ONGs e reduzir o número de animais em situação de vulnerabilidade.
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
