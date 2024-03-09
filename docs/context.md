@@ -19,11 +19,6 @@ As ONGs tem o papel fundamental no resgate e acolhimento dos animais expostos à
 
 Mesmo com as ONGs atuando na ajuda de animais em situação de abandono e maus-tratos, ainda há dificuldades para a escolha de um lar e um dono para o animal resgatado. Atualmente, **O Brasil não tem um canal confiável que facilite a comunicação geral entre quem quer doar e quem responsabiliza ser o tutor legal** do animal.
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-
 ## Objetivos
 
 **Objetivo Principal:** facilitar a comunicação ente adotantes e doadores através de uma aplicação Web que busca intermediar o processo de apresentação e coleta de dados de ambas as partes.
@@ -35,9 +30,6 @@ Mesmo com as ONGs atuando na ajuda de animais em situação de abandono e maus-t
 2 - Ajudar a reduzir parcialmente a superlotação de abrigos e o número de animais em situação de abandono e maus-tratos.
 
 3 - Oferecer apoio às ONGs e grupos de Proteção aos animais através da criação de uma página que dê destaque e visibilidade a estas organizações.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
@@ -60,8 +52,3 @@ A criação de uma aplicação Web de match-making focado na adoção de animais
 
 Ambos os grupos se beneficiam de recursos adicionais que o aplicativo pode oferecer, como guias de cuidados com os animais e uma comunidade para compartilhar experiências e conselhos. Criar um ambiente de confiança e facilidade de uso para conectar esses dois públicos é essencial para o sucesso do aplicativo.
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
