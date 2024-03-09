@@ -1,8 +1,8 @@
 # Introdução
 
-Nos últimos anos, tem-se destacado um aumento crescente no número de abandonos de animais domésticos. Segundo o Instituto Pet Brasil (IPB), entre os anos de 2018 e 2020, houve um aumento de 126% no número de animais doméstico em situação de vulnerabilidade. Dessa forma, é evidente a importância de um canal confiável de comunicação entre potenciais adotantes e doadores de animais. Esse movimento reflete não apenas um alerta em relação ao bem-estar animal, mas também um mercado em expansão.
+Nos últimos anos, tem-se destacado um aumento crescente no número de abandonos de animais domésticos. Segundo o Instituto Pet Brasil (IPB), entre os anos de 2018 e 2020, houve um aumento de 126% no número de animais doméstico em situação de vulnerabilidade [1](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/blob/main/docs/references.md). Dessa forma, é evidente a importância de um canal confiável de comunicação entre potenciais adotantes e doadores de animais. Esse movimento reflete não apenas um alerta em relação ao bem-estar animal, mas também um mercado em expansão.
     
-Neste contexto, surge a proposta de uma aplicação web que servirá como intermediário entre adotantes, ONGs e indivíduos que querem doar seus animais. Essa ferramenta não apenas visa facilitar a adoção de animais de estimação, como também fortalecerá as redes de apoio aos abrigos e aos esforços de resgate de animais que, no Brasil, possuem mais de 180 mil animais sob sua tutela, conectando-os de forma eficaz com indivíduos dispostos a dar um lar a animais necessitados e ,dessa maneira, amenizando suas difíceis situações de superlotação (IPB, 2022).
+Neste contexto, surge a proposta de uma aplicação web que servirá como intermediário entre adotantes, ONGs e indivíduos que querem doar seus animais. Essa ferramenta não apenas visa facilitar a adoção de animais de estimação, como também fortalecerá as redes de apoio aos abrigos e aos esforços de resgate de animais que, no Brasil, possuem mais de 180 mil animais sob sua tutela, conectando-os de forma eficaz com indivíduos dispostos a dar um lar a animais necessitados e ,dessa maneira, amenizando suas difíceis situações de superlotação (IPB, 2022) [1](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/blob/main/docs/references.md).
 
 Portanto, considerando o aumento dos casos de abandono e maus-tratos, e a crescente demanda por meios eficazes de facilitar a adoção efetiva, este projeto se apresenta como uma solução oportuna e relevante para um problema social em pleno crescimento.
 
@@ -15,7 +15,7 @@ No Brasil, o **abandono de animais é crime** desde 1998, de acordo com a Lei Fe
 
 Entre os principais motivos do abandono, de acordo com uma pesquisa publicada pela Revista de Educação Continuada em Medicina Veterinária e Zootecnia do CRMV-SP, estão os problemas comportamentais dos cães (46,8%); mudanças na disponibilidade de espaço ou nas regras de conduta social do espaço ocupado pelo ser humano (29,1%); o estilo de vida do proprietário do cão (25,4%) e a diferença entre a expectativa ao adquirir o cão e a realidade de cuidados necessários (14,9%).
 
-As ONGs tem o papel fundamental no resgate e acolhimento dos animais expostos à condições vulneráveis, sendo mais de 400 ONGs existentes no País (Levantamento realizado pelo IPB). 
+As ONGs tem o papel fundamental no resgate e acolhimento dos animais expostos à condições vulneráveis, sendo mais de 400 ONGs existentes no País (Levantamento realizado pelo IPB) [1](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/blob/main/docs/references.md). 
 
 Mesmo com as ONGs atuando na ajuda de animais em situação de abandono e maus-tratos, ainda há dificuldades para a escolha de um lar e um dono para o animal resgatado. Atualmente, **O Brasil não tem um canal confiável que facilite a comunicação geral entre quem quer doar e quem responsabiliza ser o tutor legal** do animal.
 
