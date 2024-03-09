@@ -45,11 +45,11 @@ Assim sendo, este projeto visa enfrentar esta problemática por meio da criaçã
 
 ## Público-Alvo
 
-O público-alvo dessa plataforma pode ser amplamente categorizado em dois grupos principais: os **doadores de animais** e os **potenciais adotantes**.
+O público-alvo dessa plataforma pode ser amplamente categorizado em dois grupos principais: os **doadores de animais** e os **potenciais tutores**.
 
 **Doadores de Animais**: Este grupo inclui abrigos de animais, organizações de resgate, e também indivíduos privados que, por várias razões, não podem mais cuidar de seus pets. Estas entidades estão em busca de uma solução eficiente para encontrar lares amorosos e responsáveis para os animais sob seus cuidados, evitando superpopulação em abrigos e até abandono. Eles valorizam a facilidade de uso e a capacidade de alcançar um público mais amplo interessado em adoção.
 
-**Potenciais Adotantes**: Pessoas interessadas em adotar um animal compõem o segundo grupo. Este segmento varia de famílias que buscam um novo membro, a indivíduos que procuram um companheiro. Eles estão em busca de uma plataforma que ofereça uma variedade de opções de animais para adoção, permitindo filtrar por tipo, idade, tamanho, necessidades especiais, e localização. Além disso, procuram um processo de adoção transparente e seguro, que inclua informações detalhadas sobre a saúde e o comportamento dos animais.
+**Potenciais Tutores**: Pessoas interessadas em adotar um animal compõem o segundo grupo. Este segmento varia de famílias que buscam um novo membro, a indivíduos que procuram um companheiro. Eles estão em busca de uma plataforma que ofereça uma variedade de opções de animais para adoção, permitindo filtrar por tipo, idade, tamanho, necessidades especiais, e localização. Além disso, procuram um processo de adoção transparente e seguro, que inclua informações detalhadas sobre a saúde e o comportamento dos animais.
 
 Ambos os grupos se beneficiam de recursos adicionais que o aplicativo pode oferecer, como guias de cuidados com os animais e uma comunidade para compartilhar experiências e conselhos. Criar um ambiente de confiança e facilidade de uso para conectar esses dois públicos é essencial para o sucesso do aplicativo.
 
