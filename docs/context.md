@@ -22,6 +22,7 @@ Mesmo com as ONGs atuando na ajuda de animais em situação de abandono e maus-t
 ## Objetivos
 
 **Objetivo Principal:** 
+
 ● Facilitar a comunicação ente possíveis tutores e doadores através de uma aplicação Web que busca intermediar o processo de apresentação e coleta de dados de ambas as partes.
 
 **Objetivos Especificos:**
