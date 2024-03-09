@@ -6,10 +6,8 @@
 
 `SEMESTRE: 1º`
 
-No Brasil, o abandono de animais é crime desde 1998, porém a prática do abandono e de maus-tratos animais cresce exponencialmente a cada ano.
-Mesmo nesta situação alarmante, é evidente a falta de uma plataforma de comunicação confiável entre potenciais adotantes e doadores de animais.
-
-Assim sendo, este projeto visa ajudar a reduzir o número de animais em situação de vulnerabilidade e a superlotação de ONGs por meio da criação de uma aplicação Web prática que intermedie a comunicação entre adotantes responsáveis e possíveis doadores de animais domésticos.
+    Nos últimos anos, observa-se um aumento significativo no abandono de animais domésticos no Brasil. Nesse contexto, propõe-se uma aplicação web que sirva como intermediário entre adotantes, ONGs e doadores, facilitando a adoção e fortalecendo as redes de apoio aos abrigos. Apesar de o abandono ser crime desde 1998, o número de casos continua a crescer. A Organização Mundial da Saúde (OMS) estima que em 2022 havia cerca de 30 milhões de animais abandonados no Brasil. Diversos motivos levam ao abandono, incluindo problemas comportamentais dos cães, mudanças na disponibilidade de espaço e expectativas não correspondidas dos proprietários. 
+    As mais de 400 ONGs no país desempenham um papel crucial no resgate e acolhimento desses animais, mas ainda enfrentam dificuldades na adoção. Este projeto busca mitigar essas dificuldades ao fornecer um meio eficaz de comunicação entre doadores e potenciais tutores, com o objetivo de reduzir a superlotação e melhorar o bem-estar dos animais abandonados.
 
 ## Integrantes
 
