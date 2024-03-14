@@ -5,20 +5,12 @@ No Brasil, o abandono de animais domésticos, mais conhecidos como “pets”, t
 Nessa parte do documento, vamos definir as personas envolvidas na possível solução, descrever as histórias do usuário e os requisitos.
 
 ## Personas
-
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
-
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+● **Possível tutor - João**
+João tem 30 anos e mora em um apartamento de tamanho médio na cidade. Ele trabalha como designer gráfico e passa a maior parte do seu tempo em casa ou em um co-working próximo. João cresceu em uma casa onde sempre havia animais de estimação e, agora, morando sozinho, sente falta da companhia de um pet. Ele é uma pessoa ativa, gosta de passear em parques nos fins de semana e deseja um companheiro para suas atividades ao ar livre. João nunca adotou um pet antes e está em busca de um processo de adoção que seja transparente e o ajude a encontrar um animal que se adapte ao seu estilo de vida.
+● **ONG - Abrigo Projeto Meggie**
+O Abrigo Projeto Meggie é uma ONG fundada há 3 anos por um grupo de voluntários apaixonados por animais. Localizado na região metropolitana de uma grande cidade, o abrigo acolhe cães e gatos resgatados das ruas ou de situações de maus-tratos. A missão da ONG é reabilitar esses animais, tanto física quanto emocionalmente, e encontrar lares amorosos e responsáveis para eles. A organização enfrenta desafios com seus recursos limitados e tem a necessidade de aumentar sua visibilidade para atrair mais adotantes e diminuir a superpopulação. Eles buscam uma plataforma que facilite a gestão dos pets disponíveis para adoção e que ajude a contar as histórias de cada animal, aumentando assim as chances de adoção.
+● Pessoa que precisa doar seu pet - Maria
+Maria tem 45 anos, é mãe de dois filhos pequenos e recentemente recebeu uma proposta de trabalho em outro país. A família está planejando a mudança nos próximos meses, mas, infelizmente, o pet da família, um Labrador de 5 anos chamado Thor, não poderá acompanhá-los devido a restrições de viagem e ao longo processo de quarentena exigido pelo país de destino. Maria está devastada com a ideia de deixar Thor para trás e está determinada a encontrar um novo lar amoroso para ele, onde possa ser feliz e bem cuidado. Ela busca uma plataforma que permita criar um perfil detalhado para Thor, destacando sua personalidade, necessidades e as melhores características para uma futura família adotiva.
 
 ## Histórias de Usuários
 
