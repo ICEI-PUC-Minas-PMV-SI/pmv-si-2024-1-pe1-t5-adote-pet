@@ -65,13 +65,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O FrontEnd deve ser desenvolvido em HTML, CSS e JavaScript | ALTA | 
-|RNF-002| O site deve ser responsivo, ou seja, deve responder da maneira ideal e se adaptar, sem distorções, à resolução dos dispositivos móveis |  MÉDIA | 
-|RNF-003| A interface deve ser agradável, prática e de fácil utilização |  ALTA | 
-|RNF-004| O sistema deve ser multiplataforma, possibilitando seu uso em dispositivos com sistema operacional Microsoft Windows, Linux ou MacOS | ALTA |
-|RNF-005| O sistema deve garantir a segurança dos dados de acordo com A Lei Geral de Proteção de Dados Pessoais (Lei brasileira 13 709/2018) | MÉDIA |
-|RNF-006| A aplicação deve enviar ao usuário um email para confirmação de cadastro | BAIXA |
-|RNF-007| A aplicação Web deverá ter um botão de "voltar ao topo" em páginas de conteúdo extenso | BAIXA |
+|RNF-001| O site deve ser responsivo, ou seja, deve responder da maneira ideal e se adaptar, sem distorções, à resolução dos dispositivos móveis |  MÉDIA | 
+|RNF-002| A interface deve ser agradável, prática e de fácil utilização |  ALTA | 
+|RNF-003| O sistema deve ser multiplataforma, possibilitando seu uso em dispositivos com sistema operacional Microsoft Windows, Linux ou MacOS | ALTA |
+|RNF-004| O sistema deve garantir a segurança dos dados de acordo com A Lei Geral de Proteção de Dados Pessoais (Lei brasileira 13 709/2018) | MÉDIA |
+|RNF-005| A aplicação deve enviar ao usuário um email para confirmação de cadastro | BAIXA |
+|RNF-006| A aplicação Web deverá ter um botão de "voltar ao topo" em páginas de conteúdo extenso | BAIXA |
 
 
 ## Restrições
