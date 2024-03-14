@@ -2,7 +2,7 @@
 
 Nos últimos anos, tem-se destacado um **aumento crescente no número de abandonos de animais domésticos**. Segundo o Instituto Pet Brasil (IPB), entre os anos de 2018 e 2020, houve um aumento de 126% no número de animais domésticos em situação de vulnerabilidade [1](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/blob/main/docs/references.md). Dessa forma, é evidente a **importância de um canal confiável de comunicação entre potenciais tutores e doadores de animais**. Esse movimento reflete não apenas um alerta em relação ao bem-estar animal, mas também um mercado em expansão.
     
-Neste contexto, surge a proposta de uma aplicação web que servirá como intermediário entre adotantes, ONGs e indivíduos que querem doar seus animais. Essa ferramenta não apenas visa facilitar a adoção de animais de estimação, como também fortalecerá as redes de apoio aos abrigos e aos esforços de resgate de animais que, no Brasil, possuem mais de 180 mil animais sob sua tutela, conectando-os de forma eficaz com indivíduos dispostos a dar um lar a animais necessitados e ,dessa maneira, amenizando suas difíceis situações de superlotação (IPB, 2022) [1](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/blob/main/docs/references.md).
+Neste contexto, surge a proposta de uma aplicação web que servirá como intermediário entre Possiveis tutores, ONGs e indivíduos que querem doar seus animais. Essa ferramenta não apenas visa facilitar a adoção de animais de estimação, como também fortalecerá as redes de apoio aos abrigos e aos esforços de resgate de animais que, no Brasil, possuem mais de 180 mil animais sob sua tutela, conectando-os de forma eficaz com indivíduos dispostos a dar um lar a animais necessitados e ,dessa maneira, amenizando suas difíceis situações de superlotação (IPB, 2022) [1](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/blob/main/docs/references.md).
 
 Portanto, considerando o aumento dos casos de abandono e maus-tratos, e a crescente demanda por meios eficazes de facilitar a adoção efetiva, este projeto se apresenta como uma solução oportuna e relevante para um problema social em pleno crescimento.
 
@@ -26,7 +26,7 @@ Facilitar a comunicação ente possíveis tutores e doadores através de uma apl
 
 **Objetivos Especificos:**
 
-● Auxiliar a entrega de informações para os doadores por meio de cadastros, formulários, perfis de pets e divulgação de eventos de adoção para os adotantes - assim facilitando o processo de adoção responsável;
+● Auxiliar a entrega de informações para os doadores por meio de cadastros, formulários, perfis de pets e divulgação de eventos de adoção para os Possiveis tutores - assim facilitando o processo de adoção responsável;
 
 ● Ajudar a reduzir parcialmente a superlotação de abrigos e o número de animais em situação de abandono e maus-tratos;
 
@@ -40,7 +40,7 @@ Visto que animais abandonados passam por maus-tratos e outros diversos desafios,
 
 Mesmo diante desta realidade sombria, as ONGs e grupos de Protetores animais têm sob suas tutelas aproximadamente 184.960 animais abandonados ou resgatados por maus-tratos (IPB, 2022). Além disso, realizam, também, os cuidados médicos e todo o necessário para que estes animais sejam adotados. Entretanto, estas organizações enfrentam uma realidade difícil, na qual o número de abandonos é maior do que das adoções efetivas (Pastori & Matos, 2015) [3](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/blob/main/docs/references.md).
 
-Assim sendo, este projeto visa enfrentar esta problemática por meio da criação de uma aplicação web prática que intermedie, através de cadastros, formulários e divulgação de eventos de adoção, a comunicação entre adotantes responsáveis e Organizações não governamentais ou indivíduos que desejem doar animais domésticos. Dessa maneira, busca-se **melhorar a condição de superlotação das ONGs e reduzir o número de animais em situação de vulnerabilidade**.
+Assim sendo, este projeto visa enfrentar esta problemática por meio da criação de uma aplicação web prática que intermedie, através de cadastros, formulários e divulgação de eventos de adoção, a comunicação entre Possiveis tutores responsáveis e Organizações não governamentais ou indivíduos que desejem doar animais domésticos. Dessa maneira, busca-se **melhorar a condição de superlotação das ONGs e reduzir o número de animais em situação de vulnerabilidade**.
 
 
 ## Público-Alvo
