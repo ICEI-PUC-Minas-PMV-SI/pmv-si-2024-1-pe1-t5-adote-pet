@@ -48,31 +48,31 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | 
 |------|-----------------------------------------|----| 
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | ALTA |  
-|RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês   | MÉDIA | 
+|RF-001| A aplicação Web deverá permitir o cadastro de novos usuários | ALTA |  
+|RF-002| A aplicação fornecerá informações sobre os termos de uso   | MÉDIA | 
+|RF-003| A aplicação terá uma página que se apresente logo após o cadastro do usuário e pela qual esse deverá preencher um formulário  | MÉDIA | 
+|RF-004| A aplicação realizará a validação do usuário através de um e-mail de confirmação   | MÉDIA | 
+|RF-005| A aplicação permitirá que o usuário logue no site com usuário e senha   | ALTA | 
+|RF-006| A aplicação permitirá ao usuário solicitar a redefinição de sua senha, informando o e-mail cadastrado   | MÉDIA | 
+|RF-007| A aplicação deverá permitir que o usuário gerencie seu cadastro para exclusão, consulta e alteração  | ALTA | 
+|RF-008| A aplicação Web permitirá apenas aos usuários cadastrados criarem/alterarem/atualizarem seus cadastros dos seus animais domésticos disponíveis para adoção   | ALTA | 
+|RF-009| A aplicação deverá permitir que as ONGs cadastrem seus eventos de adoção em uma página especial de destaque   | MÉDIA | 
+|RF-010| A aplicação permitirá a vizualização dos “pets" cadastrados e postados pelos doadores   | ALTA | 
+|RF-011| A aplicação deverá permitir a vizualização dos perfis dos possíveis tutores e também dos doadores   | MÉDIA | 
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| A aplicação deve ser responsiva | MÉDIA | 
-|RNF-002| A aplicação deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| O FrontEnd deve ser desenvolvido em HTML, CSS e JavaScript | ALTA | 
+|RNF-002| O site deve ser responsivo, ou seja, deve responder da maneira ideal e se adaptar, sem distorções, à resolução dos dispositivos móveis |  MÉDIA | 
+|RNF-003| A interface deve ser agradável, prática e de fácil utilização |  ALTA | 
+|RNF-004| O sistema deve ser multiplataforma, possibilitando seu uso em dispositivos com sistema operacional Microsoft Windows, Linux ou MacOS | ALTA |
+|RNF-005| O sistema deve garantir a segurança dos dados de acordo com A Lei Geral de Proteção de Dados Pessoais (Lei brasileira 13 709/2018) | MÉDIA |
+|RNF-006| A aplicação deve enviar ao usuário um email para confirmação de cadastro | BAIXA |
+|RNF-007| A aplicação Web deverá ter um botão de "voltar ao topo" em páginas de conteúdo extenso | BAIXA |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
