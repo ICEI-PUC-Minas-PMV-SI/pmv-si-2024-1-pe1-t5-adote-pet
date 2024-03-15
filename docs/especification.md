@@ -20,17 +20,17 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+|Possível tutor, doador e ONG | Criar um perfil detalhado com minhas informações                                                             |Os outros usuarios possam me identificar e avaliar com facilidade |
+|Possível tutor, doador e ONG |Logar no site com meu perfil                                                                                  |Realizar minhas atividades no sistema |
+|Possível tutor, doador e ONG |Solicitar a mudança de senha                                                                                  |Permitir que seja possivel acessar a minha conta mesmo sem lembrar |
+|Possível tutor, doador e ONG |Administrar meu perfil                                                                                        |Manter minhas informações atualizadas e corretas. |
+|Doador                       |Cadastrar e administrar as informações do meu animal                                                          |Permitir que que os possíveis tutores possam visualizar e avaliar uma possivel adoção |
+|Possível tutor, doador e ONG |Receber informações sobre os termos de uso da aplicação                                                       |Ter conhecimento sobre minhas responsabilidades, a forma de utilização, assim como esclarecer possíveis dúvidas que possa ter sobre o funcionamento do sistema|
+|ONG                          |Publicar eventos e campanhas da organização                                                                   |Possíveis tutores possam visualizar e participar caso estejam interessados |
+|Possivel tutor               |Pesquisar e visualizar os Pets disponiveis para adoção e suas informações, incluindo as informações do doador |Avaliar as opções e escolher qual irei adotar |
+|Possivel tutor               |Poder entrar em contato com doadores                                                                          |Permitir discutir os detalhes e possiveis acordos sobre a adoção |
+|Possivel tutor               |Avaliar e verificar as avaliações sobre possiveis doadores                                                    |Avaliar a adequação e a qualidade do mesmo |
+|Doador                       |Avaliar e verificar as avaliações sobre possiveis tutores                                                     |Avaliar a adequação e a qualidade do mesmo |
 
 ## Requisitos
 
