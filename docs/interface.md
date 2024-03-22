@@ -1,7 +1,7 @@
 
 # Projeto de Interface
 
-Pré-requisito: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
+Pré-requisito: <a href="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/blob/main/docs/especification.md"> Documentação de Especificação</a>.
 
  O projeto “AdotePet” visa intermediar a comunicação entre possíveis tutores e doadores de animais, através de uma aplicação Web, de maneirá fácil e segura para ambas as partes. 
 
