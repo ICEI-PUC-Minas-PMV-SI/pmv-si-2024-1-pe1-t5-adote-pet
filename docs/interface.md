@@ -1,9 +1,17 @@
 
 # Projeto de Interface
 
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
+Pré-requisito: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
 
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
+ O projeto “AdotePet” visa intermediar a comunicação entre possíveis tutores e doadores de animais, através de uma aplicação Web, de maneirá fácil e segura para ambas as partes. 
+
+Seguindo este objetivo, busca-se criar um projeto de interface com design intuitivo, prático, de fácil navegação e com um padrão de cores alegres e visualmente confortáveis para os usuários. Dessa forma, este projeto de interface estará organizado em 8 páginas: Homepage (“Página Inicial”), Cadastro, Preenchimento de formulário, Login, Gerenciamento de cadastro dos usuários, Cadastro dos “pets”, Gerenciamento de cadastro dos “pets” e Visualização dos “pets” cadastrados.
+
+Por meio do seu navegador, o usuário poderá acessar a página inicial do projeto, na qual se encontrará diante dos botões que levarão às áreas de login ou cadastro (parte superior direita), do texto inicial que explicará “Quem Somos”, dos eventos de adoção em destaque e, logo abaixo, de histórias de adoção de sucesso. 
+
+Após clicarem no botão de cadastro, efetuarem seus cadastros e preencherem seus formulários, os possíveis tutores serão capazes de visualizar os animais domésticos já cadastrados na plataforma e também poderão gerenciar seus próprios cadastros para consulta, alteração e exclusão. Já os doadores, após efetuados seus cadastros, poderão gerenciá-los e também criar/alterar/atualizar o cadastro dos animais que desejam doar. 
+
+No rodapé das páginas dessa aplicação Web, estarão o nosso e-mail de contato do projeto, nossas redes sociais da plataforma e informações institucionais.
 
 ## User Flow
 
