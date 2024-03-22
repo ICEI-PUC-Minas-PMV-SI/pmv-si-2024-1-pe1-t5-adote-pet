@@ -9,11 +9,11 @@
 ![Imagem do WhatsApp de 2024-03-22 à(s) 17 43 34_d1a19539](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/assets/160288705/53de2cba-5a20-47a6-8fee-28938f49095e)
 
 
-Nos últimos anos, observa-se um aumento significativo no abandono de animais domésticos no Brasil. Nesse contexto, propõe-se uma aplicação web que sirva como intermediário entre adotantes, ONGs e doadores, facilitando a adoção e fortalecendo as redes de apoio aos abrigos.
+Nos últimos anos, observa-se um aumento significativo no **abandono de animais domésticos no Brasil**. Nesse contexto, propõe-se uma aplicação web que sirva como intermediário entre possíveis tutores, ONGs e doadores, facilitando a adoção e fortalecendo as redes de apoio aos abrigos.
 
 Apesar de o abandono ser crime desde 1998, o número de casos continua a crescer. A Organização Mundial da Saúde (OMS) estima que em 2022 havia cerca de 30 milhões de animais abandonados no Brasil. Diversos motivos levam ao abandono, incluindo problemas comportamentais dos cães, mudanças na disponibilidade de espaço e expectativas não correspondidas dos proprietários. 
 
-As mais de 400 ONGs no país desempenham um papel crucial no resgate e acolhimento desses animais, mas ainda enfrentam dificuldades na adoção. Este projeto busca mitigar essas dificuldades ao fornecer um meio eficaz de comunicação entre doadores e potenciais tutores, com o objetivo de reduzir a superlotação e melhorar o bem-estar dos animais abandonados.
+As mais de 400 ONGs no país desempenham um papel crucial no resgate e acolhimento desses animais, mas ainda enfrentam dificuldades na adoção. Este projeto busca mitigar essas dificuldades ao fornecer um **meio eficaz de comunicação entre doadores e potenciais tutores**, com o objetivo de reduzir a superlotação e melhorar o bem-estar dos animais abandonados.
 
 ## Integrantes
 
