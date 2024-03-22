@@ -16,7 +16,8 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 
 ## Tipografia
 
-Apresente as fontes que serão utilizadas e sua função no site. As principais funções são: Título de página, Título de Seção, Rótulos de componentes e Corpo de Texto.
+![Imagem do WhatsApp de 2024-03-22 à(s) 17 59 55_c5dcc4be](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/assets/160288705/a58695fb-c893-43be-bcec-de06f7001934)
+
 
 
 ## Iconografia
