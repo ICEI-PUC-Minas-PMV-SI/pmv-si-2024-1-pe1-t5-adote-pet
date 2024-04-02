@@ -6,7 +6,7 @@
 
 `SEMESTRE: 1º`
 
-![Imagem do WhatsApp de 2024-03-22 à(s) 17 43 34_d1a19539](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/assets/160288705/53de2cba-5a20-47a6-8fee-28938f49095e)
+![Imagem do WhatsApp de 2024-04-02 à(s) 11 18 27_abf0d6e2](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/assets/160288705/482a28ef-fbea-4ca8-bd54-c0f458c9bda1)
 
 
 Nos últimos anos, observa-se um aumento significativo no **abandono de animais domésticos no Brasil**. Nesse contexto, propõe-se uma aplicação web que sirva como intermediário entre possíveis tutores, ONGs e doadores, facilitando a adoção e fortalecendo as redes de apoio aos abrigos.
