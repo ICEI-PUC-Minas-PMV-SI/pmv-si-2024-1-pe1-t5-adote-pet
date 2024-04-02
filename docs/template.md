@@ -11,13 +11,13 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 
 ## Cores
 
-![Imagem do WhatsApp de 2024-03-20 à(s) 20 28 38_f2874f49](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/assets/160288705/cf482692-64a1-446f-9c64-9c224b28ccf0)
+![Imagem do WhatsApp de 2024-04-02 à(s) 11 24 51_a2f1a532](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/assets/160288705/aaf12d54-72bc-4637-bb2c-fb78e5edd760)
 
 
 ## Tipografia
 
-![Imagem do WhatsApp de 2024-03-22 à(s) 17 59 55_c5dcc4be](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/assets/160288705/a58695fb-c893-43be-bcec-de06f7001934)
-
+Fontes: Open Sans
+Texto: Roboto
 
 
 ## Iconografia
