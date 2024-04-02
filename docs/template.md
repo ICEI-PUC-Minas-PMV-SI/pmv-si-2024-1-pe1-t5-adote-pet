@@ -17,6 +17,7 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 ## Tipografia
 
 Fontes: Open Sans
+
 Texto: Roboto
 
 
