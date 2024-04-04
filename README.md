@@ -22,6 +22,7 @@ As mais de 400 ONGs no país desempenham um papel crucial no resgate e acolhimen
 * Kelly Rodrigues Batista
 * Francisco Faria
 * Diego do Nascimento Sander
+* Gustavo Gorges
 
 ## Orientador
 
