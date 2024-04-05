@@ -21,7 +21,7 @@
 
 ● **Texto:** Roboto
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/assets/161091903/88b59200-fda6-4522-b82f-723b47f69523)
+![image-removebg-preview](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/assets/161091903/923de26e-7f59-4411-8772-4c41a5077238)
 
 
 ## Iconografia
