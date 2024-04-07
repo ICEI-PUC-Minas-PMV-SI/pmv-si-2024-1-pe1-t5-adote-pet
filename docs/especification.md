@@ -65,6 +65,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-006| A aplicação Web deverá ter um botão de "voltar ao topo" em páginas de conteúdo extenso | BAIXA |
 |RNF-007| A aplicação Web oferecerá informações relevantes sobre abrigos e recursos locais através do mecanismo de localização geográfica | BAIXA |
 |RNF-008| A aplicação Web deverá incorporar mecanismos de feedback para permitir que os usuários forneçam comentários sobre sua experiência | BAIXA |
+|RNF-009| A aplicação Web terá uma área na qual os usuários poderão postar fotos, com legendas, de seus "pets" | MÉDIA |
+|RNF-010| A aplicação Web deverá ter um mecanismo de filtro, por Estado e porte, para facilitar a busca dos possíveis tutores pelo animal ideal  | BAIXA |
 
 
 ## Restrições
