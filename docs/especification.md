@@ -1,6 +1,6 @@
 # Especificações do Projeto
 
-No Brasil, o abandono de animais domésticos, mais conhecidos como “pets”, tem sido uma prática frequente na sociedade atual. As ONGs e os protetores de animais são os que têm ajudado nessa missão de resgate e acolhimento do animal abandonado. Entretanto, ainda há um desafio para eles: devido à prática de abandono ser frequente, muitos órgãos estão com superlotação e, consequentemente, têm dificuldades para encontrar tutores responsáveis para a adoção dos pets. O projeto pretende englobar tanto os órgãos de resgate (ONGs, grupos de acolhimento e doadores) quanto os possíveis tutores para o animal.
+No Brasil, o **abandono de animais domésticos, mais conhecidos como “pets”, tem sido uma prática frequente na sociedade atual**. As ONGs e os protetores de animais são os que têm ajudado nessa missão de resgate e acolhimento do animal abandonado. Entretanto, ainda há um desafio para eles: devido à prática de abandono ser frequente, muitos órgãos estão com superlotação e, consequentemente, têm dificuldades para encontrar tutores responsáveis para a adoção dos pets. **O projeto pretende englobar tanto os órgãos de resgate** (ONGs, grupos de acolhimento e doadores) quanto os possíveis tutores para o animal.
 
 Nessa parte do documento, vamos definir as personas envolvidas na possível solução, descrever as histórias do usuário e os requisitos.
 
