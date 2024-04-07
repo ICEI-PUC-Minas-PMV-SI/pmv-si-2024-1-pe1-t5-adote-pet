@@ -3,7 +3,7 @@
 
 Pré-requisito: <a href="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/blob/main/docs/especification.md"> Documentação de Especificação</a>.
 
- O projeto “AdotePet” visa intermediar a comunicação entre possíveis tutores e doadores de animais, através de uma aplicação Web, de maneirá fácil e segura para ambas as partes. 
+**O projeto “AdotePet” visa intermediar a comunicação entre possíveis tutores e doadores de animais, através de uma aplicação Web, de maneirá fácil e segura para ambas as partes.**
 
 Seguindo este objetivo, busca-se criar um projeto de interface com design intuitivo, prático, de fácil navegação e com um padrão de cores alegres e visualmente confortáveis para os usuários. Dessa forma, este projeto de interface estará organizado em 9 páginas: Homepage (“Página Inicial”), Cadastro, Preenchimento de formulário, Login, Gerenciamento de cadastro dos usuários, Cadastro dos “pets”, Visualização dos seus "pets" cadastrados, Gerenciamento de cadastro dos “pets” e Visualização de todos os “pets” cadastrados.
 
