@@ -1,6 +1,6 @@
 # Template padrão do site
 
-![Uploading Imagem do WhatsApp de 2024-04-08 à(s) 13.02.49_9074ecc6.jpg…]()
+![Imagem do WhatsApp de 2024-04-08 à(s) 13 02 49_9074ecc6](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/assets/160288705/26626782-0ce7-4cb5-bd06-ab041bee817f)
 
 ## Design
 
