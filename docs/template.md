@@ -21,6 +21,7 @@
 
 ## Iconografia
 
-![Imagem do WhatsApp de 2024-04-08 à(s) 13 20 25_eca14bf8](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/assets/160288705/ab081bb9-147a-416e-b093-a533fd1f0c5c)
+![Imagem do WhatsApp de 2024-04-08 à(s) 13 24 39_5915e4d5](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/assets/160288705/9b73111a-2958-40b0-aefc-af506300427d)
+
 
 
