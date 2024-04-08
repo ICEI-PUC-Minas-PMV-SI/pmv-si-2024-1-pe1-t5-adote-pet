@@ -1,7 +1,6 @@
 # Template padrão do site
 
-![Projeto de interface AdotePet](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/assets/161091903/dbf291e1-278c-4177-bd2b-66317f9ef99c)
-
+![Projeto de interface AdotePet com páginas extras _)](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/assets/161091903/5934a1b8-59e7-4a91-aaf7-bfd7bf35c66d)
 
 ## Design
 
