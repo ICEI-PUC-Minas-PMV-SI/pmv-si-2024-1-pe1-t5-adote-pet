@@ -15,14 +15,7 @@ No rodapé das páginas dessa aplicação Web, estarão o nosso e-mail de contat
 
 ## User Flow
 
-![Exemplo de UserFlow](img/userflow.jpg)
-
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
-
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
+![Imagem do WhatsApp de 2024-04-03 à(s) 11 08 17_ee729235](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/assets/160288705/0096b861-74b9-4a6b-ae54-e374a8cbe0c2)
 
 
 ## Wireframes
