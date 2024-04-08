@@ -1,6 +1,6 @@
 # Template padrão do site
 
-![Projeto de interface AdotePet com páginas extras _)](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/assets/161091903/5934a1b8-59e7-4a91-aaf7-bfd7bf35c66d)
+![Uploading Imagem do WhatsApp de 2024-04-08 à(s) 13.02.49_9074ecc6.jpg…]()
 
 ## Design
 
