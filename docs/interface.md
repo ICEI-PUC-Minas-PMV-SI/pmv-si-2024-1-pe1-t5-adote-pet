@@ -26,10 +26,9 @@ No rodapé das páginas dessa aplicação Web, estarão o nosso e-mail de contat
  Na página inicial (homepage), é possível ter acesso às funcionalidades básicas do projeto, tais como: visualizar o "Quem Somos" através de um carrossel, entrar ou cadastrar-se para ver os pets disponíveis, visualizar a lista de eventos de adoção ou cadastrar um evento (caso o usuário já esteja cadastrado no site), acessar o mural dos felpudos e entrar em contato com o suporte.
 ![Imagem do WhatsApp de 2024-04-09 à(s) 19 53 44_b7f255bf](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/assets/160288705/e7f1f21b-df31-47a9-8372-3a71c92166c3)
 
-▷ **Entrar**:
+▷ **Entrar e Recuperar senha**:
  Na página de login, você pode acessar seu perfil e recursos adicionais disponíveis apenas para usuários cadastrados. Ao inserir seu "E-mail" e "Senha", você obtém acesso completo ao site. No botão "Esqueci minha senha", é possível recuperar a senha do usuário caso seja esquecida. Nesse caso, um e-mail será enviado para possibilitar a criação de uma nova senha.
 ![Imagem do WhatsApp de 2024-04-09 à(s) 20 15 28_fa4413c3](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/assets/160288705/a1cf3b73-4bb8-4625-84f7-35a0fa6894db)
-
 ![Imagem do WhatsApp de 2024-04-09 à(s) 20 35 21_212f3e47](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/assets/160288705/aa4325d2-58ae-4705-aa79-95073a40c624)
 
 
