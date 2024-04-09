@@ -36,5 +36,9 @@ No rodapé das páginas dessa aplicação Web, estarão o nosso e-mail de contat
 ▷ **Qual perfil você se encaixa?**:
 Na página "Qual perfil você se encaixa?", o usuário pode se cadastrar como uma ONG, um doador ou um tutor. Cada forma de cadastro possui seu respectivo passo a passo, adaptado às necessidades de cada perfil. Para se cadastrar como uma ONG, é necessário fornecer o nome completo da ONG, um e-mail, número de telefone para contato, data da fundação da ONG e criar uma senha. Já para se cadastrar como doador, é necessário fornecer o nome completo, e-mail (opcional), data de nascimento (opcional), telefone (opcional) e criar uma senha. Por último, para o cadastro de um tutor, é necessário fornecer o nome completo, e-mail (opcional), data de nascimento (opcional), telefone (opcional), criar uma senha e preencher um formulário para verificação do tutor. Em todos os cadastros, é necessário confirmar a senha digitada duas vezes para garantir sua precisão.
 ![Imagem do WhatsApp de 2024-04-09 à(s) 20 24 58_83d3cdd0](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/assets/160288705/318f33f3-2dd0-4a0d-8f4f-217b3793886a)
+![Imagem do WhatsApp de 2024-04-09 à(s) 20 38 49_08739023](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/assets/160288705/d850f7c6-8d13-4eef-8546-1bf77d7279ba)
+![Imagem do WhatsApp de 2024-04-09 à(s) 20 40 09_b32fa540](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/assets/160288705/d90bf302-626d-44f4-a8d4-edf1b6f3a2c6)
+
+
 
 
