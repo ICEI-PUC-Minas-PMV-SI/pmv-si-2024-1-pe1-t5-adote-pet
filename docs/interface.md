@@ -22,8 +22,8 @@ No rodapé das páginas dessa aplicação Web, estarão o nosso e-mail de contat
 
 ► Os wireframes do projeto foram desenvolvidos seguindo a padronização da paleta de cores e das necessidades do usuário. Todas as telas possuem um cabeçalho contendo os botões 'Início', 'Adoções', 'Eventos', 'Suporte', 'Entrar' e 'Cadastrar' para aqueles que ainda não estão cadastrados. Para os que já são cadastrados, os botões 'Entrar' e 'Cadastrar' são substituídos pelo botão 'Meu Perfil'. A logo está sempre localizada à esquerda no cabeçalho. No rodapé, são incluídas informações do site, as redes sociais, informações de contato e a central de ajuda.
 
-▷ **Homepage**
-• Na página inicial (homepage), é possível ter acesso às funcionalidades básicas do projeto, tais como: visualizar o "Quem Somos" através de um carrossel, entrar ou cadastrar-se para ver os pets disponíveis, visualizar a lista de eventos de adoção ou cadastrar um evento (caso o usuário já esteja cadastrado no site), acessar o mural dos felpudos e entrar em contato com o suporte.
+▷ **Homepage**:
+ Na página inicial (homepage), é possível ter acesso às funcionalidades básicas do projeto, tais como: visualizar o "Quem Somos" através de um carrossel, entrar ou cadastrar-se para ver os pets disponíveis, visualizar a lista de eventos de adoção ou cadastrar um evento (caso o usuário já esteja cadastrado no site), acessar o mural dos felpudos e entrar em contato com o suporte.
 ![Imagem do WhatsApp de 2024-04-09 à(s) 19 53 44_b7f255bf](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/assets/160288705/e7f1f21b-df31-47a9-8372-3a71c92166c3)
 
 
