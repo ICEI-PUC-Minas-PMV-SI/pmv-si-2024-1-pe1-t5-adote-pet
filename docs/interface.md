@@ -24,6 +24,6 @@ No rodapé das páginas dessa aplicação Web, estarão o nosso e-mail de contat
 
 ▷ **Homepage**
 • Na página inicial (homepage), é possível ter acesso às funcionalidades básicas do projeto, tais como: visualizar o "Quem Somos" através de um carrossel, entrar ou cadastrar-se para ver os pets disponíveis, visualizar a lista de eventos de adoção ou cadastrar um evento (caso o usuário já esteja cadastrado no site), acessar o mural dos felpudos e entrar em contato com o suporte.
-![Imagem do WhatsApp de 2024-04-07 à(s) 23 30 37_28b2ebd3](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/assets/160288705/8fc62906-4dc3-4d86-8a71-655d251dd88a)
+![Imagem do WhatsApp de 2024-04-09 à(s) 19 53 44_b7f255bf](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/assets/160288705/e7f1f21b-df31-47a9-8372-3a71c92166c3)
 
 
