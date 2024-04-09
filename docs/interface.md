@@ -38,6 +38,7 @@ Na página "Qual perfil você se encaixa?", o usuário pode se cadastrar como um
 ![Imagem do WhatsApp de 2024-04-09 à(s) 20 24 58_83d3cdd0](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/assets/160288705/318f33f3-2dd0-4a0d-8f4f-217b3793886a)
 ![Imagem do WhatsApp de 2024-04-09 à(s) 20 38 49_08739023](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/assets/160288705/d850f7c6-8d13-4eef-8546-1bf77d7279ba)
 ![Imagem do WhatsApp de 2024-04-09 à(s) 20 40 09_b32fa540](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/assets/160288705/d90bf302-626d-44f4-a8d4-edf1b6f3a2c6)
+![Imagem do WhatsApp de 2024-04-09 à(s) 20 39 44_28fd9523](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/assets/160288705/5a00d3fa-df34-4f13-b43f-1fac32641925)
 
 
 
