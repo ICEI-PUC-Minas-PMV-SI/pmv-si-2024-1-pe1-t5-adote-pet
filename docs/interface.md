@@ -30,4 +30,12 @@ No rodapé das páginas dessa aplicação Web, estarão o nosso e-mail de contat
  Na página de login, você pode acessar seu perfil e recursos adicionais disponíveis apenas para usuários cadastrados. Ao inserir seu "E-mail" e "Senha", você obtém acesso completo ao site. No botão "Esqueci minha senha", é possível recuperar a senha do usuário caso seja esquecida. Nesse caso, um e-mail será enviado para possibilitar a criação de uma nova senha.
 ![Imagem do WhatsApp de 2024-04-09 à(s) 20 15 28_fa4413c3](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/assets/160288705/a1cf3b73-4bb8-4625-84f7-35a0fa6894db)
 
+![Imagem do WhatsApp de 2024-04-09 à(s) 20 35 21_212f3e47](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/assets/160288705/aa4325d2-58ae-4705-aa79-95073a40c624)
+
+
+
+▷ **Qual perfil você se encaixa?**:
+Na página "Qual perfil você se encaixa?", o usuário pode se cadastrar como uma ONG, um doador ou um tutor. Cada forma de cadastro possui seu respectivo passo a passo, adaptado às necessidades de cada perfil. Para se cadastrar como uma ONG, é necessário fornecer o nome completo da ONG, um e-mail, número de telefone para contato, data da fundação da ONG e criar uma senha. Já para se cadastrar como doador, é necessário fornecer o nome completo, e-mail (opcional), data de nascimento (opcional), telefone (opcional) e criar uma senha. Por último, para o cadastro de um tutor, é necessário fornecer o nome completo, e-mail (opcional), data de nascimento (opcional), telefone (opcional), criar uma senha e preencher um formulário para verificação do tutor. Em todos os cadastros, é necessário confirmar a senha digitada duas vezes para garantir sua precisão.
+![Imagem do WhatsApp de 2024-04-09 à(s) 20 24 58_83d3cdd0](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/assets/160288705/318f33f3-2dd0-4a0d-8f4f-217b3793886a)
+
 
