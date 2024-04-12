@@ -38,7 +38,7 @@ Na página "Qual perfil você se encaixa?", o usuário pode se cadastrar como um
 ![Imagem do WhatsApp de 2024-04-09 à(s) 20 40 09_b32fa540](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/assets/160288705/d90bf302-626d-44f4-a8d4-edf1b6f3a2c6)
 ![Imagem do WhatsApp de 2024-04-12 à(s) 10 44 44_94233033](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/assets/160288705/833a08e8-1760-4806-9d35-321d8ae527c8)
 
-▷ **Meu perfil doador/tutor, Meu perfil ONG, Adicionar ao mural dos felpudos, Seus Pets, Cadastrar Pet, Cadastrar evento,**:
+▷ **Meu perfil doador/tutor, Meu perfil ONG, Adicionar ao mural dos felpudos, Seus Pets, Cadastrar Pet, Cadastrar evento, Perfil do pet**:
 Na página "Meu perfil", é possível ver suas informações cadastradas e alterá-las. Doador e Tutor; e ONG têm suas respectivas páginas. Na página de perfil do doador e tutor, temos as informações pessoais, "Seus pets", que contém os pets cadastrados pelo usuário. Através do botão "X", é possível deletar o cadastro do pet, e através do botão "Editar", é possível editar as informações do pet, "Seu formulário", e "Mural dos felpudos". Todos têm a opção de alterar, e no "Mural dos felpudos", é possível anexar uma foto do pet e uma legenda criativa sobre a foto. As fotos serão compartilhadas na página inicial e todos poderão acessá-las. Já no "meu perfil" da ONG, temos as informações pessoais da ONG, podendo ser alteradas a qualquer momento; "Seus eventos", para adicionar novos eventos promovidos pelas ONGs e serem compartilhados na página inicial; e "Seus pets", para o registro dos pets das ONGs.
 ![Imagem do WhatsApp de 2024-04-12 à(s) 10 53 59_1fdde939](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/assets/160288705/8b162e42-f5d4-4ff7-9f26-9d26fec4bbb6)
 ![Imagem do WhatsApp de 2024-04-12 à(s) 10 54 53_88f921d6](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/assets/160288705/feedca05-3fc2-43c7-b484-5c8441299065)
@@ -46,8 +46,9 @@ Na página "Meu perfil", é possível ver suas informações cadastradas e alter
 ![Imagem do WhatsApp de 2024-04-12 à(s) 11 05 57_69bd8b80](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/assets/160288705/4da358dc-686c-484a-b9f5-968bc8deab5f)
 ![Imagem do WhatsApp de 2024-04-12 à(s) 11 15 04_74cae83c](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/assets/160288705/f79c4472-9f6e-43a0-a7c8-2ce87c731f45)
 ![Imagem do WhatsApp de 2024-04-12 à(s) 11 15 05_178d3418](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/assets/160288705/c0e117c4-c3e8-427a-a8dc-2d3f1d739b30)
+![Imagem do WhatsApp de 2024-04-12 à(s) 11 30 39_922a5d33](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/assets/160288705/c268cbd4-9f1a-40e9-a05c-4b8fbb12cca7)
 
-
+▷ **Qual perfil você se encaixa?, Cadastro doador/tutor, Cadastro ONG e Formulário**:
 
 
 
