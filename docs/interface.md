@@ -15,8 +15,7 @@ No rodapé das páginas dessa aplicação Web, estarão o nosso e-mail de contat
 
 ## User Flow
 
-![Imagem do WhatsApp de 2024-04-03 à(s) 11 08 17_ee729235](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/assets/160288705/0096b861-74b9-4a6b-ae54-e374a8cbe0c2)
-
+![Inserir um pouquinho de texto](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/assets/161091903/97a2c726-3732-4c2e-8be5-b87fe66e100f)
 
 ## Wireframes
 
