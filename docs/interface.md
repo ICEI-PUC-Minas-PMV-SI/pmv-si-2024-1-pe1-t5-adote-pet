@@ -20,7 +20,7 @@ No rodapé das páginas dessa aplicação Web, estarão o nosso e-mail de contat
 
 ## Wireframes
 
-► Os wireframes do projeto foram desenvolvidos seguindo a padronização da paleta de cores e das necessidades do usuário. Todas as telas possuem um cabeçalho contendo os botões 'Início', 'Adoções', 'Eventos', 'Suporte', 'Entrar' e 'Cadastrar' para aqueles que ainda não estão cadastrados. Para os que já são cadastrados, os botões 'Entrar' e 'Cadastrar' são substituídos pelo botão 'Meu Perfil'. A logo está sempre localizada à esquerda no cabeçalho. No rodapé, são incluídas informações do site, as redes sociais, informações de contato e a central de ajuda.
+► Os wireframes do projeto foram desenvolvidos seguindo a padronização da paleta de cores e das necessidades do usuário. Todas as telas possuem um cabeçalho contendo os botões 'Início', 'Adoções', 'Eventos', 'Suporte', 'Entrar' e 'Cadastrar' para aqueles que são ou não são cadastrados. Entretanto, para os que já são cadastrados, os botões 'Entrar' e 'Cadastrar' são substituídos pelo botão 'Meu Perfil'. A logo está sempre localizada à esquerda no cabeçalho. No rodapé, são incluídas informações do site, as redes sociais, informações de contato e a central de ajuda.
 
 ▷ **Homepage**:
  Na página inicial (homepage), é possível ter acesso às funcionalidades básicas do projeto, tais como: visualizar o "Quem Somos" através de um carrossel, entrar ou cadastrar-se para ver os pets disponíveis, visualizar a lista de eventos de adoção ou cadastrar um evento (caso o usuário já esteja cadastrado no site), acessar o mural dos felpudos e entrar em contato com o suporte.
