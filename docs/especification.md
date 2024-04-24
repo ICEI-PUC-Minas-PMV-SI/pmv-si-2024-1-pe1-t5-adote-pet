@@ -51,7 +51,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-009| A aplicação deverá permitir que as ONGs cadastrem seus eventos de adoção em uma página especial de destaque   | MÉDIA | 
 |RF-010| A aplicação permitirá a vizualização dos “pets" cadastrados e postados pelos doadores   | ALTA | 
 |RF-011| A aplicação deverá permitir a vizualização dos perfis dos possíveis tutores e também dos doadores   | MÉDIA | 
-|RF-011| A aplicação deverá permitir que o usuário doador cadastre seus animais   | MÉDIA |
+
 
 
 ### Requisitos não Funcionais
