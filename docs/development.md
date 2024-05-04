@@ -34,9 +34,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-005| A aplicação permitirá que o usuário logue no site com usuário e senha   | Diego | index.html |
 |RF-006| A aplicação permitirá ao usuário solicitar a redefinição de sua senha, informando o e-mail cadastrado   | Diego | index.html |
 |RF-007| A aplicação deverá permitir que o usuário gerencie seu cadastro para exclusão, consulta e alteração  | Francisco | index.html |
-|RF-008| A aplicação Web permitirá apenas aos usuários cadastrados criarem/alterarem/atualizarem seus cadastros dos seus animais domésticos disponíveis para adoção   | Pedro Valente | index.html |
+|RF-008| A aplicação Web permitirá apenas aos usuários cadastrados criarem/alterarem/atualizarem seus cadastros dos seus animais domésticos disponíveis para adoção   | Pedro Valente | cadastropet.html // seuspets.html // editarpet.html |
 |RF-009| A aplicação deverá permitir que as ONGs cadastrem seus eventos de adoção   | Kelly | cadastrodeeventos.html |
-|RF-010| A aplicação permitirá a vizualização dos “pets" cadastrados e postados pelos doadores   | Pedro Valente | index.html |
+|RF-010| A aplicação permitirá a vizualização dos “pets" cadastrados e postados pelos doadores   | Pedro Valente | prontoadoção.html |
 |RF-011| A aplicação deverá permitir a vizualização dos perfis dos possíveis tutores e também dos doadores   | Francisco | index.html |
 |RF-012| A aplicação Web permitirá que os eventos cadastrados pelas ONGs sejam visualizados, pelo usuários, em uma página especial de destaque   | Kelly | agendadeeventos.html e saibamaiseventos.html|
 |RF-013| A aplicação deverá permitir que as ONGs gerenciem seus anúncios de eventos de adoção   | Kelly | seuseventos.html |
