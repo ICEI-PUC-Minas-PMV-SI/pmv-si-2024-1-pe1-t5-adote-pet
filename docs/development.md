@@ -53,7 +53,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RNF-004| O sistema deve garantir a segurança dos dados de acordo com A Lei Geral de Proteção de Dados Pessoais (Lei brasileira 13 709/2018) | Francisco | index.html |
 |RNF-005| A aplicação deve enviar ao usuário um email para confirmação de cadastro | Diego | index.html |
 |RNF-006| A aplicação Web oferecerá informações relevantes sobre abrigos e recursos locais através do mecanismo de localização geográfica | Kelly | index.html |
-|RNF-007| A aplicação Web deverá ter um mecanismo de filtro, por Estado e porte, para facilitar a busca dos possíveis tutores pelo animal ideal  | Pedro Valente | index.html |
+|RNF-007| A aplicação Web deverá ter um mecanismo de filtro, por Estado e porte, para facilitar a busca dos possíveis tutores pelo animal ideal  | Pedro Valente | prontoadoção.html |
 
 ## Descrição das estruturas:
 
