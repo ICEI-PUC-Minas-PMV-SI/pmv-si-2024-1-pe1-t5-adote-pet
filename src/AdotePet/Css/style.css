@@ -1,0 +1,608 @@
+/* Edições do cabeçalho */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', 'Roboto';
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-color: #F3F1F1;
+}
+
+header {
+    height: 20vh;
+    width: 100%;
+    padding: 0 10%;
+    background: #ffffff;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 220px;
+    width: 220px;
+    position: relative;
+    cursor: pointer;
+}
+
+.iconedeperfil{
+    height: 49px;
+    width: 49px;
+    cursor: pointer;
+    border-radius: 100%;
+    opacity: 0.5;
+}
+
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+    padding: 28px 0;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 15px 25px;
+}
+
+nav ul li a{
+    color: #d971a1;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.header_list_username a{
+    text-decoration: underline;
+    color: #3399bb;
+    opacity: 0.5;
+    font-family:'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 8px;
+    width: fit-content;
+    background-color: #d971a1;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+}
+/* Edições da parte principal */
+main{
+    width: 100%;
+    height: 100vh;
+    padding: 2%;
+    background-color: #f2f2f2;
+}
+
+.container{
+    width: 80%;
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.voltar{
+    width: 100%;
+    text-align: left;
+}
+
+.adicionar{
+    width: 100%;
+    text-align: right;
+}
+
+.editar{
+    display: flex;
+    justify-content: center;
+}
+
+.proxima{
+    text-align: right;
+    padding-right: 6%;
+}
+
+.saibamais{
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: -33px;
+}
+
+.botaosaiba_mais{
+    background-color: #d971a1;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    width: 115px;
+    height: 40px; 
+}
+
+.botao_proxima{
+    background-color: #d971a1;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    width: 100px;
+    height: 30px;
+}
+
+.botaocadastrar{
+    text-align: center;
+}
+
+.botao_editar {
+    background-color: #d971a1;
+    color: #fff;
+    border: none;
+    padding: 0.5%;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    width: 85px;
+    height: 30px;
+}
+
+.botao_cadastrar{
+    background-color: #d971a1;
+    color: #fff;
+    border: none;
+    padding: 0.5%;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.titulo-main{
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    color: #F2A97E;
+    position: relative;
+    bottom: 60px;
+}
+
+.titulo-main h1{
+    font-size: 300%;
+}
+
+.titulo-main h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 150%;
+    opacity: 55%;
+}
+
+.evento_navbar{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.localizacaonavbar{
+    width: 50px;
+    height: 46px;
+    margin-left: 280px;
+    margin-right: 10px;
+}
+
+.evento_searchbar{
+    width: 640px;
+    height: 42px;
+    margin: 0 auto; 
+    border: 2px solid #3399bba5;
+    color: #3399bba5;
+    border-radius: 30px;
+    background-color: white;
+    margin-bottom: 3%;
+    margin-right: 350px;
+    margin-left: 10px;
+    max-width: 700px; 
+    min-width: 600px;
+    box-sizing: border-box;
+}
+
+.form-cadastro-evento{
+    width: fit-content; 
+    height: 450px;
+    margin: 20px auto; 
+    border: 4px solid #CBCBCB;
+    padding: 50px 90px; 
+    border-radius: 28px;
+    border: none;
+    background-color: white;
+    box-shadow: 10px 10px 10px rgba(90, 89, 89, 0.2);
+    overflow: hidden;
+    max-width: 850px; 
+    min-width: 750px;
+    box-sizing: border-box;
+}
+.form-saiba-evento{
+    width: 55%; 
+    margin: 20px auto; 
+    border: 4px solid #CBCBCB;
+    padding: 50px 90px; 
+    margin-bottom: 10px;
+    border-radius: 28px;
+    border: none;
+    background-color: white;
+    box-shadow: 10px 10px 10px rgba(90, 89, 89, 0.2); 
+    overflow: hidden;
+    max-width: 800px; 
+    min-width: 750px;
+    box-sizing: border-box;
+}
+
+.form-agenda-evento{
+    width: 16%; 
+    margin: 0 auto; 
+    border: 4px solid #CBCBCB;
+    padding: 30px 50px; 
+    margin-bottom: 10px;
+    border-radius: 28px;
+    border: none;
+    background-color: white;
+    box-shadow: 10px 10px 10px rgba(90, 89, 89, 0.2); 
+    overflow: hidden;
+}
+
+.form-agenda-eventoB{
+    width: 16%; 
+    margin: 0 auto; 
+    border: 4px solid #CBCBCB;
+    padding: 30px 50px; 
+    margin-bottom: 10px;
+    border-radius: 28px;
+    border: none;
+    background-color: white;
+    box-shadow: 10px 10px 10px rgba(90, 89, 89, 0.2); 
+    overflow: hidden;
+}
+
+.closebutton{
+    background-color: #d971a1;
+    color: #fff;
+    border: none;
+    padding: 0.5%;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 800; 
+    width: 25px;
+    float: right;
+}
+.info_eventos{
+    color: #3399BB;
+    font-family: "Open Sans", sans-serif;
+    font-size: 23px;
+    font-weight: 800;
+    list-style: none;
+    text-align: justify;
+}
+
+.info_lista_eventos{
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+
+.info_agendaeventos{
+    color: #3399bba5;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    list-style: none;
+    text-align: justify;
+    padding: 0 18px;
+}
+
+.info_lista_agenda{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.nomeagendaevento{
+    color: #3399BB;
+    font-family: "Open Sans", sans-serif;
+    font-size: 23px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.topo_formulario{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.evento_calendario{
+    width: 115px;
+    height: 125px;
+}
+
+.calendariosaibamais{
+    width: 160px;
+    height: 140px;
+}
+
+.centered-img-agenda{
+    width: 230px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+}
+
+.calendarioagendaevento{
+    width: 130px;
+    height: 110px; 
+}
+
+.adicionar_azul{
+    width: 24px;
+    height: 24px;
+    margin-top: 80px;
+    margin-right: 180px;
+}
+.tituloevento{
+    color: #3399bb;
+    font-family: "Open Sans";
+    font-size: 42px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.tituloeventosaibamais{
+    color: #3399bb;
+    font-family: "Open Sans";
+    font-size: 55px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.ong_pegada{
+    width: 320px;
+    height: 320px;
+    border-radius: 10%;
+    padding: 25px;
+}
+
+.localizacaopng{
+    height: 20px;
+    width: 20px;
+}
+
+.eventotarefapng{
+    height: 22px;
+    width: 22px;
+}
+
+.telefonepng{
+    height: 20px;
+    width: 20px;
+}
+
+.enderecopng{
+    height: 22px;
+    width: 26px;
+}
+
+.emailpng{
+    height: 24px;
+    width: 24px;
+}
+
+label {  
+    display: block; 
+    margin-bottom: 2px;
+    color: #3399BB;
+    font-size: 19px;
+    padding: 4px;
+    font-weight: 800;
+    text-align:  left;
+    font-family: 'Roboto';
+}
+
+.input-left {
+    width: 100%; 
+    margin-bottom: 10px;
+    height: 32px;
+    border-radius: 3px;
+    color: #3399bba5;
+    border: solid #fff;
+    padding-right: 100px; 
+}
+
+.input-rightA{
+    width: 100%; 
+    margin-bottom: 10px;
+    height: 32px;
+    border-radius: 3px;
+    color: #3399bba5;
+    border: 2px solid #CBCBCB;
+    padding-left: 10px;
+    padding-right: 100px;
+}
+
+.input-rightB{
+    width: 100%; 
+    margin-bottom: 10px;
+    height: 100px;
+    border-radius: 3px;
+    color: #3399bba5;
+    border: 2px solid #CBCBCB;
+    padding-left: 10px;
+    padding-right: 100px;
+}
+
+.form-column {  
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.descricaoevento{
+    width: 100%; 
+    margin-bottom: 10px;
+    width: 230px;
+    height: 230px;
+    border-radius: 3px;
+    color: #3399bba5;
+    border: 2px solid #CBCBCB;
+    padding-left: 10px;
+    padding-right: 100px;
+}
+
+.inputdescricaoevento{
+    width: 215px;
+    height: 170px;
+    margin: 0 auto; 
+    border: 2.5px solid #fff;
+    background-color: white;
+    text-align: justify;
+}
+
+.cardrow {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: fit-content;
+    height: 75%;
+    column-gap: 120px;
+    row-gap: 100px;
+    text-align: center; 
+    position: relative;
+    margin: 0 auto;
+}
+.cardrowseus{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    margin: 0 auto; 
+}
+.list_e_img{
+    display: flex;
+    align-items: center; 
+}
+.cardcolumnseus{
+    padding: 6px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 28px;
+    background-color: #fff;
+    width: 660px;
+    height: 400px;
+    max-width: 660px; 
+    min-width: 600px;
+    box-sizing: border-box;
+}
+
+.cardcolumn {
+    padding: 2px 16px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 28px;
+    background-color: #fff;
+    height: fit-content;
+}
+
+input::placeholder {
+    color: #3399bb99; 
+    font-size: 14px;
+    padding: 4px;
+    font-family: 'Roboto';
+    text-align: left;
+    font-weight: 600;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    padding: 20px;
+    padding-left: 20px;
+    color: #3399BB;
+}
+/* Edições do rodapé */
+footer {
+    background-color: #3399BB;
+    width: 100%;
+    color: white;
+    display: flex;
+}
+
+.rodape{
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.div-rodape{
+    float: left;
+    width: 25%;
+}
+
+.titulo-rodape {
+  font-family: "Open Sans", sans-serif;
+  font-size: 120%;
+  margin: 0px;
+}
+
+.texto-rodape {
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+    line-height: 130%;
+    font-size: 80%;
+}
+
+  @media screen and (max-width:500px){
+    body{
+        margin: 0px;
+        min-width: 0px;
+    }
+ 
+    footer{
+        background-color: #3399BB;
+        width: 100%;
+        height: 100%;
+        color: white;
+        text-align: center;
+    }
+    
+    .div-rodape{
+        width: 100%;
+        margin: 3%;
+    }
+
+    .rodape{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}
