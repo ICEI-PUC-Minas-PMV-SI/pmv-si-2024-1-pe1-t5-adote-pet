@@ -27,9 +27,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID    | Descrição do Requisito | Responsável | Artefato Criado |
 |------|------------------------|------------|-----------------|
-|RF-001| A aplicação Web deverá permitir o cadastro de novos usuários | Maria Eduarda | index.html |
+|RF-001| A aplicação Web deverá permitir o cadastro de novos usuários | Maria Eduarda | cadastrodoador.html / cadastroong.html / cadastrotutor.html|
 |RF-002| A aplicação fornecerá informações sobre os termos de uso | Francisco | cadastro-noticia.html |
-|RF-003| A aplicação terá uma página que se apresente logo após o cadastro do usuário e pela qual esse deverá preencher um formulário  | Maria Eduarda | index.html |
+|RF-003| A aplicação terá uma página que se apresente logo após o cadastro do usuário e pela qual esse deverá preencher um formulário  | Maria Eduarda | formulariotutor.html |
 |RF-004| A aplicação realizará a validação do usuário através de um e-mail de confirmação   | Diego | index.html |
 |RF-005| A aplicação permitirá que o usuário logue no site com usuário e senha   | Diego | index.html |
 |RF-006| A aplicação permitirá ao usuário solicitar a redefinição de sua senha, informando o e-mail cadastrado   | Diego | index.html |
