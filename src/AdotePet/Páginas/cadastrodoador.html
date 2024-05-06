@@ -1,0 +1,101 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Doador</title>
+    <link rel="stylesheet" href="paginascadastro.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
+</head>
+
+<body>
+    <header class="container">
+        <nav>
+            <div class="header_list">
+            <img src="Logoadote.png" alt="AdotePet" class="logo" width="50%"/>    
+            <p class="header_list_item">Início</p>
+            <p class="header_list_item">Adoções</p>
+            <p class="header_list_item">Eventos</p>
+            <p class="header_list_item">Suporte</p>
+            </div>
+
+            <ul class="header_right">
+            <b><li class="header_list_right"><a href="">Entrar</a></li></b>
+            </ul>
+            <button class="button">Cadastrar</button>
+        </nav>
+     </header>
+</body>
+
+    <div class="voltar">
+    <a href=""><img src="botaoVoltar.png" width="40%"></a>
+    </div>   
+
+    <center>
+     <h1>Seja Bem-vindo(a)!</h1>
+     <p>Crie sua conta e faça parte do time!</p>   
+    </center>
+
+    <form action="">
+
+        <label for="nomecompleto">Nome Completo</label>
+        <input type="text" id="nomecompleto" name="nomecompleto" required placeholder="Nome e sobrenome">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required placeholder="exemplo@gmail.com"><br>
+
+        <div class="form-column">
+            
+            <div>  
+            <label for="telefone">Telefone (Opcional)</label>
+            <input type="text" id="telefone" name="telefone" placeholder="(00) 0000-0000">
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="senha" placeholder="Crie uma senha">
+            </div>
+
+            <div>
+            <label for="datadenascimento">Data de nascimento (Opcional)</label>
+            <input type="date" id="datadenascimento" name="datadenascimento" required>
+            <label for="confirmarsenha">Confirmação de senha</label>
+            <input type="password" id="confirmarsenha" name="confirmarsenha" required placeholder="Confirme sua senha">
+            </div>
+        </div>
+    </form>
+
+    <div class="termos">
+    <p2>Ao cadastrar você concorda com:</p2>
+    <input  type="checkbox" id="checkbox">
+    </div>    
+
+    <div class="termos2">
+    <p3>nossos <strong>Termos de uso</strong> e nossa <strong>Política de privacidade.</strong></p3>
+    </div>
+    
+    <center>
+    <div class="botao">
+    <button type="submit" class="cadastrar">Cadastrar</button>
+    </div>
+    </center>
+    
+    <footer>
+        <div class="rodape">
+            <div class="div-rodape">
+            <h5 class="titulo-rodape">ADOTE PET</h5>
+            <p5 class="texto-rodape"> Atuando desde 2024 - <br>Projeto Web pela PUCMINAS</p5>
+            </div>
+            <div class="div-rodape">
+            <h5 class="titulo-rodape">REDES SOCIAIS</h1>
+            <p5 class="texto-rodape"> Facebook<br> Instagram<br> Telegram<br> Twitter</p5>
+            </div>
+            <div class="div-rodape">
+            <h5 class="titulo-rodape">CONTATO</h5>
+            <p5 class="texto-rodape"> (31)91234-1234<br> adotepetbrasil@gmail.com</p5>
+            </div>
+            <div class="div-rodape">
+            <h5 class="titulo-rodape">CENTRAL DE AJUDA</h5>
+            <p5 class="texto-rodape"> Suporte<br> Termos de uso<br> Politica de privacidade</p5>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
