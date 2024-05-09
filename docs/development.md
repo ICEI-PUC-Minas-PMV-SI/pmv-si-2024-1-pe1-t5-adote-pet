@@ -57,11 +57,40 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 ## Descrição das estruturas:
 
-## Notícia
+## Seus Eventos
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Id             | Numero (Inteiro)  | Identificador único da notícia            | 1                                              |
-| Título         | Texto             | Título da notícia                         | Sistemas de Informação PUC Minas é o melhor                                   |
-| Conteúdo       | Texto             | Conteúdo da notícia                       | Sistemas de Informação da PUC Minas é eleito o melhor curso do Brasil                            |
-| Id do usuário  | Numero (Inteiro)  | Identificador do usuário autor da notícia | 1                                              |
+| Imagem         | Imagem            | Logo da ONG                               | -                                              |
+| Localização    | Texto             | Cidade, Estado e País que ocorrerá o evento| São Paulo, SP - Brasil                        |
+| Data           | Date              | Data do Evento                            | 6/6/2026                                       |
+| Telefone       | Número (Inteiro) ou String  | Telefone para contato           | (11)99285-3469                                 |
+| Endereço       | Texto             | Endereço do evento                        | Rua Almirante Saldanha da Gama                 |
+| E-mail         | Texto             | E-mail para contato                       | Jessicabsilva@gmail.com                        |
 
+## Cadastro de Evento
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Imagem         | Imagem            | Logo da ONG                               | -                                              |
+| Título         | Texto             | Nome do Evento                            | Projeto Pegadas                                |
+| Endereço       | Texto             | Endereço do evento                        | Rua Almirante Saldanha da Gama                 |
+| Telefone       | Número (Inteiro) ou String  | Telefone para contato           | (11)99285-3469                                 |
+| E-mail         | Texto             | E-mail para contato                       | Jessicabsilva@gmail.com                        |
+| Data           | Date              | Data do Evento                            | 6/6/2026                                       |
+| Descrição      | Texto             | Descrição do Evento                       | Para realizar a adoção e garantir um novo amigo de quatro patas...|
+
+## Agenda de Eventos
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Imagem         | Imagem            | Logo da ONG                               | -                                              |
+| Localização    | Texto             | Cidade, Estado e País que ocorrerá o evento| São Paulo, SP - Brasil                        |
+| Contato        | Número (Inteiro) ou String  | Telefone para contato           | (11)99285-3469                                 |
+
+## Saiba Mais
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Imagem         | Imagem            | Logo da ONG                               | -                                              |
+| Título         | Texto             | Nome do Evento                            | Projeto Pegadas                                |
+| Localização    | Texto             | Rua, número e complemento                 | Rua Almirante Saldanha da Gama, 200            |
+| Telefone       | Número (Inteiro) ou String  | Telefone para contato           | (11)99285-3469                                 |
+| Data           | Date              | Data do Evento                            | 6/6/2026                                       |
+| Descrição      | Texto             | Descrição do Evento                       | Para realizar a adoção e garantir um novo amigo de quatro patas...|
