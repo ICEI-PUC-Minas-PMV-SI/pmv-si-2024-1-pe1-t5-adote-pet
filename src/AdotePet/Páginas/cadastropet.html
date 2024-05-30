@@ -8,6 +8,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <script>
+    function desabilitaRaca() {
+        var especie = document.getElementById("txt_especie").value;
+        var raca = document.getElementById("txt_raca");
+
+        if(especie === "Cachorro"){
+            raca.disabled = false;
+        }else{
+            raca.disabled = true;
+        }
+    }
+</script>
 </head>
 <body>
     <header>
@@ -15,7 +27,7 @@
             <img src="../imgs/LogoCompletaAdotePet.png" class="logo">
             <ul class="nav-links">
                 <li><a href="">Início</a></li>
-                <li><a href="../prontoadoção.html">Adoções</a></li>
+                <li><a href="prontoadoção.html">Adoções</a></li>
                 <li><a href="">Eventos</a></li>
                 <li><a href="">Suporte</a></li>
             </ul>
@@ -29,74 +41,75 @@
     </header>
     <main>
         <div>
-            <div class="voltar">
-                <a href="../seuspets.html"><img src="../imgs/Botao-voltar.png" width="4%"></a>
-            </div>
             <div class="titulo-main">
                 <h1>Cadastro Pet</h1>
                 <h2>Crie um perfil para o seu pet</h2>
             </div>
+            <div class="voltar">
+                <a href="meuspets.html"><img src="../imgs/Botao-voltar.png" width="4%"></a>
+            </div>
         </div>
-        <form>
+        <form id="form_pet">
             <div class="card">
                 <div class="container">
                     <div class="colunas-formulario">
                         <div class="imagem">
-                            <img src="../imgs/pata.png" width="30%">
-                            <a href=""><img src="../imgs/adicionarazul.png" width="10%"></a>
+                            <img id="petImage" src="../imgs/pata.png" width="30%">
+                            <input type="file" id="foto" accept="image/*" name="foto">
+                            <a href="#" id="addImageButton">+</a>
                         </div>
                         <div>
                             <h2>Qual é a espécie do seu animal?</h2>
-                            <select class="especies" name="especie">
+                            <select id="txt_especie" onchange="desabilitaRaca()" class="especies" name="txt_especie">
                                 <option value="">selecione</option>
                                 <option value="Cachorro">Cachorro</option>
                                 <option value="Gato">Gato</option>
                                 <option value="Outro">Outro</option>
                             </select><br>
                             <h2>Nome do Pet</h2>
-                            <input type="text" name="nome_pet" placeholder="Nome do seu pet">
+                            <input type="text" id="txt_nome" name="txt_nome" placeholder="Nome do seu pet">
                             <h2>Raça</h2>
-                            <input type="text" name="raca" placeholder="Escreva a raça do seu pet">
+                            <input type="text" id="txt_raca" name="txt_raca" placeholder="Escreva a raça do seu pet">
                             <h2>Data de nascimento</h2>
-                            <input type="date" name="data_nascimento">
+                            <input type="date" id="txt_dt_nasc" name="txt_dt_nasc">
                         </div>
                     </div>   
                     <div class="colunas-formulario2">
                         <h2>Castrado?</h2>
-                        <input type="radio" name="castrado" value="1">
-                        <label for="castrado"> Sim</label> <br>
-                        <input type="radio" name="castrado" value="0">
-                        <label for="castrado"> Não</label>
+                        <input type="radio" id="txt_castrado" name="txt_castrado" value="Sim">
+                        <label for="txt_castrado"> Sim</label> <br>
+                        <input type="radio" id="txt_nao_castrado" name="txt_castrado" value="Não">
+                        <label for="txt_nao_castrado"> Não</label>
         
                         <h2>Sexo</h2>
-                        <input type="radio" name="sexo" value="m">
-                        <label for="sexo"> Macho</label> <br>
-                        <input type="radio" name="sexo" value="f">
-                        <label for="sexo"> Fêmea</label>
+                        <input type="radio" id="txt_sexo" name="txt_sexo" value="Macho">
+                        <label for="txt_sexo_m"> Macho</label> <br>
+                        <input type="radio" id="txt_sexo" name="txt_sexo" value="Fêmea">
+                        <label for="txt_sexo_f"> Fêmea</label>
         
                         <h2>Vacinado?</h2>
-                        <input type="radio" name="vacinado" value="1">
-                        <label for="vacinado"> Sim</label> <br>
-                        <input type="radio" name="vacinado" value="0">
-                        <label for="vacinado"> Não</label>
+                        <input type="radio" id="txt_vacinado" name="txt_vacinado" value="Sim">
+                        <label for="txt_vacinado"> Sim</label> <br>
+                        <input type="radio" id="txt_vacinado" name="txt_vacinado" value="Não">
+                        <label for="txt_vacinado"> Não</label>
                     </div>           
                     <div class="colunas-formulario3">
                         <h2>Portador de deficiência?</h2>
-                        <input type="radio" name="deficiencia" value="1">
-                        <label for="deficiencia"> Sim</label> <br>
-                        <input type="radio" name="deficiencia" value="0">
-                        <label for="deficiencia"> Não</label>
+                        <input type="radio" id="txt_deficiencia" name="txt_deficiencia" value="Sim">
+                        <label for="txt_deficiencia"> Sim</label> <br>
+                        <input type="radio" id="txt_deficiencia" name="txt_deficiencia" value="Não">
+                        <label for="txt_deficiencia"> Não</label>
         
                         <h2>Localização do Pet</h2>
-                        <input type="text" name="localizacao" placeholder="Rua exemplo Num 123">
+                        <input type="text" id="txt_localizacao" name="txt_localizacao" placeholder="Rua exemplo Num 123">
                         
                         <h2>Descrição do Pet</h2>
-                        <input type="text" name="descricao_pet" placeholder="Breve descrição do pet">    
-                    </div>                
+                        <input type="text" id="txt_descricao" name="txt_descricao" placeholder="Breve descrição do pet">    
+                    </div>   
                 </div>
             </div>
             <div class="cadastrar">
-                <button type="submit" class="meu-botao">Cadastrar</button>
+                <button type="submit" id="btn_cadastrar" class="meu-botao">Cadastrar</button>
             </div>
         </form>        
     </main>
@@ -120,5 +133,37 @@
         </div>
     </div>
    </footer>
+
+   <script>
+    document.getElementById('addImageButton').addEventListener('click', function(event) {
+    event.preventDefault();
+    console.log('Clique na imagem de adição!');
+    document.getElementById('foto').click();
+    });
+
+    // Captura o evento de seleção de arquivo e atualiza a imagem exibida
+    document.getElementById('foto').addEventListener('change', function(event) {
+        const file = event.target.files[0];
+        const reader = new FileReader();
+
+        reader.onload = function(e) {
+            document.getElementById('petImage').src = e.target.result;
+        };
+
+        reader.readAsDataURL(file);
+    });
+
+   </script>
+
+   <!-- link com a página js -->
+   <script src="script_pets.js"></script>
+
+    <script>
+   // chamada da função de cadastro
+    document.getElementById("form_pet").addEventListener("submit", function(event) {
+    event.preventDefault(); 
+    cadastrarPet();
+    });
+</script>
 </body>
 </html>
