@@ -25,20 +25,36 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste. Veja a tabela de exemplo.
 
 
-**Caso de Teste** | **CT01 - Criar conta parte 1**
+**Caso de Teste** | **CT01 - Cradastrando PEt**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em criar conta <br> 2) Preencha todos os campos do formulário <br> 3) Clique no botão "Continuar".
-**Requisitos associados** | RF-001
-**Resultado esperado** | Prosseguir para a parte 2 do cadastro
+**Procedimento**  | 1)Preencha todo o formulário com as informações do seu animal.
+**Requisitos associados** | RF-008
+**Resultado esperado** | Ser redireciado para a página "Meus Pets" com o animal já cadastrado.
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro
 **Resultado obtido** | Sucesso
 
-**Caso de Teste** | **CT02 - Criar conta parte 2**
+**Caso de Teste** | **CT02 - Editando informações do PET**
  :--------------: | ------------
-**Procedimento**  | 1) Preencha todos os campos do formulário <br> 2) Clique no botão "Criar conta" <br> 
-**Requisitos associados** | RF-001
-**Resultado esperado** | Usuário cadastrado
+**Procedimento**  | 1) Na página "Meus Pets" entre em "Editar". <br> 2) Altere no formulário alguma das informações. 
+**Requisitos associados** | RF-008
+**Resultado esperado** | Atualizar o campo alterado
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT03 - Excluindo PET cadastrado**
+ :--------------: | ------------
+**Procedimento**  | 1) Na página "Meus Pets" aperte o botão com um "X".
+**Requisitos associados** | RF-008
+**Resultado esperado** | Apagar o pet alterado
+**Dados de entrada** | n/a
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT04 - Filtrar PET para adoção**
+ :--------------: | ------------
+**Procedimento**  | 1) Pesquise um termo condizente a um dos campos do PET.
+**Requisitos associados** | RNF-007
+**Resultado esperado** | Apresentar o card apenas dos pets cadastrados com esse termo
+**Dados de entrada** | ???????
 **Resultado obtido** | Sucesso
 
 ## Registro dos Testes de Software
