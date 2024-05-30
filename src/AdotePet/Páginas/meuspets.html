@@ -29,46 +29,19 @@
     </header>
     <main>
         <div>
-            <div class="voltar">
+            <div class="voltar_meuspets">
                 <a href=""><img src="../imgs/Botao-voltar.png" width="4%"></a>
             </div>
             <div class="mais">
-                <a href="../cadastropet.html"><img src="../imgs/mais.png" width="4%"></a>
+                <a href="cadastropet.html"><img src="../imgs/mais.png" width="4%"></a>
             </div>
-            <div class="titulo-main">
+            <div class="titulo-main_meuspets">
                 <h1>Seus Pets</h1>
-                <h2>Aqui você pode visualizar seus pet e<br>
-                    editar as informações deles.</h2>
+                <h2>Aqui você pode visualizar seus pets e<br>editar as informações deles.</h2>
             </div>
         </div>
-        <div style="justify-content: space-around; flex-wrap: wrap; display: flex;">
-            <div class="cards" style="text-align:center; width:350px;">
-                <div>
-                    <img src="../imgs/card.png">
-                    <img id="excluir-pet" src="../imgs/excluir.png" width="10%">
-                </div>
-                <h2 class="card_titulo" style="color: #d971a1;"> Nome do Pet </h2>
-                <a class="editar" href="">Editar</a>
-            </div>
-
-                <div class="cards" style="text-align:center; width:350px;">
-                    <div>
-                        <img src="../imgs/card.png">
-                        <img id="excluir-pet" src="../imgs/excluir.png" width="10%">
-                    </div>
-                    <h2 class="card_titulo" style="color: #d971a1;"> Nome do Pet </h2>
-                    <a class="editar" href="">Editar</a>
-                </div>
-
-                <div class="cards" style="text-align:center; width:350px;">
-                    <div>
-                        <img src="../imgs/card.png">
-                        <img id="excluir-pet" src="../imgs/excluir.png" width="10%">
-                    </div>
-                    <h2 class="card_titulo" style="color: #d971a1;"> Nome do Pet </h2>
-                    <a class="editar" href="">Editar</a>
-                </div>
-                
+        <div style="justify-content: space-around; flex-wrap: wrap; display: flex;" id="petCards">
+            <!-- Cards de pets serão adicionados aqui -->
         </div>
     </main>
    <footer>
@@ -91,5 +64,69 @@
         </div>
     </div>
    </footer>
+<script>
+    
+    function carregarPets() {
+        //armazena os cadastros 
+        var petsCadastrados = JSON.parse(localStorage.getItem("pets")) || [];
+        //armazena uma parte do html nesse caso a div com o id petCards
+        var petCardsContainer = document.getElementById("petCards");
+
+        //apaga todos os petCards que estavam antes (os usados no html puro só como exemplo)
+        petCardsContainer.innerHTML = "";
+
+        //laço de repetição pra mostrar todos os cadastros
+        petsCadastrados.forEach(function(pet) {
+            //criando o div que no js que vai armazenar o código do card
+            var cardDiv = document.createElement("div");
+            cardDiv.classList.add("cards");
+            cardDiv.style.textAlign = "center";
+            cardDiv.style.width = "30%";
+
+            //código do card concatenado com as váriaveis que quero retornar
+            cardDiv.innerHTML = `
+                <div>
+                    <img src="../imgs/card.png">
+                    <button onclick="excluirPet('${pet.id}')" type="button" class="excluir"> X </button>
+                </div>
+                <h1 class="card_titulo" style="color: #d971a1; font-size:30px">${pet.nome}</h1>
+                <a class="editar" href="editarpet.html?id=${pet.id}">Editar</a>
+            `;
+
+            //mostrando na tela
+            petCardsContainer.appendChild(cardDiv);
+        });
+    }
+    
+    //essa função vai ser carregada assim que a tela abrir
+    window.onload = carregarPets;
+
+    function excluirPet(petId) {
+        alert("");
+    // Obter os pets cadastrados do armazenamento local
+    var petsCadastrados = JSON.parse(localStorage.getItem("pets")) || [];
+    
+
+    // Encontrar o índice do pet com o ID correspondente
+    var petIndex = petsCadastrados.findIndex(function(pet) {
+        return pet.id === petId;
+    });
+    
+    if (petIndex !== -1) {
+        petsCadastrados.splice(petIndex, 1);
+        
+        // Salvar o array atualizado de pets no armazenamento local
+        localStorage.setItem("pets", JSON.stringify(petsCadastrados));
+        
+        alert("Pet removido com sucesso.");
+        
+        // Recarregar os pets na tela após a remoção
+        carregarPets();
+    } else {
+        alert("Pet não encontrado.");
+    }
+}
+
+</script>
 </body>
 </html>
