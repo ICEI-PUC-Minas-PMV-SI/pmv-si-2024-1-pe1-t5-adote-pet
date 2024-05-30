@@ -120,10 +120,13 @@ main{
     width: 100%;
     background-color: #F2F2F2;
     padding: 2%;
+    min-height: 386px;
 }
 
 .voltar{
     width: 100%;
+    position: relative;
+    bottom: 90px;
 }
 
 .titulo-main{
@@ -132,10 +135,28 @@ main{
     font-weight: bold;
     color: #F2A97E;
     position: relative;
-    bottom: 60px;
 }
 
 .titulo-main h1{
+    font-size: 300%;
+    text-align: center;
+}
+
+.voltar_meuspets{
+    width: 100%;
+    position: relative;
+}
+
+.titulo-main_meuspets{
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    color: #F2A97E;
+    position: relative;
+    bottom:100px
+}
+
+.titulo-main_meuspets h1{
     font-size: 300%;
     text-align: center;
 }
@@ -228,6 +249,28 @@ li{
     text-align: center;
 }
 
+#addImageButton {
+    display: inline-block;
+    width: 10%;
+    height: 1%;
+    background-color: #3399BB;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+#addImageButton:hover {
+    background-color: #1731c5;
+}
+
+#foto {
+    display: none;
+}
+
+
 .colunas-formulario{
     width: 30%;
     float: left;
@@ -309,12 +352,6 @@ label{
     padding: 25% 6%;
 }
 
-#excluir-pet {
-    position: relative;
-    bottom: 100px;
-    left: 50px;
-}
-
 .cadastrar{
     margin-top: 1%;
     width: 100%;
@@ -335,6 +372,24 @@ label{
 
 .meu-botao:hover {
     background-color: rgb(223, 116, 132);
+}
+
+.excluir {
+    background-color: #d971a1;
+    color: white;
+    border: none;
+    padding: 0.5%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+    font-size: 100%;
+    font-weight: bold;
+    margin-top: 1%;
+    width: 10%;
+    text-align: center;
+    position: relative;
+    bottom: 120px;
+    left: 50px;
 }
 
 .pesquisa{
