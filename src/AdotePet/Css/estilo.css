@@ -153,7 +153,9 @@ main{
     font-weight: bold;
     color: #F2A97E;
     position: relative;
-    bottom:100px
+    bottom:100px;
+    left: 350px;
+    width: 50%;
 }
 
 .titulo-main_meuspets h1{
