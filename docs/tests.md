@@ -121,9 +121,10 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
-| 1             | Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando. |
-| 2             | Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço. |
-
+| 1             | Você é uma pessoa que deseja cadastrar um de seus animais de estimação para adoção. |
+| 2             | Você é uma pessoa que deseja alterar uma informação errada sobre  seu animal de estimação colocado para adoção. |
+| 3             | Você é uma pessoa que deseja apagar o registro de um de sues animais que já foi doado. |
+| 4             | Você é uma pessoa que deseja adotar um animal que seja de uma raça especifica. |
 
 
 ## Registro de Testes de Usabilidade
