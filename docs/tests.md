@@ -61,10 +61,10 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
 
-|*Caso de Teste*                                 |*CT01 - Criar conta parte 1*                                         |
+|*Caso de Teste*                                 |*CT01 - Cadastrando PET*                                         |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t| 
+|Requisito Associado | RF-001 - A aplicação Web permitirá aos usuários criarem cadastros dos seus animais domésticos disponíveis para adoção|
+|Link do vídeo do teste realizado: | https://www.loom.com/share/5a1214752c6b422f870da8ff8ea9e0e0?sid=074f49b5-431b-4d4b-b7e2-0a69e9f1980c| 
 
 |*Caso de Teste*                                 |*CT02 - Criar conta parte 2*                                        |
 |---|---|
