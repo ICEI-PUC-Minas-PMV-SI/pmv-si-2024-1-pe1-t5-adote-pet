@@ -63,13 +63,23 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 
 |*Caso de Teste*                                 |*CT01 - Cadastrando PET*                                         |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação Web permitirá aos usuários criarem cadastros dos seus animais domésticos disponíveis para adoção|
+|Requisito Associado | RF-008 - A aplicação Web permitirá aos usuários criarem cadastros dos seus animais domésticos disponíveis para adoção|
 |Link do vídeo do teste realizado: | https://www.loom.com/share/5a1214752c6b422f870da8ff8ea9e0e0?sid=074f49b5-431b-4d4b-b7e2-0a69e9f1980c| 
 
-|*Caso de Teste*                                 |*CT02 - Criar conta parte 2*                                        |
+|*Caso de Teste*                                 |*CT02 - Editando informações do PET*                                        |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Requisito Associado | RF-008 - A aplicação Web permitirá aos usuários alterarem cadastros dos seus animais domésticos disponíveis para adoçã|
+|Link do vídeo do teste realizado: | https://www.loom.com/share/eb869838c52c4024ac489889e1bbea3c?sid=172af85b-47a7-4694-b562-f7f613a4db5a |
+
+|*Caso de Teste*                                 |*CT03 - Excluindo PET cadastrado*                                        |
+|---|---|
+|Requisito Associado | RF-008 - A aplicação Web permitirá aos usuários apagarem cadastros dos seus animais domésticos disponíveis para adoçã|
+|Link do vídeo do teste realizado: | https://www.loom.com/share/4ab8635db90a4694b0238946cd180556?sid=048439e6-b9f0-4792-8cb3-ca816f9ff194 |
+
+|*Caso de Teste*                                 |*CT04 - Filtrar PET para adoção*                                        |
+|---|---|
+|Requisito Associado | RNF-007 - A aplicação Web deverá ter um mecanismo de filtro para facilitar a busca dos possíveis tutores pelo animal ideal|
+|Link do vídeo do teste realizado: | https://www.loom.com/share/a7d95c4ebf1c4727915f3889dcacd364?sid=f56a09e1-318f-4c20-a0e1-ea0066077d33 |
 
 
 ## Avaliação dos Testes de Software
