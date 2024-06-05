@@ -28,7 +28,7 @@
             <ul class="nav-links">
                 <li><a href="">Início</a></li>
                 <li><a href="prontoadoção.html">Adoções</a></li>
-                <li><a href="">Eventos</a></li>
+                <li><a href="saibamaiseventos.html">Eventos</a></li>
                 <li><a href="">Suporte</a></li>
             </ul>
             <ul class="nav-linkentrar">
@@ -46,7 +46,9 @@
                 <h2>Crie um perfil para o seu pet</h2>
             </div>
             <div class="voltar">
-                <a href="meuspets.html"><img src="../imgs/Botao-voltar.png" width="4%"></a>
+                <button class="image-button" onclick="history.back()">
+                    <img src="../imgs/Botao-voltar.png">
+                </button>
             </div>
         </div>
         <form id="form_pet">
@@ -84,7 +86,7 @@
                         <h2>Sexo</h2>
                         <input type="radio" id="txt_sexo" name="txt_sexo" value="Macho">
                         <label for="txt_sexo_m"> Macho</label> <br>
-                        <input type="radio" id="txt_sexo" name="txt_sexo" value="Fêmea">
+                        <input type="radio" id="txt_sexo" name="txt_sexo" value="Femea">
                         <label for="txt_sexo_f"> Fêmea</label>
         
                         <h2>Vacinado?</h2>
@@ -109,7 +111,7 @@
                 </div>
             </div>
             <div class="cadastrar">
-                <button type="submit" id="btn_cadastrar" class="meu-botao">Cadastrar</button>
+                <button href="meuspets.html" type="submit" id="btn_cadastrar" class="meu-botao">Cadastrar</button>
             </div>
         </form>        
     </main>
@@ -164,6 +166,8 @@
     event.preventDefault(); 
     cadastrarPet();
     });
+
+    
 </script>
 </body>
 </html>
