@@ -16,8 +16,8 @@
             <ul class="nav-links">
                 <li><a href="">Início</a></li>
                 <li><a href="../prontoadoção.html">Adoções</a></li>
-                <li><a href="">Eventos</a></li>
-                <li><a href="">Suporte</a></li>
+                <li><a href="prontoadoção.html">Adoções</a></li>
+                <li><a href="saibamaiseventos.html">Eventos</a></li>
             </ul>
             <ul class="nav-linkentrar">
                 <li><a href="">Entrar</a></li>
@@ -29,10 +29,12 @@
     </header>
     <main>
         <div>
-            <div class="voltar">
-                <a href=""><img src="../imgs/Botao-voltar.png" width="4%"></a>
+            <div class="voltar_editarpet">
+                <button class="image-button" onclick="history.back()">
+                    <img src="../imgs/Botao-voltar.png">
+                </button>
             </div>
-            <div class="titulo-main">
+            <div class="titulo-main_editarpet">
                 <h1>Editar seu pet</h1>
                 <h2>Faça alterações no perfil do seu pet.</h2>
             </div>
@@ -64,28 +66,28 @@
                     </div>   
                     <div class="colunas-formulario2">
                         <h2>Castrado?</h2>
-                        <input type="radio" id="castrado" name="castrado" value="1">
+                        <input type="radio" id="castrado" name="castrado" value="Sim">
                         <label for="castrado"> Sim</label> <br>
-                        <input type="radio" id="castrado" name="castrado" value="0">
+                        <input type="radio" id="castrado" name="castrado" value="Não">
                         <label for="castrado"> Não</label>
         
                         <h2>Sexo</h2>
-                        <input type="radio" id="sexo" name="sexo" value="m">
+                        <input type="radio" id="sexo" name="sexo" value="Macho">
                         <label for="sexo"> Macho</label> <br>
-                        <input type="radio" id="sexo" name="sexo" value="f">
+                        <input type="radio" id="sexo" name="sexo" value="Fêmea">
                         <label for="sexo"> Fêmea</label>
         
                         <h2>Vacinado?</h2>
-                        <input type="radio" id="vacinado" name="vacinado" value="1">
+                        <input type="radio" id="vacinado" name="vacinado" value="Sim">
                         <label for="vacinado"> Sim</label> <br>
-                        <input type="radio" id="vacinado" name="vacinado" value="0">
+                        <input type="radio" id="vacinado" name="vacinado" value="Não">
                         <label for="vacinado"> Não</label>
                     </div>           
                     <div class="colunas-formulario3">
                         <h2>Portador de deficiência?</h2>
-                        <input type="radio" id="deficiencia" name="deficiencia" value="1">
+                        <input type="radio" id="deficiencia" name="deficiencia" value="Sim">
                         <label for="deficiencia"> Sim</label> <br>
-                        <input type="radio" id="deficiencia" name="deficiencia" value="0">
+                        <input type="radio" id="deficiencia" name="deficiencia" value="Não">
                         <label for="deficiencia"> Não</label>
         
                         <h2>Localização do Pet</h2>
