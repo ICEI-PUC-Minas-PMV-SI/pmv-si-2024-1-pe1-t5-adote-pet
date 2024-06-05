@@ -57,6 +57,7 @@ function cadastrarPet() {
             localStorage.setItem("pets", JSON.stringify(petsCadastrados));
     
             document.getElementById("form_pet").reset();
+            window.location.href = "meuspets.html"; 
             alert("Pet cadastrado");
         } else {
             alert("Selecione uma imagem para cadastrar o pet.");
@@ -104,6 +105,7 @@ function cadastrarPet() {
     
             // Limpar o formulário após a atualização
             document.getElementById("editarpet").reset();
+            window.location.href = "meuspets.html"; 
             alert("Pet atualizado com sucesso.");
         } else {
             alert("Pet não encontrado.");
