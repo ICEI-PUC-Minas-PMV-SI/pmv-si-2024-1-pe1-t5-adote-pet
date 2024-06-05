@@ -15,9 +15,9 @@
             <img src="../imgs/LogoCompletaAdotePet.png" class="logo">
             <ul class="nav-links">
                 <li><a href="">Início</a></li>
-                <li><a href="">Adoções</a></li>
-                <li><a href="">Eventos</a></li>
-                <li><a href="">Suporte</a></li>
+                <li><a href="prontoadoção.html">Adoções</a></li>
+                <li><a href="prontoadoção.html">Adoções</a></li>
+                <li><a href="saibamaiseventos.html">Eventos</a></li>
             </ul>
             <ul class="nav-linkentrar">
                 <li><a href="">Entrar</a></li>
@@ -30,7 +30,9 @@
     <main>
         <div>
             <div class="voltar_meuspets">
-                <a href=""><img src="../imgs/Botao-voltar.png" width="4%"></a>
+                <button class="image-button" onclick="history.back()">
+                    <img src="../imgs/Botao-voltar.png">
+                </button>
             </div>
             <div class="mais">
                 <a href="cadastropet.html"><img src="../imgs/mais.png" width="4%"></a>
@@ -102,7 +104,6 @@
     window.onload = carregarPets;
 
     function excluirPet(petId) {
-        alert("");
     // Obter os pets cadastrados do armazenamento local
     var petsCadastrados = JSON.parse(localStorage.getItem("pets")) || [];
     
