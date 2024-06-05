@@ -158,6 +158,42 @@ main{
     width: 50%;
 }
 
+.image-button{
+    position: relative;
+    background-color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    display: inline-flex;
+    padding: 30px;
+    border: none;
+    align-items: center;
+}
+
+.image-button img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 100%;
+}
+
+.voltar_editarpet{
+    width: 100%;
+    position: relative;
+}
+
+.titulo-main_editarpet{
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    color: #F2A97E;
+    position: relative;
+    bottom:60px;
+    left: 350px;
+    width: 50%;
+}
+
 .titulo-main_meuspets h1{
     font-size: 300%;
     text-align: center;
@@ -418,6 +454,7 @@ label{
 .paginação{
     padding-right: 5%;
     text-align: right;
+    padding-top: 5%;
 }
 
 .pagina {
