@@ -81,6 +81,10 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |Requisito Associado | RNF-007 - A aplicação Web deverá ter um mecanismo de filtro para facilitar a busca dos possíveis tutores pelo animal ideal|
 |Link do vídeo do teste realizado: | https://www.loom.com/share/a7d95c4ebf1c4727915f3889dcacd364?sid=f56a09e1-318f-4c20-a0e1-ea0066077d33 |
 
+|*Caso de Teste*                                 |*CT05 - Upload de imagem para o Mural de Fotos*                                        |
+|---|---|
+|Requisito Associado | RNF-010 - A aplicação deve permitir que o usuário faça uploads de fotos dos seus pets adotados para o mural dos Felpudos, da página inicial|
+|Link do vídeo do teste realizado: | https://youtu.be/bFmuAsSMOrc |
 
 ## Avaliação dos Testes de Software
 
