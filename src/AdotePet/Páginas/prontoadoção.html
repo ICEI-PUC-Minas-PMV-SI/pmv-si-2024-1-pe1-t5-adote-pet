@@ -29,9 +29,6 @@
     </header>
     <main>
         <div>
-            <!-- <img id="petImage" src="../imgs/pata.png" width="30%">
-                            <input type="file" id="foto" accept="image/*" name="foto">
-                            <a href="#" id="addImageButton">+</a> -->
             <div class="voltar_editarpet">
                 <button class="image-button" onclick="history.back()">
                     <img src="../imgs/Botao-voltar.png">
@@ -89,12 +86,14 @@
         cardDiv.style.margin = "0 5%";
 
         cardDiv.innerHTML = `
-            <img src="${pet.imagem}" style="margin-top:10px; max-width: 100px; max-height: 100px;">
+             <img src="${pet.imagem}" style="margin-top:10px; max-width: 100px; max-height: 100px;">
             <h2 class="card_titulo">${pet.nome}</h2>
             <div class="card-body">
                 <ul class="list-group list-group-flush">
-                    <li>Localização do pet: ${pet.localizacao}</li>
+                    <li> ${pet.especie}</li>
+                    <li>Cidade: ${pet.localizacao}</li>
                     <li>Sexo do pet: ${pet.sexo}</li>
+                    <li>Descrição: ${pet.descricao}</li>
                 </ul>
             </div>
             <a class="saibamais" href="">Saiba mais</a>
@@ -115,11 +114,7 @@ function pesquisarPetsPorLocalizacao() {
 
     // Filtra os pets com base na localização inserida
     var petsFiltrados = petsCadastrados.filter(function(pet) {
-        return pet.localizacao.toLowerCase().includes(inputLocal) ||
-        pet.especie.toLowerCase().includes(inputLocal) ||
-        pet.descricao.toLowerCase().includes(inputLocal) ||
-        pet.raca.toLowerCase().includes(inputLocal) ||
-        pet.sexo.toLowerCase().includes(inputLocal);
+        return pet.localizacao.toLowerCase().includes(inputLocal) 
     });
 
     
@@ -137,8 +132,10 @@ function pesquisarPetsPorLocalizacao() {
             <h2 class="card_titulo">${pet.nome}</h2>
             <div class="card-body">
                 <ul class="list-group list-group-flush">
-                    <li>Localização do pet: ${pet.localizacao}</li>
+                    <li> ${pet.especie}</li>
+                    <li>Cidade: ${pet.localizacao}</li>
                     <li>Sexo do pet: ${pet.sexo}</li>
+                    <li>Descrição: ${pet.descricao}</li>
                 </ul>
             </div>
             <a class="saibamais" href="">Saiba mais</a>
