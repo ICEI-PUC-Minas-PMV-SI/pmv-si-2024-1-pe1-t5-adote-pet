@@ -54,7 +54,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Procedimento**  | 1) Pesquise um termo condizente a um dos campos do PET.
 **Requisitos associados** | RNF-007
 **Resultado esperado** | Apresentar o card apenas dos pets cadastrados com esse termo
-**Dados de entrada** | ???????
+**Dados de entrada** | n/a
 **Resultado obtido** | Sucesso
 
 ## Registro dos Testes de Software
@@ -64,12 +64,12 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 |*CT01 - Cadastrando PET*                                         |
 |---|---|
 |Requisito Associado | RF-008 - A aplicação Web permitirá aos usuários criarem cadastros dos seus animais domésticos disponíveis para adoção|
-|Link do vídeo do teste realizado: | https://www.loom.com/share/5a1214752c6b422f870da8ff8ea9e0e0?sid=074f49b5-431b-4d4b-b7e2-0a69e9f1980c| 
+|Link do vídeo do teste realizado: | https://www.loom.com/share/263c656e84a24d2dbcc3a92290e4a0fe?sid=a4d518dc-01b5-4ba9-b417-7b0b9da67948| 
 
 |*Caso de Teste*                                 |*CT02 - Editando informações do PET*                                        |
 |---|---|
 |Requisito Associado | RF-008 - A aplicação Web permitirá aos usuários alterarem cadastros dos seus animais domésticos disponíveis para adoçã|
-|Link do vídeo do teste realizado: | https://www.loom.com/share/eb869838c52c4024ac489889e1bbea3c?sid=172af85b-47a7-4694-b562-f7f613a4db5a |
+|Link do vídeo do teste realizado: | https://www.loom.com/share/2172bd7cca75474680d81577f0151b0d?sid=0e9b9508-481f-4eae-ab9c-940ee4b751f5 |
 
 |*Caso de Teste*                                 |*CT03 - Excluindo PET cadastrado*                                        |
 |---|---|
@@ -79,7 +79,7 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 |*CT04 - Filtrar PET para adoção*                                        |
 |---|---|
 |Requisito Associado | RNF-007 - A aplicação Web deverá ter um mecanismo de filtro para facilitar a busca dos possíveis tutores pelo animal ideal|
-|Link do vídeo do teste realizado: | https://www.loom.com/share/a7d95c4ebf1c4727915f3889dcacd364?sid=f56a09e1-318f-4c20-a0e1-ea0066077d33 |
+|Link do vídeo do teste realizado: | https://www.loom.com/share/b7e93464e9b942d3b449cc542909c24d?sid=3f268f0a-9fc8-4cf7-9e15-3c63f879490f |
 
 |*Caso de Teste*                                 |*CT05 - Upload de imagem para o Mural de Fotos*                                        |
 |---|---|
