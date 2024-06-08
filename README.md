@@ -20,7 +20,7 @@ As mais de 400 ONGs no país desempenham um papel crucial no resgate e acolhimen
 * Maria Eduarda de Souza Justo
 * Pedro Henrique Valente Paulino
 * Kelly Rodrigues Batista
-* Francisco Faria
+* Francisco Valadâo Lotti de Faria
 * Diego do Nascimento Sander
 * Gustavo Gorges
 
