@@ -57,6 +57,22 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | n/a
 **Resultado obtido** | Sucesso
 
+**Caso de Teste** | **CT05 - Permitir cadastro de novos usuários**
+ :--------------: | ------------
+**Procedimento**  | 1) Na página "home" entre em "Cadastre-se". <br> 2) Coloque suas informações pessoais. <br> 3) Marque a opção que você concorda com os termos de uso. <br> 4) Caso você seja um doador ou uma ONG clique em "Cadastrar"; Caso seja um tutor, clique na opção "Ir para o Formulário".
+**Requisitos associados** | RF-001
+**Resultado esperado** | Caso você seja um doador ou uma ONG, será direcionado para a página de "meu perfil"; Caso seja um tutor, será encaminhado para o formulário obrigatório para tutores.
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT06 - O tutor deverá preencher um formulário **
+ :--------------: | ------------
+**Procedimento**  | 1) Assim que o tutor clicar em "ir para formulário" na página de cadastro ele deverá: colocar as irformações pedidas. <br> 2) Apertar em "Salvar formulário".
+**Requisitos associados** | RF-003
+**Resultado esperado** | O tutor será redirecionado à página "meu perfil"
+**Dados de entrada** | Inserção de dados válidos no formulário do tutor.
+**Resultado obtido** | Sucesso
+
 ## Registro dos Testes de Software
 
 Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
