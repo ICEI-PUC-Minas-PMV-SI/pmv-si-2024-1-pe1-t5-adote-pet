@@ -59,13 +59,13 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT05 - Permitir cadastro de novos usuários**
  :--------------: | ------------
-**Procedimento**  | 1) Na página "home" entre em "Cadastre-se". <br> 2) Coloque suas informações pessoais. <br> 3) Marque a opção que você concorda com os termos de uso. <br> 4) Caso você seja um doador ou uma ONG clique em "Cadastrar"; Caso seja um tutor, clique na opção "Ir para o Formulário".
+**Procedimento**  | 1) Na página "home" entre em "Cadastre-se". <br> 2) Coloque suas informações pessoais. <br> 3) Marque a opção que você concorda com os termos de uso. <br> 4) Caso você seja um doador ou uma ONG clique em "Cadastrar"; Caso seja um tutor, clique na opção "Ir para Formulário".
 **Requisitos associados** | RF-001
-**Resultado esperado** | Caso você seja um doador ou uma ONG, será direcionado para a página de "meu perfil"; Caso seja um tutor, será encaminhado para o formulário obrigatório para tutores.
+**Resultado esperado** | Caso você seja um doador ou uma ONG, será direcionado para a página de "meu perfil"; Caso seja um tutor, será redirecionado para o formulário obrigatório para tutores.
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso
 
-**Caso de Teste** | **CT06 - O tutor deverá preencher um formulário **
+**Caso de Teste** | **CT06 - O tutor deverá preencher um formulário**
  :--------------: | ------------
 **Procedimento**  | 1) Assim que o tutor clicar em "ir para formulário" na página de cadastro ele deverá: colocar as irformações pedidas. <br> 2) Apertar em "Salvar formulário".
 **Requisitos associados** | RF-003
@@ -101,6 +101,16 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |---|---|
 |Requisito Associado | RNF-010 - A aplicação deve permitir que o usuário faça uploads de fotos dos seus pets adotados para o mural dos Felpudos, da página inicial|
 |Link do vídeo do teste realizado: | https://youtu.be/bFmuAsSMOrc |
+
+|*Caso de Teste*                                 |**CT05 - Permitir cadastro de novos usuários**                                        |
+|---|---|
+|Requisito Associado | RF-001 - A aplicação Web deverá permitir o cadastro de novos usuários|
+|Link do vídeo do teste realizado: | https://drive.google.com/drive/folders/1CrQOeqQ3kN81XZDBaM17KmiiiAECLS3c?usp=sharing |
+
+|*Caso de Teste*                                 | **CT06 - O tutor deverá preencher um formulário**                                        |
+|---|---|
+|Requisito Associado | RF-003 - A aplicação terá uma página que se apresente logo após o cadastro do usuário e pela qual esse deverá preencher um formulário |
+|Link do vídeo do teste realizado: | https://drive.google.com/drive/folders/1CrQOeqQ3kN81XZDBaM17KmiiiAECLS3c?usp=sharing |
 
 ## Avaliação dos Testes de Software
 
