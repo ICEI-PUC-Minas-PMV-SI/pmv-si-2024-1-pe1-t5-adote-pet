@@ -73,6 +73,14 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Inserção de dados válidos no formulário do tutor.
 **Resultado obtido** | Sucesso
 
+**Caso de Teste** | **CT07 - A aplicação Web deverá incorporar mecanismos de feedback para permitir que os usuários forneçam comentários sobre sua experiência**
+ :--------------: | ------------
+**Procedimento**  | 1) Na parte inferior da home, o usuário pode digitar seu e-mail e sua mensagem desejada, e clicando em "Enviar" será redirecionado para o gmail.
+**Requisitos associados** | RF-015
+**Resultado esperado** | O tutor será redirecionado ao gmail para término do envio do e-mail.
+**Dados de entrada** | Inserção do email e do corpo da mensagem ainda no site.
+**Resultado obtido** | Sucesso
+
 ## Registro dos Testes de Software
 
 Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
@@ -111,6 +119,11 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |---|---|
 |Requisito Associado | RF-003 - A aplicação terá uma página que se apresente logo após o cadastro do usuário e pela qual esse deverá preencher um formulário |
 |Link do vídeo do teste realizado: | https://drive.google.com/drive/folders/1CrQOeqQ3kN81XZDBaM17KmiiiAECLS3c?usp=sharing |
+
+|*Caso de Teste*                                 | **CT07 - Envio do email pelo site**                                        |
+|---|---|
+|Requisito Associado | RF-015 - A aplicação Web deverá incorporar mecanismos de feedback para permitir que os usuários forneçam comentários sobre sua experiência |
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1H0Vfe92-3sGB7O25PLrv0u7mK8Pk0ATa/view?usp=drive_link |
 
 ## Avaliação dos Testes de Software
 
