@@ -154,42 +154,67 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 | 1             | Você é uma pessoa que deseja cadastrar um de seus animais de estimação para adoção. |
 | 2             | Você é uma pessoa que deseja alterar uma informação errada sobre  seu animal de estimação colocado para adoção. |
 | 3             | Você é uma pessoa que deseja apagar o registro de um de sues animais que já foi doado. |
-| 4             | Você é uma pessoa que deseja adotar um animal que seja de uma raça especifica. |
+| 4             | Você é uma pessoa que deseja adotar um animal que seja de uma cidade especifica. |
 
 
 ## Registro de Testes de Usabilidade
 
-Cenário 1: Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando.
+Cenário 1: Você é uma pessoa que deseja cadastrar um de seus animais de estimação para adoção.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 27.87 segundos                  |
-| 2       | SIM             | 5                    | 17.11 segundos                  |
-| 3       | SIM             | 5                    | 39.09 segundos                  |
+| 1       | SIM             | 5                    | 40.12 segundos                  |
+| 2       | SIM             | 5                    | 46.35 segundos                  |
 |  |  |  |  |
-| **Média**     | 100%           | 5                | 28.02 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 8.66 segundos |
+| **Média**     | 100%           | 5                | 43.23 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 28 segundos |
 
 
-    Comentários dos usuários: Achei o site muito bom e intuitivo. 
-    Não tive dificuldades e acho que ficou bem intuitivo.
+    Comentários dos usuários: Bem simples e fácil para cadastrar.
 
 
-Cenário 2: Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço.
+Cenário 2: Você é uma pessoa que deseja alterar uma informação errada sobre  seu animal de estimação colocado para adoção.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 4                    | 36.21 segundos                          |
+| 1       | SIM             | 5                    | 35.40 segundos                          |
+| 2       | SIM             | 5                    | 55.28 segundos                          |
 |  |  |  |  |
-| **Média**     | 100%           | 4.67                | 30.05 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+| **Média**     | 100%           | 5                | 45.34 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 15 segundos |
 
 
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
+    Comentários dos usuários: Segue o exemplo do cadsatro e trás de volta as informações isso ajuda muito.
+
+
+    Cenário 3: Você é uma pessoa que deseja apagar o registro de um de sues animais que já foi doado.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 5                    | 12.28 segundos                          |
+| 2       | SIM             | 5                    | 26.40 segundos                          |
+|  |  |  |  |
+| **Média**     | 100%           | 5                | 19.34 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 1 segundos |
+
+
+    Comentários dos usuários: Extremamente simples.
+
+    
+
+    Cenário 4: Você é uma pessoa que deseja adotar um animal que seja de uma cidade especifica.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 5                    | 12.21 segundos                          |
+| 2       | SIM             | 5                    | 15.44 segundos                          |
+|  |  |  |  |
+| **Média**     | 100%           | 5                | 14,02 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 5 segundos |
+
+
+    Comentários dos usuários: Muito bom, mas se tiver escrito errado não vai achar.
+
 
 ## Avaliação dos Testes de Usabilidade
 
