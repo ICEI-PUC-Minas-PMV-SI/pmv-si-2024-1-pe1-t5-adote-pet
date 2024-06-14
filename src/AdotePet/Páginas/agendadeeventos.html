@@ -8,6 +8,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
+    <link href="imgs/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js"></script>
 </head>
 <body>
    <header>
@@ -15,8 +19,8 @@
             <img src="imgs/LogoCompletaAdotePet.png" alt="AdotePet" class="logo"/>
             <ul class="header_list">
                <li class="header_list_item"><a href="">Início</a></li>
-               <li class="header_list_item"><a href="">Adoções</a></li>
-               <li class="header_list_item"><a href="../agendadeeventos.html">Eventos</a></li>
+               <li class="header_list_item"><a href="prontoadoção.html">Adoções</a></li>
+               <li class="header_list_item"><a href="agendadeeventos.html">Eventos</a></li>
                <li class="header_list_item"><a href="">Suporte</a></li>
             </ul>
             <ul class="header_username">
@@ -29,7 +33,7 @@
         <div class="container">
             <div>
                 <div class="voltar">
-                    <a href=""><img src="imgs/Botao-voltar.png" width="3.5%"></a>
+                    <button class="image-button-blue" onclick="history.back()"><img src="imgs/Botao-voltar.png">
                 </div>
                 <div class="titulo-main">
                     <h1>Agenda de Eventos</h1>
@@ -40,10 +44,10 @@
                 <div class="img_navbar">
                     <img src="imgs/localizacao.png" class="localizacaonavbar"> 
                 </div>
-                <input type="search" class="evento_searchbar">
+                <input type="text" id="local" class="evento_searchbar">
             </div>
-            <div class="cardrow">
-                <div class="cardcolumn">
+            <div id="cardrow" class="cardrow">
+                <div id="cardcolumn" class="cardcolumn">
                     <div class="centered-img-agenda">
                         <img src="imgs/calendariosaibamais.png" class="calendarioagendaevento">
                     </div>
@@ -53,10 +57,12 @@
                         <li class="info_lista_agenda"><img src="imgs/telefone.png" class="telefonepng"> Contato</li>
                     </ul>
                     <div class="saibamais">
-                        <button class="botaosaiba_mais">Saiba Mais</button>
+                        <a href="saibamaiseventos.html">
+                            <button class="botaosaiba_mais">Saiba Mais</button> 
+                        </a>
                     </div>
                 </div>
-                <div class="cardcolumn">
+                <div id="cardcolumn" class="cardcolumn">
                     <div class="centered-img-agenda">
                         <img src="imgs/calendariosaibamais.png" class="calendarioagendaevento">
                     </div>
@@ -66,10 +72,12 @@
                         <li class="info_lista_agenda"><img src="imgs/telefone.png" class="telefonepng"> Contato</li>
                     </ul>
                     <div class="saibamais">
-                        <button class="botaosaiba_mais">Saiba Mais</button>
+                        <a href="saibamaiseventos.html">
+                            <button class="botaosaiba_mais">Saiba Mais</button> 
+                        </a>
                     </div>
                 </div>
-                <div class="cardcolumn">
+                <div id="cardcolumn" class="cardcolumn">
                     <div class="centered-img-agenda">
                         <img src="imgs/calendariosaibamais.png" class="calendarioagendaevento">
                     </div>
@@ -79,10 +87,12 @@
                         <li class="info_lista_agenda"><img src="imgs/telefone.png" class="telefonepng"> Contato</li>
                     </ul>
                     <div class="saibamais">
-                        <button class="botaosaiba_mais">Saiba Mais</button>
+                        <a href="saibamaiseventos.html">
+                            <button class="botaosaiba_mais">Saiba Mais</button> 
+                        </a>
                     </div>
                  </div>
-                <div class="cardcolumn">
+                <div id="cardcolumn" class="cardcolumn">
                     <div class="centered-img-agenda">
                         <img src="imgs/calendariosaibamais.png" class="calendarioagendaevento">
                     </div>
@@ -92,12 +102,16 @@
                         <li class="info_lista_agenda"><img src="imgs/telefone.png" class="telefonepng"> Contato</li>
                      </ul>
                     <div class="saibamais">
-                        <button class="botaosaiba_mais">Saiba Mais</button>
+                        <a href="saibamaiseventos.html">
+                            <button class="botaosaiba_mais">Saiba Mais</button> 
+                        </a>
                     </div>
                  </div>
             </div>
-            <div class="proxima">
-                <button class="botao_proxima">Próxima</button>
+            <div class="paginação" id="proxima">
+                <a class="pagina" href="">
+                    <button class="botao_proxima">Próxima</button> 
+                </a>
             </div>
         </div>
     </main>
@@ -121,5 +135,90 @@
             </div>
         </div>
     </footer>
+    <script>
+        function carregarEventos() {
+           var eventosCadastrados = JSON.parse(localStorage.getItem("eventos")) || [];
+           var eventoCardsContainer = document.getElementById("cardrow");
+       
+           eventoCardsContainer.innerHTML = "";
+       
+           eventosCadastrados.forEach(function(eventos) {
+               var cardDiv = document.createElement("div");
+               cardDiv.classList.add("cards");
+               cardDiv.style.textAlign = "center";
+               cardDiv.style.margin = "0 5%";
+       
+               cardDiv.innerHTML = `
+                    <div id="cardcolumn" class="cardcolumn">
+                        <div class="centered-img-agenda">
+                            <img src="${eventos.imagem}" class="calendarioagendaevento">
+                        </div>
+                        <h1 class="nomeagendaevento">${eventos.tituloevento}</h1>
+                        <ul class="info_agendaeventos">
+                            <li class="info_lista_agenda"><img src="imgs/localizacao.png" class="localizacaopng"> ${eventos.endereco}</li>
+                            <li class="info_lista_agenda"><img src="imgs/telefone.png" class="telefonepng"> ${eventos.telefone}</li>
+                        </ul>
+                        <div class="saibamais">
+                            <a href="saibamaiseventos.html">
+                                <button class="botaosaiba_mais">Saiba Mais</button> 
+                            </a>
+                        </div>
+                    </div>
+               `;
+       
+               eventoCardsContainer.appendChild(cardDiv);
+           });
+       }
+       
+       // Função para pesquisar com base na localização
+       function pesquisarEventosPorLocalizacao() {
+           var inputLocal = document.getElementById("local").value.toLowerCase(); // Obtém o valor do campo de entrada e converte para minúsculas
+           var eventosCadastrados = JSON.parse(localStorage.getItem("eventos")) || []; // Obtém os eventos do localStorage
+           var eventoCardsContainer = document.getElementById("cardrow"); // Container para os cards
+       
+           // Limpa o conteúdo atual dos cards
+           eventoCardsContainer.innerHTML = "";
+       
+           // Filtra com base na localização inserida
+           var eventosFiltrados = eventosCadastrados.filter(function(eventos) {
+               return eventos.endereco.toLowerCase().includes(inputLocal) 
+           });  
+           
+           // Cria os cards para os eventos filtrados e adiciona ao container
+           eventosFiltrados.forEach(function(eventos) {
+               var cardDiv = document.createElement("div");
+               cardDiv.classList.add("cards");
+               cardDiv.style.textAlign = "center";
+               cardDiv.style.margin = "0 5%";
+       
+               cardDiv.innerHTML = `
+                     <div id="cardcolumn" class="cardcolumn">
+                        <div class="centered-img-agenda">
+                            <img src="${eventos.imagem}" class="calendarioagendaevento">
+                        </div>
+                        <h1 class="nomeagendaevento">${eventos.tituloevento}</h1>
+                        <ul class="info_agendaeventos">
+                            <li class="info_lista_agenda"><img src="imgs/localizacao.png" class="localizacaopng"> ${eventos.endereco}</li>
+                            <li class="info_lista_agenda"><img src="imgs/telefone.png" class="telefonepng"> ${eventos.telefone}</li>
+                        </ul>
+                        <div class="saibamais">
+                            <a href="saibamaiseventos.html">
+                                <button class="botaosaiba_mais">Saiba Mais</button> 
+                            </a>
+                        </div>
+                    </div>
+               `;
+       
+               eventoCardsContainer.appendChild(cardDiv);
+           });
+       }
+       
+       // Adiciona um evento de escuta ao campo de entrada de texto para chamar a função de pesquisa
+       document.getElementById("local").addEventListener("input", pesquisarEventosPorLocalizacao);
+       
+       window.onload = carregarEventos;
+       
+    </script>
+    <script type="text/javascript" src="eventos.js"></script>
 </body>
 </html>
