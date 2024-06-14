@@ -157,6 +157,30 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |Requisito Associado | RF-015 - A aplicação Web deverá incorporar mecanismos de feedback para permitir que os usuários forneçam comentários sobre sua experiência |
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/1H0Vfe92-3sGB7O25PLrv0u7mK8Pk0ATa/view?usp=drive_link |
 
+
+|*Caso de Teste*                                 | **CT08 - As ONGs poderão cadastrar seus eventos de adoção**                                        |
+|---|---|
+|Requisito Associado | RF-009 - A aplicação deverá permitir que as ONGs cadastrem seus eventos de adoção |
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1dd3p1zOQ0zROedFr7Eer9wY9pjV4k_-Q/view?usp=drive_link |
+
+
+|*Caso de Teste*                                 | **CT09 - Eventos cadastrados pelas ONGs poderão ser visualizados em uma página especial de destaque**                                        |
+|---|---|
+|Requisito Associado | RF-012 - A aplicação Web permitirá que os eventos cadastrados pelas ONGs sejam visualizados, pelo usuários, em uma página especial de destaque | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1IcseROyJJ9CqYbzCBlFWQPuC_o4mKOjx/view?usp=drive_link e https://drive.google.com/file/d/13G49sLhZ14QeilkQ8JkFQ1yP0cN-uGpL/view?usp=drive_link |
+
+
+|*Caso de Teste*                                 | **CT10 - As ONGs poderão gerenciar seus anúncios de eventos de adoção**                                        |
+|---|---|
+|Requisito Associado | RF-013 - A aplicação deverá permitir que as ONGs gerenciem seus anúncios de eventos de adoção | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/15mB1to2ABJZC6o5SWVR9lV0ZGCfMovWn/view?usp=drive_link |
+
+
+|*Caso de Teste*                                 | **CT11 - Os eventos poderão ser filtrados por sua localização geográfica**                                        |
+|---|---|
+|Requisito Associado | RNF-006 - A aplicação Web oferecerá informações relevantes sobre abrigos e recursos locais através do mecanismo de localização geográfica | 
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1IcseROyJJ9CqYbzCBlFWQPuC_o4mKOjx/view?usp=drive_link |
+
 ## Avaliação dos Testes de Software
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
