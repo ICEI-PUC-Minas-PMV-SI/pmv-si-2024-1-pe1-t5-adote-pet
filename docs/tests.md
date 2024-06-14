@@ -25,7 +25,7 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste. Veja a tabela de exemplo.
 
 
-**Caso de Teste** | **CT01 - Cradastrando PEt**
+**Caso de Teste** | **CT01 - Cadastrando PEt**
  :--------------: | ------------
 **Procedimento**  | 1)Preencha todo o formulário com as informações do seu animal.
 **Requisitos associados** | RF-008
@@ -94,6 +94,22 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Procedimento**  | 1) Após efetuado o cadastro ou login do usuário, clique em "Eventos" localizado no cabeçalho. <br> 2) O usuário poderá visualizar todos os eventos cadastrados.
 **Requisitos associados** | RF-012
 **Resultado esperado** | Após clicar no botão "Eventos", o usuário será direcionado à página "Agenda de Eventos" e poderá visualizar todos os eventos cadastrados.
+**Dados de entrada** | n/a.
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT10 - A aplicação deverá permitir que as ONGs gerenciem seus anúncios de eventos de adoção**
+ :--------------: | ------------
+**Procedimento**  | 1) Após efetuado o cadastro ou login da conta, as ONGs serão direcionadas à página "Seus Eventos". <br> 2) Assim que efetuado o cadastro de pelo menos um evento de adoção, as ONGs poderão visualizar, adicionar (cadastrar) ou excluir seus eventos.
+**Requisitos associados** | RF-013
+**Resultado esperado** | Após cadastrar um evento de adoção, o usuário poderá gerenciar seu evento cadastrado.
+**Dados de entrada** | n/a.
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT11 - A aplicação Web oferecerá informações relevantes sobre abrigos e recursos locais através do mecanismo de localização geográfica**
+ :--------------: | ------------
+**Procedimento**  | 1) Após efetuado o cadastro ou login do usuário, clique em "Eventos" localizado no cabeçalho. <br> 2) Na barra de pesquisa, coloque um termo condizente ao campo "localização" de um evento de adoção cadastrado. <br> 2) Assim, filtre até encontrar o evento desejado.
+**Requisitos associados** | RNF-006
+**Resultado esperado** | Após clicar no botão "Eventos", o usuário será direcionado à página "Agenda de Eventos" e poderá filtrar através da barra de pesquisa, por localização, todos os eventos cadastrados.
 **Dados de entrada** | n/a.
 **Resultado obtido** | Sucesso
 
