@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="imgs/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js"></script>
 </head>
 <body>
     <header>
@@ -15,7 +18,7 @@
             <img src="imgs/LogoCompletaAdotePet.png" alt="AdotePet" class="logo"/>
             <ul class="header_list">
                <li class="header_list_item"><a href="">Início</a></li>
-               <li class="header_list_item"><a href="">Adoções</a></li>
+               <li class="header_list_item"><a href="prontoadoção.html">Adoções</a></li>
                <li class="header_list_item"><a href="../agendadeeventos.html">Eventos</a></li>
                <li class="header_list_item"><a href="">Suporte</a></li>
             </ul>
@@ -29,10 +32,10 @@
         <div class="container">
              <div>
                 <div class="voltar">
-                    <a href=""><img src="imgs/Botao-voltar.png" width="3.5%"></a>
+                    <button class="image-button-blue" onclick="history.back()"><img src="imgs/Botao-voltar.png">
                 </div>
                 <div class="adicionar">
-                    <a href="../cadastrodeeventos.html"><img src="imgs/mais.png" width="3%"></a>
+                    <a href="cadastrodeeventos.html"><img src="imgs/mais.png" width="4%"></a>
                 </div>
                 <div class="titulo-main">
                     <h1>Seus Eventos</h1>
@@ -40,26 +43,28 @@
                 </div>
             </div>
             <div class="cardrowseus">
-                <div class="cardcolumnseus">
-                    <div>
-                        <button class="closebutton">X</button>
-                    </div>
+                <div id="cardcolumnseus" class="cardcolumnseus">
                     <div class="list_e_img">
                         <div>
                             <img src="imgs/Pegada.png" class="ong_pegada">
                         </div>
                         <div>
+                            <div class="btn_fechar">
+                                <button type="button" class="closebutton">X</button>
+                            </div>
                             <ul class="info_eventos">
-                                <li class="info_lista_eventos"><img src="imgs/localizacao.png" class="localizacaopng">Cidade, Estado e País</li>
-                                <li class="info_lista_eventos"><img src="imgs/Eventotarefa.png" class="eventotarefapng">Data do Evento</li>
-                                <li class="info_lista_eventos"><img src="imgs/telefone.png" class="telefonepng">Telefone para contato</li>
-                                <li class="info_lista_eventos"><img src="imgs/endereco.png" class="enderecopng">Endereço do evento</li>
-                                <li class="info_lista_eventos"><img src="imgs/email.png" class="emailpng">E-mail para contato</li>
+                                <li id="tituloevento" class="info_lista_eventos"><img src="imgs/localizacao.png" class="localizacaopng">Nome do Evento:</li>
+                                <li id="datadoevento" class="info_lista_eventos"><img src="imgs/Eventotarefa.png" class="eventotarefapng">Data do Evento:</li>
+                                <li id="telefone" class="info_lista_eventos"><img src="imgs/telefone.png" class="telefonepng">Telefone para contato:</li>
+                                <li id="endereco" class="info_lista_eventos"><img src="imgs/endereco.png" class="enderecopng">Endereço do Evento:</li>
+                                <li id="email" class="info_lista_eventos"><img src="imgs/email.png" class="emailpng">E-mail para contato:</li>
                             </ul>
                         </div>
                     </div>
-                    <div class="editar">
-                        <button class="botao_editar">Editar</button>
+                    <div id="editar">
+                        <a class="editar" href="">
+                            <button class="botao_editar">Editar</button> 
+                        </a>
                     </div>
                 </div>
             </div>
@@ -85,5 +90,82 @@
             </div>
         </div>
     </footer>
+    <script>
+        function carregarEventos() {
+            // Armazena os cadastros 
+            var eventosCadastrados = JSON.parse(localStorage.getItem("eventos")) || [];
+            // Armazena uma parte do html
+            var eventoCardsContainer = document.getElementById("cardcolumnseus");
+
+            // Apaga todos os Cards que estavam antes (os usados no html puro só como exemplo)
+            eventoCardsContainer.innerHTML = "";
+    
+            // Laço de repetição pra mostrar todos os cadastros
+            eventosCadastrados.forEach(function(eventos) {
+                // Criando o div que no js que vai armazenar o código do card
+                var cardDiv = document.createElement("div");
+                cardDiv.classList.add("cards");
+                cardDiv.style.textAlign = "center";
+    
+                // Código do card concatenado com as váriaveis que quero retornar
+                cardDiv.innerHTML = `
+                    <div class="list_e_img">
+                        <div>
+                            <img src="${eventos.imagem}" class="ong_pegada">
+                        </div>
+                        <div>
+                            <div class="btn_fechar">
+                                <button onclick="excluirEvento('${eventos.id}')" type="button" class="closebutton">X</button>
+                            </div>
+                            <ul class="info_eventos">
+                                <li id=tituloevento class="info_lista_eventos"><img src="imgs/localizacao.png" class="localizacaopng">Nome do Evento: ${eventos.tituloevento}</li>
+                                <li id=datadoevento class="info_lista_eventos"><img src="imgs/Eventotarefa.png" class="eventotarefapng">Data do Evento: ${eventos.datadoevento}</li>
+                                <li id=telefone class="info_lista_eventos"><img src="imgs/telefone.png" class="telefonepng">Telefone para contato: ${eventos.telefone}</li>
+                                <li id=endereco class="info_lista_eventos"><img src="imgs/endereco.png" class="enderecopng">Endereço do Evento: ${eventos.endereco}</li>
+                                <li class="info_lista_eventos"><img src="imgs/email.png" class="emailpng">E-mail para contato: ${eventos.email}</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="editar">
+                        <a class="editar" href="cadastrodeeventos.html?id=${eventos.id}">
+                            <button class="botao_editar">Editar</button> 
+                        </a>
+                    </div>
+                `;
+    
+                // Mostrando na tela
+                eventoCardsContainer.appendChild(cardDiv);
+            });
+        }
+        
+        // Essa função vai ser carregada assim que a tela abrir
+        window.onload = carregarEventos;
+    
+        function excluirEvento(eventoId) {
+        // Obter os eventos cadastrados do armazenamento local
+        var eventosCadastrados = JSON.parse(localStorage.getItem("eventos")) || [];
+        
+    
+        // Encontrar o índice do evento com o ID correspondente
+        var eventoIndex = eventosCadastrados.findIndex(function(eventos) {
+            return eventos.id === eventoId;
+        });
+        
+        if (eventoIndex !== -1) {
+            eventosCadastrados.splice(eventoIndex, 1);
+            
+            // Salvar o array atualizado de eventos no armazenamento local
+            localStorage.setItem("eventos", JSON.stringify(eventosCadastrados));
+            
+            alert("Evento removido com sucesso.");
+            
+            // Recarregar os eventos na tela após a remoção
+            carregarEventos();
+        } else {
+            alert("Evento não encontrado.");
+        }
+    }
+    </script>
+    <script type="text/javascript" src="eventos.js"></script>
 </body>
 </html>
