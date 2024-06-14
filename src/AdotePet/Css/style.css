@@ -6,18 +6,12 @@
     box-sizing: border-box;
 }
 
-body {
-    width: 100%;
-    background-color: #F3F1F1;
-}
-
 header {
     height: 20vh;
     width: 100%;
     padding: 0 10%;
     background: #ffffff;
     position: relative;
-    margin-bottom: 20px;
 }
 
 nav {
@@ -32,6 +26,7 @@ nav {
     width: 220px;
     position: relative;
     cursor: pointer;
+    bottom: 30px;
 }
 
 .iconedeperfil{
@@ -40,19 +35,28 @@ nav {
     cursor: pointer;
     border-radius: 100%;
     opacity: 0.5;
+    margin-bottom: 50px;
 }
 
 nav ul{
     list-style: none;
     width: 100%;
     text-align: right;
-    padding-right: 60px;
     padding: 28px 0;
 }
 
 nav ul li{
     display: inline-block;
     margin: 15px 25px;
+}
+
+.header_list_item{
+    margin-right: 50px;
+    margin-bottom: 60px;
+}
+
+.header_list_username{
+    margin-bottom: 60px;
 }
 
 nav ul li a{
@@ -70,6 +74,7 @@ nav ul li a{
     font-family:'Open Sans', sans-serif;
     font-weight: 800;
     font-size: 18px;
+    margin-bottom: 60px;
 }
 
 .button{
@@ -89,7 +94,7 @@ nav ul li a{
 /* Edições da parte principal */
 main{
     width: 100%;
-    height: 100vh;
+    min-height: 386px;
     padding: 2%;
     background-color: #f2f2f2;
 }
@@ -104,19 +109,21 @@ main{
 .voltar{
     width: 100%;
     text-align: left;
+    position: relative;
 }
 
 .adicionar{
-    width: 100%;
-    text-align: right;
+    text-align: right;  
+    padding-right: 10%;
+    padding-bottom: 3%;
 }
 
-.editar{
+#editar{
     display: flex;
     justify-content: center;
 }
 
-.proxima{
+#proxima{
     text-align: right;
     padding-right: 6%;
 }
@@ -141,6 +148,17 @@ main{
     width: 115px;
     height: 40px; 
 }
+
+.image-button-blue{
+    position: relative;
+    background-color: #f2f2f2;
+    border-radius: 30px;
+    cursor: pointer;
+    display: inline-flex;
+    border: none;
+    align-items: center;
+}
+
 
 .botao_proxima{
     background-color: #d971a1;
@@ -238,14 +256,12 @@ main{
     height: 450px;
     margin: 20px auto; 
     border: 4px solid #CBCBCB;
-    padding: 50px 90px; 
+    padding: 45px 90px; 
     border-radius: 28px;
     border: none;
     background-color: white;
     box-shadow: 10px 10px 10px rgba(90, 89, 89, 0.2);
     overflow: hidden;
-    max-width: 850px; 
-    min-width: 750px;
     box-sizing: border-box;
 }
 .form-saiba-evento{
@@ -259,8 +275,6 @@ main{
     background-color: white;
     box-shadow: 10px 10px 10px rgba(90, 89, 89, 0.2); 
     overflow: hidden;
-    max-width: 800px; 
-    min-width: 750px;
     box-sizing: border-box;
 }
 
@@ -290,31 +304,36 @@ main{
     overflow: hidden;
 }
 
+.btn_fechar{
+    position: relative;
+}
+
 .closebutton{
     background-color: #d971a1;
-    color: #fff;
+    color: white;
     border: none;
-    padding: 0.5%;
-    border-radius: 4px;
+    border-radius: 5px;
     cursor: pointer;
     font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    font-weight: 800; 
-    width: 25px;
-    float: right;
+    font-size: 100%;
+    font-weight: 800;
+    width: 6%;
+    text-align: center;
+    position: absolute;
+    left: 370px;
 }
 .info_eventos{
     color: #3399BB;
     font-family: "Open Sans", sans-serif;
-    font-size: 23px;
+    font-size: 22px;
     font-weight: 800;
     list-style: none;
-    text-align: justify;
+    text-align: left;
 }
 
-.info_lista_eventos{
-    margin-bottom: 25px;
-    margin-top: 30px;
+.info_lista_eventos{ 
+    margin-top: 18px;
+    padding: 5px;
 }
 
 .info_agendaeventos{
@@ -368,19 +387,40 @@ main{
     height: 110px; 
 }
 
-.adicionar_azul{
-    width: 24px;
-    height: 24px;
+#addImageButtonBlue {
+    display: inline-block;
+    width: 3.3%;
+    height: fit-content;
+    background-color: #3399BB;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
     margin-top: 80px;
-    margin-right: 180px;
+    margin-right: 120px;
 }
+
+#addImageButton:hover {
+    background-color: #1731c5;
+}
+
+#foto {
+    display: none;
+}
+
 .tituloevento{
     color: #3399bb;
     font-family: "Open Sans";
     font-size: 42px;
     font-weight: 800;
-    text-align: center;
-    padding-top: 25px;
+    display: block; 
+    margin-bottom: 2px;
+    padding: 4px;
+    font-weight: 800;
+    text-align:  left;
+    font-family: 'Roboto';
 }
 
 .tituloeventosaibamais{
@@ -395,8 +435,8 @@ main{
 .ong_pegada{
     width: 320px;
     height: 320px;
-    border-radius: 10%;
-    padding: 25px;
+    border-radius: 15%;
+    margin: 20px;
 }
 
 .localizacaopng{
@@ -435,7 +475,24 @@ label {
     font-family: 'Roboto';
 }
 
+.input-top{
+    height: 100px;
+    border-radius: 3px;
+    color: #3399bb;
+    border: solid #fff;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 100px;
+}
+
 .input-left {
+    font-size: 16px;
+    color: #3399bba5;
+    text-align: left;
+    padding: 11px;
+}
+
+.input-left2{
     width: 100%; 
     margin-bottom: 10px;
     height: 32px;
@@ -446,6 +503,19 @@ label {
 }
 
 .input-rightA{
+    width: 90%; 
+    margin-bottom: 10px;
+    height: 32px;
+    border-radius: 3px;
+    color: #3399bba5;
+    border: 2px solid #CBCBCB;
+    padding-left: 10px;
+    padding-right: 100px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.input-rightA2{
     width: 100%; 
     margin-bottom: 10px;
     height: 32px;
@@ -457,6 +527,20 @@ label {
 }
 
 .input-rightB{
+    width: 100%; 
+    margin-bottom: 10px;
+    height: 100px;
+    border-radius: 3px;
+    color: #3399bba5;
+    border: 2px solid #CBCBCB;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 100px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.input-rightB2{
     width: 100%; 
     margin-bottom: 10px;
     height: 100px;
@@ -491,6 +575,8 @@ label {
     border: 2.5px solid #fff;
     background-color: white;
     text-align: justify;
+    text-align: left;
+    font-size: 16px;
 }
 
 .cardrow {
@@ -508,22 +594,26 @@ label {
     width: fit-content;
     height: fit-content;
     position: relative;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 .list_e_img{
-    display: flex;
-    align-items: center; 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: fit-content;
+    column-gap: 20px;
+    row-gap: 100px;
+    text-align: left; 
+    position: relative;
+    margin: 0 auto;
 }
 .cardcolumnseus{
     padding: 6px 20px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 28px;
     background-color: #fff;
-    width: 660px;
-    height: 400px;
-    max-width: 660px; 
-    min-width: 600px;
-    box-sizing: border-box;
+    min-width: 386px;
+    width: 52rem;
+    height: 26rem;
 }
 
 .cardcolumn {
@@ -541,6 +631,14 @@ input::placeholder {
     font-family: 'Roboto';
     text-align: left;
     font-weight: 600;
+}
+
+.input-top::placeholder{
+    color: #3399bb;
+    font-family: "Open Sans";
+    font-size: 50px;
+    font-weight: 800;
+    opacity: 1;
 }
 
 input[type="date"]::-webkit-calendar-picker-indicator {
