@@ -89,6 +89,14 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso
 
+**Caso de Teste** | **CT09 - A aplicação Web permitirá que os eventos cadastrados pelas ONGs sejam visualizados, pelo usuários, em uma página especial de destaque**
+ :--------------: | ------------
+**Procedimento**  | 1) Após efetuado o cadastro ou login do usuário, clique em "Eventos" localizado no cabeçalho. <br> 2) O usuário poderá visualizar todos os eventos cadastrados.
+**Requisitos associados** | RF-012
+**Resultado esperado** | Após clicar no botão "Eventos", o usuário será direcionado à página "Agenda de Eventos" e poderá visualizar todos os eventos cadastrados.
+**Dados de entrada** | n/a.
+**Resultado obtido** | Sucesso
+
 ## Registro dos Testes de Software
 
 Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
