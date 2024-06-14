@@ -81,7 +81,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Inserção do email e do corpo da mensagem ainda no site.
 **Resultado obtido** | Sucesso
 
-**Caso de Teste** | **CT08 - A aplicação deverá permitir que as ONGs cadastrem seus eventos de adoção**
+**Caso de Teste** | **CT08 - As ONGs poderão cadastrar seus eventos de adoção**
  :--------------: | ------------
 **Procedimento**  | 1) Na página "Seus Eventos" clique no botão "Mais" (+). <br> 2) Preencha todos os campos com as informações do evento. <br> 3) Clique em "Cadastrar".
 **Requisitos associados** | RF-009
