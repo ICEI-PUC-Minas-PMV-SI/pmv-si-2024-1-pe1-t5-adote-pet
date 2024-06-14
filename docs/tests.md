@@ -89,7 +89,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso
 
-**Caso de Teste** | **CT09 - A aplicação Web permitirá que os eventos cadastrados pelas ONGs sejam visualizados, pelo usuários, em uma página especial de destaque**
+**Caso de Teste** | **CT09 - Eventos cadastrados pelas ONGs poderão ser visualizados, pelo usuários, em uma página especial de destaque**
  :--------------: | ------------
 **Procedimento**  | 1) Após efetuado o cadastro ou login do usuário, clique em "Eventos" localizado no cabeçalho. <br> 2) O usuário poderá visualizar todos os eventos cadastrados.
 **Requisitos associados** | RF-012
@@ -97,7 +97,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | n/a.
 **Resultado obtido** | Sucesso
 
-**Caso de Teste** | **CT10 - A aplicação deverá permitir que as ONGs gerenciem seus anúncios de eventos de adoção**
+**Caso de Teste** | **CT10 - As ONGs poderão gerenciar seus anúncios de eventos de adoção**
  :--------------: | ------------
 **Procedimento**  | 1) Após efetuado o cadastro ou login da conta, as ONGs serão direcionadas à página "Seus Eventos". <br> 2) Assim que efetuado o cadastro de pelo menos um evento de adoção, as ONGs poderão visualizar, adicionar (cadastrar) ou excluir seus eventos.
 **Requisitos associados** | RF-013
@@ -105,7 +105,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | n/a.
 **Resultado obtido** | Sucesso
 
-**Caso de Teste** | **CT11 - A aplicação Web oferecerá informações relevantes sobre abrigos e recursos locais através do mecanismo de localização geográfica**
+**Caso de Teste** | **CT11 - Os eventos poderão ser filtrados por sua localização geográfica**
  :--------------: | ------------
 **Procedimento**  | 1) Após efetuado o cadastro ou login do usuário, clique em "Eventos" localizado no cabeçalho. <br> 2) Na barra de pesquisa, coloque um termo condizente ao campo "localização" de um evento de adoção cadastrado. <br> 2) Assim, filtre até encontrar o evento desejado.
 **Requisitos associados** | RNF-006
