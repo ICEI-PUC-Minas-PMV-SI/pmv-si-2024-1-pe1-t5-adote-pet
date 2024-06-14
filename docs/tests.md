@@ -81,6 +81,14 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Inserção do email e do corpo da mensagem ainda no site.
 **Resultado obtido** | Sucesso
 
+**Caso de Teste** | **CT08 - A aplicação deverá permitir que as ONGs cadastrem seus eventos de adoção**
+ :--------------: | ------------
+**Procedimento**  | 1) Na página "Seus Eventos" clique no botão "Mais" (+). <br> 2) Preencha todos os campos com as informações do evento. <br> 3) Clique em "Cadastrar".
+**Requisitos associados** | RF-009
+**Resultado esperado** | Após clicar no botão "Cadastrar", o evento será cadastrado e o usuário será direcionado à página de "Seus Eventos".
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
+**Resultado obtido** | Sucesso
+
 ## Registro dos Testes de Software
 
 Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
