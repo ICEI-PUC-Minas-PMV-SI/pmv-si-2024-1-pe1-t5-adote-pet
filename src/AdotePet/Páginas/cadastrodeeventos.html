@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
+    <link href="imgs/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js"></script>
 </head>
 <body>
     <header>
@@ -16,12 +19,12 @@
             <img src="imgs/LogoCompletaAdotePet.png" alt="AdotePet" class="logo"/>
             <ul class="header_list">
                <li class="header_list_item"><a href="">Início</a></li>
-               <li class="header_list_item"><a href="">Adoções</a></li>
-               <li class="header_list_item"><a href="../agendadeeventos.html">Eventos</a></li>
+               <li class="header_list_item"><a href="prontoadoção.html">Adoções</a></li>
+               <li class="header_list_item"><a href="agendadeeventos.html">Eventos</a></li>
                <li class="header_list_item"><a href="">Suporte</a></li>
             </ul>
             <ul class="header_username">
-               <b><li class="header_list_username"><a href="">nomedousuario</a></li></b>
+               <b><li id="header_list_username" class="header_list_username"><a href="">nomedousuario</a></li></b>
             </ul>
             <img src="imgs/icone perfil 2.jpg" alt="Perfil" class="iconedeperfil">
         </nav>
@@ -30,42 +33,43 @@
         <div class="container">
             <div>
                 <div class="voltar">
-                    <a href="../seuseventos.html"><img src="imgs/Botao-voltar.png" width="3.5%"></a>
+                    <button class="image-button-blue" onclick="history.back()"><img src="imgs/Botao-voltar.png">
                 </div>
                 <div class="titulo-main">
                     <h1>Cadastro de Evento</h1>
                     <h2>Divulge seu evento por aqui !</h2>
                 </div>
             </div>
-            <div>
-                <form class="form-cadastro-evento" action="">
+            <form id="form_evento">
+                <div class="form-cadastro-evento">
                     <div class="topo_formulario">
-                         <img src="imgs/Iconcalendario.png" class="evento_calendario">
-                         <img src="imgs/adicionarazul.png" class="adicionar_azul">
-                         <h1 class="tituloevento">Nome do Evento</h1>
+                         <img src="imgs/Iconcalendario.png" id="evento_calendario" class="evento_calendario"><input type="file" id="foto" accept="image/*" name="foto">
+                         <a href="#" id="addImageButtonBlue">+</a>
+                         <label for="tituloevento"></label>
+                         <input class="input-top" type="text" id="tituloevento" name="tituloevento" placeholder="Nome">  
                     </div>
                 <div class="form-column">
                     <div>
                         <label for="endereco">Endereço:</label>
-                        <input class="input-left" type="text" id="endereco" name="endereco" placeholder="Rua, número e complemento">  
+                        <input class="input-left2" type="text" id="endereco" name="endereco" placeholder="Rua, número e complemento">  
                         <label for="telefone">Telefone:</label>
-                        <input class="input-left" type="text" id="telefone" name="telefone" placeholder="(00) 0000-0000">
+                        <input class="input-left2" type="text" id="telefone" name="telefone" placeholder="(00) 0000-0000">
                         <label for="email">E-mail:</label>
-                        <input class="input-left" type="email" id="email" name="email" required placeholder="exemplo@gmail.com"><br>
+                        <input class="input-left2" type="email" id="email" name="email" required placeholder="exemplo@gmail.com"><br>
                     </div>
                     <div>
                         <label for="datadoevento">Data do Evento:</label>
-                        <input class="input-rightA" type="date" id="datadoevento" name="datadoevento" required>
+                        <input class="input-rightA2" type="date" id="datadoevento" name="datadoevento" required>
                         <label for="descricaodoevento">Descrição do Evento:</label>
-                        <input class="input-rightB" type="text" id="descricaodoevento" name="descricaodoevento" required placeholder="Opcional.">
+                        <input class="input-rightB2" type="text" id="descricaodoevento" name="descricaodoevento" required placeholder="Opcional.">
                     </div>
                 </div>
-                </form>
+                </div>
+                <div class="botaocadastrar">
+                    <button href="seuseventos.html" type="submit" id="botaocadastrar" class="botao_cadastrar">Cadastrar</button>
+                </div>
             <br>
-            </div>
-            <div class="botaocadastrar">
-                <button onclick="window.location.href=''" class="botao_cadastrar">Cadastrar</button>
-            </div>
+            </form>
         </div>
     </main>
     <footer>
@@ -88,5 +92,32 @@
             </div>
         </div>
     </footer>
+    <script>
+        document.getElementById('addImageButtonBlue').addEventListener('click', function(event) {
+        event.preventDefault();
+        console.log('Clique na imagem de adição!');
+        document.getElementById('foto').click();
+        });
+    
+        // Captura o evento de seleção de arquivo e atualiza a imagem exibida
+        document.getElementById('foto').addEventListener('change', function(event) {
+            const file = event.target.files[0];
+            const reader = new FileReader();
+    
+            reader.onload = function(e) {
+                document.getElementById('evento_calendario').src = e.target.result;
+            };
+    
+            reader.readAsDataURL(file);
+        });
+    </script>
+    <script type="text/javascript" src="eventos.js"></script>
+    <script>
+        // Chamada da função de cadastro
+         document.getElementById("form_evento").addEventListener("submit", function(event) {
+         event.preventDefault(); 
+         cadastrarEvento();
+         });
+    </script>  
 </body>
 </html>
