@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
+    <link href="imgs/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js"></script>
 </head>
 <body>
     <header>
@@ -16,8 +19,8 @@
             <img src="imgs/LogoCompletaAdotePet.png" alt="AdotePet" class="logo"/>
             <ul class="header_list">
                <li class="header_list_item"><a href="">Início</a></li>
-               <li class="header_list_item"><a href="">Adoções</a></li>
-               <li class="header_list_item"><a href="../agendadeeventos.html">Eventos</a></li>
+               <li class="header_list_item"><a href="prontoadoção.html">Adoções</a></li>
+               <li class="header_list_item"><a href="agendadeeventos.html">Eventos</a></li>
                <li class="header_list_item"><a href="">Suporte</a></li>
             </ul>
             <ul class="header_username">
@@ -30,10 +33,10 @@
         <div class="container">
             <div>
                 <div class="voltar">
-                    <a href=""><img src="imgs/Botao-voltar.png" width="3.5%"></a>
+                    <button class="image-button-blue" onclick="history.back()"><img src="imgs/Botao-voltar.png">
                 </div>
             </div>
-            <div>
+            <div id="columnform">
                 <form class="form-saiba-evento" action="">
                     <div class="topo_formulario">
                          <img src="imgs/calendariosaibamais.png" class="calendariosaibamais">
@@ -42,15 +45,15 @@
                 <div class="form-column">
                     <div>
                         <label for="endereco"><img src="imgs/localizacao.png" class="localizacaopng"> Localização:</label>
-                        <input class="input-left" type="text" id="endereco" name="endereco" placeholder="Rua, número e complemento">  
-                        <label for="telefone"><img src="imgs/telefone.png" class="telefonepng">Telefone para contato:</label>
-                        <input class="input-left" type="text" id="telefone" name="telefone" placeholder="(00) 0000-0000">
-                        <label for="datadoevento"><img src="imgs/Eventotarefa.png" class="eventotarefapng">Data do Evento:</label>
-                        <input class="input-rightA" type="date" id="datadoevento" name="datadoevento" required>
+                        <h1 class="input-left">Rua, número e complemento</h1>
+                        <label for="telefone"><img src="imgs/telefone.png" class="telefonepng"> Telefone para contato:</label>
+                        <h1 class="input-left">(00) 0000-0000</h1>
+                        <label for="datadoevento"><img src="imgs/Eventotarefa.png" class="eventotarefapng"> Data do Evento:</label>
+                        <h1 class="input-rightA">dd/mm/aa</h1>
                     </div>
                     <div class="descricaoevento">
-                        <label for="descricaosaibamais"> Descrição do Evento</label>
-                        <input type="text" id="descricaosaibaevento" class="inputdescricaoevento">
+                        <label for="descricaosaibamais"> Descrição do Evento:</label>
+                        <h1 id="descricaodoevento" class="inputdescricaoevento"></h1>
                     </div>
                 </div>
                 </form>
@@ -78,5 +81,55 @@
             </div>
         </div>
     </footer>
+    <script>
+        function carregarEventos() {
+            // Armazena os cadastros 
+            var eventosCadastrados = JSON.parse(localStorage.getItem("eventos")) || [];
+            // Armazena uma parte do html
+            var eventoCardsContainer = document.getElementById("columnform");
+
+            // Apaga todos os Cards que estavam antes (os usados no html puro só como exemplo)
+            eventoCardsContainer.innerHTML = "";
+    
+            // Laço de repetição pra mostrar todos os cadastros
+            eventosCadastrados.forEach(function(eventos) {
+                // Criando o div que no js que vai armazenar o código do card
+                var cardDiv = document.createElement("div");
+                cardDiv.classList.add("cards");
+                cardDiv.style.textAlign = "center";
+    
+                // Código do card concatenado com as váriaveis que quero retornar
+                cardDiv.innerHTML = `
+                <form class="form-saiba-evento" action="">
+                    <div class="topo_formulario">
+                         <img src="${eventos.imagem}" class="calendariosaibamais">
+                         <h1 class="tituloeventosaibamais">${eventos.tituloevento}</h1>
+                    </div>
+                <div class="form-column">
+                    <div>
+                        <label for="endereco"><img src="imgs/localizacao.png" class="localizacaopng"> Localização:</label>
+                        <h1 class="input-left">${eventos.endereco}</h1>
+                        <label for="telefone"><img src="imgs/telefone.png" class="telefonepng"> Telefone para contato:</label>
+                        <h1 class="input-left">${eventos.telefone}</h1>
+                        <label for="datadoevento"><img src="imgs/Eventotarefa.png" class="eventotarefapng"> Data do Evento:</label>
+                        <h1 class="input-rightA">${eventos.datadoevento}</h1>
+                    </div>
+                    <div class="descricaoevento">
+                        <label for="descricaosaibamais"> Descrição do Evento:</label>
+                        <h1 id="descricaodoevento" class="inputdescricaoevento">${eventos.descricaodoevento}</h1>
+                    </div>
+                </div>
+                </form>
+                `;
+    
+                // Mostrando na tela
+                eventoCardsContainer.appendChild(cardDiv);
+            });
+        }
+        
+        // Essa função vai ser carregada assim que a tela abrir
+        window.onload = carregarEventos;
+    </script>
+    <script type="text/javascript" src="eventos.js"></script>
 </body>
 </html>
