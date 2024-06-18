@@ -1,0 +1,120 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Tutor</title>
+    <link rel="stylesheet" href="paginascadastro.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
+    
+</head>
+ <body>
+    <header class="container">
+        <nav>
+            <div class="header_list">
+            <img src="Logoadote.png" alt="AdotePet" class="logo" width="40%"/>    
+            <p class="header_list_item">Início</p>
+            <p class="header_list_item">Adoções</p>
+            <p class="header_list_item">Eventos</p>
+            <p class="header_list_item">Suporte</p>
+            </div>
+
+            <ul class="header_right">
+            <b><li class="botaoentrar">Entrar</li></b>
+            </ul>
+            <button class="botaocadastrar">Cadastrar</button>
+        </nav>
+     </header>
+ </body>
+
+    <div class="voltar">
+    <a href=""><img src="botaoVoltar.png" width="40%"></a>
+    </div>   
+
+    <center>
+     <h1>Seja Bem-vindo(a)!</h1>
+     <p>Crie sua conta e faça parte do time!</p>   
+    </center>
+
+    <form action="">
+
+        <center>
+        <div class="vv">
+        <div id="msgError"></div>
+        <div id="msgSuccess"></div>    
+        </div>    
+        </center>
+        
+        <label id="labelNome" for="nomecompleto">Nome Completo</label>
+        <i class="fa fa-user-circle" aria-hidden="true"></i>
+        <input type="text" id="nomecompleto" required placeholder="Nome e sobrenome">
+
+        <label id="labelEmail" for="email">E-mail</label>
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+        <input type="email" id="email" required placeholder="exemplo@gmail.com"><br>
+
+        <div class="form-column">
+            
+            <div>  
+            <label id="labelTelefone" for="telefone">Telefone</label>
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <input type="text" id="telefone" placeholder="(00) 0000-0000">
+
+            <label id="labelSenha" for="senha">Senha</label>
+            <i id="verSenha" class="fa fa-eye" aria-hidden="true"></i>
+            <input type="password" id="senha" required placeholder="Crie uma senha">
+            </div>
+
+            <div>
+            <label id="labelData" for="datadenascimento">Data de nascimento</label>
+            <i class="fa fa-stop" aria-hidden="true"></i>
+            <i class="fa fa-calendar" aria-hidden="true"></i>
+            <input type="date" id="datadenascimento" required>
+
+            <label id="labelConfirmSenha" for="confirmarsenha">Confirmação de senha</label>
+            <i id="verConfirmSenha" class="fa fa-eye-slash" aria-hidden="true"></i>
+            <input type="password" id="confirmarsenha" required placeholder="Confirme sua senha">
+            </div>
+        </div>
+    </form>
+
+    <div id="checkbox" class="termos1">
+    <p2>Ao cadastrar você concorda com:</p2>
+    <label id="labelCheckbox"></label> 
+    <input  type="checkbox" id="checkbox" required>
+    </div>    
+
+    <div class="termos2">
+    <p3>nossos <strong>Termos de uso</strong> e nossa <strong>Política de privacidade.</strong></p3>
+    </div>
+
+    <center>
+    <button class="button" onclick="irparaformulario()">Ir para Formulário</button>     
+    </center>
+
+    <footer>
+        <div class="rodape">
+            <div class="div-rodape">
+            <h5 class="titulo-rodape">ADOTE PET</h5>
+            <p5 class="texto-rodape"> Atuando desde 2024 - <br>Projeto Web pela PUCMINAS</p5>
+            </div>
+            <div class="div-rodape">
+            <h5 class="titulo-rodape">REDES SOCIAIS</h1>
+            <p5 class="texto-rodape"> Facebook<br> Instagram<br> Telegram<br> Twitter</p5>
+            </div>
+            <div class="div-rodape">
+            <h5 class="titulo-rodape">CONTATO</h5>
+            <p5 class="texto-rodape"> (31)91234-1234<br> adotepetbrasil@gmail.com</p5>
+            </div>
+            <div class="div-rodape">
+            <h5 class="titulo-rodape">CENTRAL DE AJUDA</h5>
+            <p5 class="texto-rodape"> Suporte<br> Termos de uso<br> Politica de privacidade</p5>
+            </div>
+        </div>
+    </footer>
+    <script src="javatutor.js"></script>
+</body>
+</html>
+   
