@@ -217,6 +217,18 @@ main{
     bottom: 20px;
 }
 
+#form-login .card {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 30%;
+    width: 40%;
+    border-radius: 8px;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+}
+
 .cards {
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -243,6 +255,45 @@ li{
 
 .container{
     height: 500px;
+}
+
+.iconelogin{
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+
+.login {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bolder;
+    color: #3399BB;
+}
+
+#email{
+    border: none;
+    width: 50%;
+    margin-bottom: 5%;
+}
+
+#email::placeholder{
+    color: #3399BB;
+    text-align: center;
+    font-size: 150%;
+}
+
+#senha{
+    border: none;
+    width: 50%;
+    margin-bottom: 5%;
+}
+
+#senha::placeholder{
+    color: #3399BB;
+    text-align: center;
+    font-size: 150%;
+}
+
+#form-login .container{
+    height: 480px;
 }
 
 .card-body{
@@ -396,6 +447,12 @@ label{
     text-align: center;
 }
 
+.entrar{
+    margin-top: 1%;
+    width: 100%;
+    text-align: center;
+}
+
 .meu-botao {
     background-color: #d971a1;
     color: white;
@@ -409,6 +466,22 @@ label{
 }
 
 .meu-botao:hover {
+    background-color: rgb(223, 116, 132);
+}
+
+.entrar .meu-botao {
+    background-color: #d971a1;
+    color: white;
+    border: none;
+    padding: 0.5% 5%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.entrar .meu-botao:hover {
     background-color: rgb(223, 116, 132);
 }
 
