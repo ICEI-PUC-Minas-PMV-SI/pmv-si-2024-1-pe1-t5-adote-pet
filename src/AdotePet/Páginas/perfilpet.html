@@ -15,9 +15,9 @@
             <img src="../imgs/LogoCompletaAdotePet.png" class="logo">
             <ul class="nav-links">
                 <li><a href="">Início</a></li>
-                <li><a href="../prontoadoção.html">Adoções</a></li>
                 <li><a href="prontoadoção.html">Adoções</a></li>
                 <li><a href="saibamaiseventos.html">Eventos</a></li>
+                <li><a href="">Suporte</a></li>
             </ul>
             <ul class="nav-linkentrar">
                 <li><a href="">Entrar</a></li>
@@ -35,20 +35,9 @@
                 </button>
             </div>
         </div>
-        <form id="pet">
-            <div class="card">
-                <div class="container">
-                    <div class="headercardpet">
-                        <img src="../imgs/card.png">
-                        <h1>Nome do Pet</h1>
-                        <h2>Especie do pet</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="cadastrar">
-                <button type="submit" class="meu-botao">Atualizar</button>
-            </div>
-        </form>
+        <div style="justify-content: space-around; flex-wrap: wrap; display: flex;" id="petCards">
+            <!-- Cards de pets serão adicionados aqui -->
+        </div>
     </main>
    <footer>
     <div class="rodape">
@@ -72,55 +61,71 @@
    </footer>
 
    <script>
-   window.onload = function() {
-        // Obter o ID do pet da URL
+   function carregarPets() {
         const urlParams = new URLSearchParams(window.location.search);
-        const petId = urlParams.get('id');
+        const petId = (urlParams.get('id')); 
 
-        // Verificar se o ID foi fornecido
-        if (petId) {
-            // Obter os pets do armazenamento local ou de qualquer outra fonte de dados
-            const petsCadastrados = JSON.parse(localStorage.getItem("pets")) || [];
+        // Armazena os cadastros 
+        var petsCadastrados = JSON.parse(localStorage.getItem("pets")) || [];
 
-            // Encontrar o pet com o ID correspondente
-            const pet = petsCadastrados.find(p => p.id === petId);
+        // Encontra o pet com o ID correspondente
+        const pet = petsCadastrados.find(p => p.id === petId);
 
-            // Verificar se o pet foi encontrado
-            if (pet) {
-                // Preencher os campos do formulário com as informações do pet
-                document.getElementById("editarpet").elements["especie"].value = pet.especie;
-                document.getElementById("editarpet").elements["nome_pet"].value = pet.nome;
-                document.getElementById("editarpet").elements["raca"].value = pet.raca;
-                document.getElementById("editarpet").elements["data_nascimento"].value = pet.dt_nasc;
-                document.getElementById("editarpet").elements["castrado"].value = pet.castrado;
-                document.getElementById("editarpet").elements["sexo"].value = pet.sexo;
-                document.getElementById("editarpet").elements["vacinado"].value = pet.vacinado;
-                document.getElementById("editarpet").elements["deficiencia"].value = pet.deficiencia;
-                document.getElementById("editarpet").elements["localizacao"].value = pet.localizacao;
-                document.getElementById("editarpet").elements["descricao_pet"].value = pet.descricao;
-            } else {
-                // Se o pet não for encontrado, exiba uma mensagem de erro
-                alert("Pet não encontrado.");
-            }
+        // Verifica se o pet foi encontrado
+        if (pet) {
+            // Armazena uma parte do HTML, nesse caso, a div com o id petCards
+            var petCardsContainer = document.getElementById("petCards");
+
+            // Cria um elemento div para o pet
+            var petCard = document.createElement("div");
+            petCard.style.width="50%";
+
+            // Adiciona conteúdo ao card do pet
+            petCard.innerHTML = `
+                 <div class='container' style="background-color: white">
+                    <div class="headercardpet">
+                        <div style="margin-bottom:15%; font-size:large;">
+                            <img src='../imgs/card.png' style="float:left;">
+                            <h1 style="margin:0% 0% 0% 55%">${pet.nome}</h1>
+                            <h2 style="margin:0% 0% 0% 55%">${pet.especie}</h2>
+                        </div>
+                         <div style="float: right; width: 40%; text-align: center; box-shadow: 0 1px 3px rgba(0, 0, 0, 1);">
+                            <h2 style="margin:3%">Descrição do Pet</h3>
+                            <h3 style="margin:3%">${pet.descricao}</h3>
+                        </div>
+                        <div style="text-align:left; width:70%;">
+                            <img src='../imgs/mini (2).png' style="float:left; width: 5%;">
+                            <h3 style="margin:3%">Localização: ${pet.localizacao}</h3>
+                            <img src='../imgs/mini (1).png' style="float:left; width: 5%;">
+                            <h3 style="margin:3%">Raça: ${pet.raca}</h3>
+                            <img src='../imgs/mini (6).png' style="float:left; width: 5%; ">
+                            <h3 style="margin:3%">Data de Nascimento: ${pet.dt_nasc}</h3>
+                            <img src='../imgs/mini (5).png' style="float:left; width: 5%;" >
+                            <h3 style="margin:3%">Castrado: ${pet.castrado}</h3>
+                            <img src='../imgs/mini (7).png' style="float:left; width: 5%;">
+                            <h3 style="margin:3%">Sexo: ${pet.sexo}</h3>
+                            <img src='../imgs/mini (3).png' style="float:left; width: 5%;">
+                            <h3 style="margin:3%">Vacinado: ${pet.vacinado}</h3>
+                            <img src='../imgs/mini (4).png' style="float:left; width: 5%;">
+                            <h3 style="margin:3%">Possui deficiencia: ${pet.deficiencia}</h3>
+                        </div>
+                    </div>
+                </div>
+            <div class="cadastrar" style="margin-top: 5%;">
+                <button type="submit" style="font-size: 130%;" class="meu-botao">Quero Adotar</button>
+            </div>
+            `;
+
+            // Adiciona o card do pet ao container
+            petCardsContainer.appendChild(petCard);
         } else {
-            // Se nenhum ID for fornecido, exiba uma mensagem de erro
-            alert("ID do pet não fornecido.");
+            alert("Pet não encontrado!");
         }
-    };
+    }
+    
+    // Essa função vai ser carregada assim que a tela abrir
+    window.onload = carregarPets;
 </script>
 
-<!-- link com a página js -->
-<script src="script_pets.js"></script>
-
-<script>
-document.getElementById("editarpet").addEventListener("submit", function(event) {
-        event.preventDefault(); 
-        // Obter o ID do pet da URL
-        const urlParams = new URLSearchParams(window.location.search);
-        const petId = urlParams.get('id');
-        // Chamar a função de atualização passando o petId como parâmetro
-        atualizaPet(petId); 
-})
-</script>
 </body>
 </html>
