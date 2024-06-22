@@ -296,12 +296,21 @@ li{
     height: 480px;
 }
 
+
 .card-body{
     text-align: left;
 }
 
 .headercardpet{
     padding: 2% 5%;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bolder;
+    color: #3399BB;
+    text-align: center;
+}
+
+.headercardpet h1{
+    font-size: 300%;
 }
 
 .saibamais{
@@ -606,7 +615,4 @@ footer {
         padding-right: 2%;
     }
 }
-
-
-
 
