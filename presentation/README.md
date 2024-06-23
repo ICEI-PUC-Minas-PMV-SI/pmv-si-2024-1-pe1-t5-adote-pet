@@ -13,9 +13,12 @@ O conjunto de slides deve ser apresentado em um arquivo PowerPoint ou PDF. A apr
 
 ## Título do Projeto
 
-Nome e marca do projeto
+Adote Pet
 
 ## Identidade Visual (Marca, Design)
+
+![Uploading image.png…]()
+
 
 O grupo deve ter o cuidado em utilizar figuras, imagens, e cores dentro do contexto da solução proposta, de forma a manter a temática do problema.
 
