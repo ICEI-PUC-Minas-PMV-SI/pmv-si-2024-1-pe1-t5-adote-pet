@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AdotePet</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#D971A1",
+              secondary: "#3399BB",
+              tertiary: "#F2A97E",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="w-[100%] h-screen bg-slate-100 overflow-y-auto">
+    <!-- HEADER AND NAVIGATION -->
+    <div class="w-full h-[15%] bg-white flex items-center justify-center">
+      <div class="w-[70%] h-full flex items-center justify-between gap-4">
+        <div class="w-[15%] h-full flex items-center justify-between">
+          <img src="../imgs/logo.png" class="h-[70%] cursor-pointer" />
+        </div>
+        <div class="h-full w-[40%] flex justify-between items-center">
+          <p class="text-primary font-bold text-lg underline cursor-pointer">
+            Inicio
+          </p>
+          <p class="text-primary font-bold text-lg underline cursor-pointer">
+            Adoções
+          </p>
+          <p class="text-primary font-bold text-lg underline cursor-pointer">
+            Eventos
+          </p>
+          <p id="suporte-button" class="text-primary font-bold text-lg underline cursor-pointer">
+            Suporte
+          </p>
+        </div>
+        <div class="w-[30%] h-full flex items-center">
+          <div
+            class="w-[40%] h-full px-2 py-1 flex items-center justify-center"
+          >
+            <p class="text-primary font-bold text-lg underline cursor-pointer">
+              Entrar
+            </p>
+          </div>
+          <div
+            class="w-[45%] h-[40%] bg-primary flex items-center justify-center rounded-xl"
+          >
+            <p class="text-white font-bold text-lg underline cursor-pointer">
+              Cadastre-se
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MAIN CONTENT -->
+    <div class="w-full flex justify-center">
+      <div
+        class="w-[80%] h-min-full flex flex-col items-center gap-10 mt-10 mb-10"
+      >
+        <!-- FIRST CARD -->
+        <div
+          class="w-[80%] h-64 border-8 relative bg-secondary rounded-xl shadow-xl"
+        >
+          <div class="w-full h-full absolute carousel1 hidden">
+            <img
+              src="../imgs/carrossel2.png"
+              alt=""
+              class="absolute w-full h-full rounded-xl"
+            />
+            <div
+              class="w-full h-full flex items-center justify-end pr-20 absolute"
+            >
+              <p
+                class="w-[35%] border-tertiary underline px-4 py-3 bg-primary text-3xl rounded-lg text-white font-bol"
+              >
+                Quem Somos ?
+              </p>
+            </div>
+          </div>
+          <div class="w-full h-full absolute grid-cols-4 grid carousel2">
+            <div class="col-start-3 col-end-3 flex justify-center bg-primary rounded-full items-center">
+              <img
+                src="../imgs/carrossel1.png"
+                alt=""
+                class=" rounded-xl h-[80%] flex items-end "
+              />
+            </div>
+            <div
+              class="w-full h-full flex flex-col items-center justify-center col-start-1 col-end-3 gap-4 absolute"
+            >
+              <p
+                class=" border-tertiary font-bold text-3xl text-[#F3F3F3] font-bol"
+              >
+                Somos apaixonadas por<br>tecnologia e pelos animais
+              </p>
+              <p class="text-sm px-3 py-1 text-[#F3F3F3] bg-primary rounded-full border">
+                Nossa missão é criar uma ponte ao fornecer um meio eficaz<br> de comunicação entre doadores e possíveis tutores.
+              </p>
+            </div>
+            <img 
+            src="../imgs/Rectangle 58.png" 
+            alt=""
+            class="absolute w-full h-full col-start-4 col-end-4"
+            >
+          </div>
+        </div>
+        <!-- SECOND CARDS -->
+        <div class="w-[80%] h-44 flex justify-between">
+          <div
+            class="h-full w-[48%] bg-primary rounded-xl flex gap-4 px-5 border-4 shadow-xl"
+          >
+            <div class="w-[40%] h-full flex justify-end">
+              <img
+                class="w-full h-full static"
+                src="../imgs/card1.png"
+                alt=""
+              />
+            </div>
+            <div
+              class="h-full w-[50%] flex flex-col items-start justify-center gap-2"
+            >
+              <p class="text-3xl text-white underline font-semibold">
+                Quero Adotar
+              </p>
+              <p class="text-white text-xl font-semibold">
+                Adicione um novo membro á sua família
+              </p>
+            </div>
+          </div>
+          <div
+            class="h-full w-[48%] bg-primary rounded-xl flex gap-4 px-5 border-4 shadow-xl"
+          >
+            <div
+              class="h-full w-[60%] flex flex-col items-start justify-center gap-2"
+            >
+              <p class="text-3xl text-white underline font-semibold">
+                Quero Doar
+              </p>
+              <p class="text-white text-xl font-semibold">
+                Ajude um animalzinho a encontrar seu novo lar
+              </p>
+            </div>
+            <div class="w-[40%] h-full flex justify-end">
+              <img
+                class="w-full h-full static"
+                src="../imgs/card2.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <!-- THIRD CARD -->
+        <div
+          class="w-[80%] h-80 relative bg-secondary rounded-xl justify-center items-center shadow-xl"
+        >
+          <img
+            src="../imgs/bg-card-3.png"
+            class="absolute w-full h-full"
+            alt=""
+          />
+          <div class="w-full h-[90%] flex flex-col items-center justify-start">
+            <p class="text-white text-3xl font-bold absolute pt-5">
+              Eventos de Adoção
+            </p>
+            <div
+              class="w-full h-[100%] relative flex justify-center items-end gap-16"
+            >
+              <div
+                class="w-[40%] h-[60%] flex flex-col justify-center items-center"
+              >
+                <img
+                  src="../imgs/card4.png"
+                  class="w-full h-full rounded"
+                  alt=""
+                />
+                <p
+                  class="px-2 py-2 bg-primary rounded-xl text-white font-semibold"
+                >
+                  Lista de Eventos
+                </p>
+              </div>
+              <div
+                class="w-[40%] h-[60%] flex flex-col justify-center items-center"
+              >
+                <img
+                  src="../imgs/card5.png"
+                  class="w-full h-full rounded"
+                  alt=""
+                />
+                <p
+                  class="px-2 py-2 bg-primary rounded-xl text-white font-semibold"
+                >
+                  Cadastrar meu Evento
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- FOURTH CARDS -->
+        <div class="w-[80%] h-96 flex flex-col justify-between">
+          <div class="h-[20%]">
+            <p class="text-3xl text-primary font-bold">Mural dos Felpudos</p>
+            <p class="text-primary/50 text-lg font-bold">
+              Veja as fotos enviadas pelos tutores das nossas adoções efetivas.
+            </p>
+          </div>
+          <div id="mural" class="w-full h-[75%] grid gap-4 grid-cols-4">
+            <!-- Dynamic content will be inserted here -->
+          </div>
+        </div>
+        <!-- FIFTH CARD -->
+        <div
+        class="w-[80%] flex justify-center h-80 mt-10 bg-tertiary rounded-xl shadow-xl"
+      >
+        <div class="w-full h-full grid grid-cols-2 px-8">
+          <div class="w-full h-full flex flex-col items-center gap-2">
+            <p class="text-3xl pt-2 text-white font-bold">Contato</p>
+            <div class="w-full h-[20%] flex flex-col">
+              <p class="text-xl text-white font-semibold">Seu email:</p>
+              <input
+                type="text"
+                id="email-input"
+                class="h-10 rounded-lg px-2"
+                placeholder="Clique e começe a digitar"
+              />
+            </div>
+            <div class="w-full h-[20%] flex flex-col">
+              <p class="text-xl text-white font-semibold">Sua mensagem:</p>
+              <textarea
+                id="message-input"
+                class="rounded-lg min-h-20 outline-none px-2"
+                placeholder="Clique e começe a digitar"
+              >
+              </textarea>
+            </div>
+            <div class=" h-[10%] w-full flex mt-14 justify-end items-center">
+              <div id="send-button" class=" h-full w-[30%] bg-[#3399BB] cursor-pointer rounded flex justify-center items-center">
+                  <p class=" text-white font-bold">Enviar</p>
+              </div>
+            </div>
+          </div>
+          <div class="h-full w-full flex justify-center items-center">
+            <img src="../imgs/card10.png" class="h-[80%] w-[70%]" alt="" />
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <!-- FOOTER -->
+    <footer class="bg-secondary w-full text-white flex">
+      <div class="px-[10%] w-full mt-4 mb-4">
+          <div class="float-left w-1/4">
+              <h5 class="font-sans text-[120%] m-0">ADOTE PET</h5>
+              <p class="font-roboto m-0 leading-[130%] text-[80%]">Atuando desde 2024 - <br>Projeto Web pela PUCMINAS</p>
+          </div>
+          <div class="float-left w-1/4">
+              <h5 class="font-sans text-[120%] m-0">REDES SOCIAIS</h5>
+              <p class="font-roboto m-0 leading-[130%] text-[80%]">Facebook<br>Instagram<br>Telegram<br>Twitter</p>
+          </div>
+          <div class="float-left w-1/4">
+              <h5 class="font-sans text-[120%] m-0">CONTATO</h5>
+              <p class="font-roboto m-0 leading-[130%] text-[80%]">(31) 91234-1234<br>adotepetbrasil@gmail.com</p>
+          </div>
+          <div class="float-left w-1/4">
+              <h5 class="font-sans text-[120%] m-0">CENTRAL DE AJUDA</h5>
+              <p class="font-roboto m-0 leading-[130%] text-[80%]">Suporte<br>Termos de uso<br>Política de privacidade</p>
+          </div>
+      </div>
+  </footer>
+  
+
+    <!-- SCRIPT TO LOAD MURAL DOS FELPUDOS -->
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const mural = document.getElementById("mural");
+        const felpudosData = JSON.parse(localStorage.getItem("pets")) || [];
+        
+        felpudosData.forEach(felpudo => {
+          const card = document.createElement("div");
+          card.classList.add("relative", "rounded-xl", "flex", "flex-col", "gap-1", "items-center", "shadow-xl");
+          
+          const img = document.createElement("img");
+          img.classList.add("rounded-t-xl", "h-[50%]", "w-full");
+          img.src = felpudo.image;
+          img.alt = "felpudo";
+          
+          const infoContainer = document.createElement("div");
+          infoContainer.classList.add("w-full", "h-[40%]", "px-2", "flex", "flex-col", "items-center", "justify-center", "text-center", "rounded-b-xl");
+          
+          const description = document.createElement("p");
+          description.classList.add("text-primary", "font-bold");
+          description.textContent = felpudo.description;
+          
+          infoContainer.appendChild(description);
+          card.appendChild(img);
+          card.appendChild(infoContainer);
+          
+          mural.appendChild(card);
+        });
+      });
+    </script>
+  </body>
+</html>
