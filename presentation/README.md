@@ -17,8 +17,7 @@ Adote Pet
 
 ## Identidade Visual (Marca, Design)
 
-![Uploading Imagem do WhatsApp de 2024-06-23 à(s) 17.54.44_a0f1a567.jpg…]()
-
+![Imagem do WhatsApp de 2024-06-23 à(s) 17 54 44_15347c0e](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/assets/160288705/6ec58139-35fe-40ce-80c6-3a4e37725773)
 
 
 O grupo deve ter o cuidado em utilizar figuras, imagens, e cores dentro do contexto da solução proposta, de forma a manter a temática do problema.
