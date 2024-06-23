@@ -17,7 +17,8 @@ Adote Pet
 
 ## Identidade Visual (Marca, Design)
 
-![Uploading image.png…]()
+![Uploading Imagem do WhatsApp de 2024-06-23 à(s) 17.54.44_a0f1a567.jpg…]()
+
 
 
 O grupo deve ter o cuidado em utilizar figuras, imagens, e cores dentro do contexto da solução proposta, de forma a manter a temática do problema.
