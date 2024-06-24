@@ -1,29 +1,23 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title:
+title: "AdotePet"
 authors:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - name-suffix: Professor XXXX
-    affiliation: PUC Minas
-    family-names:
-    given-names:
-keywords:
-  -
-  -
-repository-code:
+  - family-names: Nascimento Sander
+    given-names: Diego
+  - family-names: Valadâo Lotti Faria
+    given-names: Francisco
+  - family-names: Gorges
+    given-names: Gustavo
+  - family-names: Rodrigues Batista
+    given-names: Kelly
+  - family-names: Souza Justo
+    given-names: Maria Eduarda
+  - family-names: Valente Paulino
+    given-names: Pedro Henrique
+url: https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet
 license: CC-BY-4.0
 version: 1.0.0
+keywords:
+  -Pet
+  -Adoption
 date-released: 2023-06-30
