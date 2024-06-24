@@ -224,6 +224,13 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 | 2             | Você é uma pessoa que deseja alterar uma informação errada sobre  seu animal de estimação colocado para adoção. |
 | 3             | Você é uma pessoa que deseja apagar o registro de um de sues animais que já foi doado. |
 | 4             | Você é uma pessoa que deseja adotar um animal que seja de uma cidade especifica. |
+| 5             | Você é uma pessoa que deseja fazer uploads de fotos dos seus pets adotados para o mural dos Felpudos. |
+| 6             | Você é uma pessoa que deseja preencher o formulário que facilota o processo de adoção. |
+| 7             | Você é uma pessoa que deseja fornecer comentários sobre sua experiência. |
+| 8             | Você representa uma ONG que deseja cadastrar seus eventos de adoção. |
+| 9             | Você é uma pessoa que deseja visualizar os eventos de adoção. |
+| 10            | Você representa uma ONG que deseja gerenciar seus anúncios de eventos de adoção. |
+| 11            | Você é uma pessoa que deseja encontar eventos de adoção em uma cidade específica. |
 
 
 ## Registro de Testes de Usabilidade
@@ -256,7 +263,7 @@ Cenário 2: Você é uma pessoa que deseja alterar uma informação errada sobre
     Comentários dos usuários: Segue o exemplo do cadsatro e trás de volta as informações isso ajuda muito.
 
 
-    Cenário 3: Você é uma pessoa que deseja apagar o registro de um de sues animais que já foi doado.
+Cenário 3: Você é uma pessoa que deseja apagar o registro de um de sues animais que já foi doado.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
@@ -268,10 +275,9 @@ Cenário 2: Você é uma pessoa que deseja alterar uma informação errada sobre
 
 
     Comentários dos usuários: Extremamente simples.
+   
 
-    
-
-    Cenário 4: Você é uma pessoa que deseja adotar um animal que seja de uma cidade especifica.
+Cenário 4: Você é uma pessoa que deseja adotar um animal que seja de uma cidade especifica.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
@@ -284,6 +290,104 @@ Cenário 2: Você é uma pessoa que deseja alterar uma informação errada sobre
 
     Comentários dos usuários: Muito bom, mas se tiver escrito errado não vai achar.
 
+
+ Cenário 5: Você é uma pessoa que deseja fazer uploads de fotos dos seus pets adotados para o mural dos Felpudos.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 5                    | 12.21 segundos                          |
+| 2       | SIM             | 5                    | 15.44 segundos                          |
+|  |  |  |  |
+| **Média**     | 100%           | 5                | 14,02 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 5 segundos |
+
+
+    Comentários dos usuários: Muito bom, mas se tiver escrito errado não vai achar.
+
+    
+Cenário 6: Você é uma pessoa que deseja preencher o formulário que facilota o processo de adoção.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 5                    | 12.21 segundos                          |
+| 2       | SIM             | 5                    | 15.44 segundos                          |
+|  |  |  |  |
+| **Média**     | 100%           | 5                | 14,02 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 5 segundos |
+
+
+    Comentários dos usuários: Muito bom, mas se tiver escrito errado não vai achar.
+
+    
+Cenário 7: Você é uma pessoa que deseja fornecer comentários sobre sua experiência.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 5                    | 12.21 segundos                          |
+| 2       | SIM             | 5                    | 15.44 segundos                          |
+|  |  |  |  |
+| **Média**     | 100%           | 5                | 14,02 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 5 segundos |
+
+
+    Comentários dos usuários: Muito bom, mas se tiver escrito errado não vai achar.
+
+    
+Cenário 8: Você representa uma ONG que deseja cadastrar seus eventos de adoção.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 5                    | 12.21 segundos                          |
+| 2       | SIM             | 5                    | 15.44 segundos                          |
+|  |  |  |  |
+| **Média**     | 100%           | 5                | 14,02 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 5 segundos |
+
+
+    Comentários dos usuários: Muito bom, mas se tiver escrito errado não vai achar.
+
+    
+Cenário 9: Você é uma pessoa que deseja visualizar os eventos de adoção.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 5                    | 12.21 segundos                          |
+| 2       | SIM             | 5                    | 15.44 segundos                          |
+|  |  |  |  |
+| **Média**     | 100%           | 5                | 14,02 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 5 segundos |
+
+
+    Comentários dos usuários: Muito bom, mas se tiver escrito errado não vai achar.
+
+    
+Cenário 10: Você representa uma ONG que deseja gerenciar seus anúncios de eventos de adoção.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 5                    | 12.21 segundos                          |
+| 2       | SIM             | 5                    | 15.44 segundos                          |
+|  |  |  |  |
+| **Média**     | 100%           | 5                | 14,02 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 5 segundos |
+
+
+    Comentários dos usuários: Muito bom, mas se tiver escrito errado não vai achar.
+
+    
+Cenário 11: Você é uma pessoa que deseja encontar eventos de adoção em uma cidade específica.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 5                    | 12.21 segundos                          |
+| 2       | SIM             | 5                    | 15.44 segundos                          |
+|  |  |  |  |
+| **Média**     | 100%           | 5                | 14,02 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 5 segundos |
+
+
+    Comentários dos usuários: Muito bom, mas se tiver escrito errado não vai achar.
+    
 
 ## Avaliação dos Testes de Usabilidade
 
