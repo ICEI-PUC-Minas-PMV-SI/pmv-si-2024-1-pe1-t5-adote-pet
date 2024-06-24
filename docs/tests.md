@@ -225,7 +225,7 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 | 3             | Você é uma pessoa que deseja apagar o registro de um de sues animais que já foi doado. |
 | 4             | Você é uma pessoa que deseja adotar um animal que seja de uma cidade especifica. |
 | 5             | Você é uma pessoa que deseja fazer uploads de fotos dos seus pets adotados para o mural dos Felpudos. |
-| 6             | Você é uma pessoa que deseja preencher o formulário que facilota o processo de adoção. |
+| 6             | Você é uma pessoa que deseja preencher o formulário que facilita o processo de adoção. |
 | 7             | Você é uma pessoa que deseja fornecer comentários sobre sua experiência. |
 | 8             | Você representa uma ONG que deseja cadastrar seus eventos de adoção. |
 | 9             | Você é uma pessoa que deseja visualizar os eventos de adoção. |
@@ -295,98 +295,98 @@ Cenário 4: Você é uma pessoa que deseja adotar um animal que seja de uma cida
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 12.21 segundos                          |
-| 2       | SIM             | 5                    | 15.44 segundos                          |
+| 1       | SIM             | 5                    | 18.21 segundos                          |
+| 2       | SIM             | 5                    | 27.44 segundos                          |
 |  |  |  |  |
-| **Média**     | 100%           | 5                | 14,02 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 5 segundos |
+| **Média**     | 100%           | 5                | 22,82 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 12 segundos |
 
 
-    Comentários dos usuários: Muito bom, mas se tiver escrito errado não vai achar.
+    Comentários dos usuários: É simples e fácil, mas demora um pouco para carregar.
 
     
-Cenário 6: Você é uma pessoa que deseja preencher o formulário que facilota o processo de adoção.
+Cenário 6: Você é uma pessoa que deseja preencher o formulário que facilita o processo de adoção.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 12.21 segundos                          |
-| 2       | SIM             | 5                    | 15.44 segundos                          |
+| 1       | SIM             | 5                    | 126.49 segundos                          |
+| 2       | SIM             | 5                    | 135.23 segundos                          |
 |  |  |  |  |
-| **Média**     | 100%           | 5                | 14,02 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 5 segundos |
+| **Média**     | 100%           | 5                | 130,86 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 84 segundos |
 
 
-    Comentários dos usuários: Muito bom, mas se tiver escrito errado não vai achar.
+    Comentários dos usuários: Bom, mas tem bastante informação para preencher.
 
     
 Cenário 7: Você é uma pessoa que deseja fornecer comentários sobre sua experiência.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 12.21 segundos                          |
-| 2       | SIM             | 5                    | 15.44 segundos                          |
+| 1       | SIM             | 5                    | 21.53 segundos                          |
+| 2       | SIM             | 5                    | 23.48 segundos                          |
 |  |  |  |  |
-| **Média**     | 100%           | 5                | 14,02 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 5 segundos |
+| **Média**     | 100%           | 5                | 22,50 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 11 segundos |
 
 
-    Comentários dos usuários: Muito bom, mas se tiver escrito errado não vai achar.
+    Comentários dos usuários: Bem simples de fazer.
 
     
 Cenário 8: Você representa uma ONG que deseja cadastrar seus eventos de adoção.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 12.21 segundos                          |
-| 2       | SIM             | 5                    | 15.44 segundos                          |
+| 1       | SIM             | 5                    | 38.21 segundos                          |
+| 2       | SIM             | 5                    | 46.44 segundos                          |
 |  |  |  |  |
-| **Média**     | 100%           | 5                | 14,02 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 5 segundos |
+| **Média**     | 100%           | 5                | 42,32 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 18 segundos |
 
 
-    Comentários dos usuários: Muito bom, mas se tiver escrito errado não vai achar.
+    Comentários dos usuários: Muito fácil de cadastrar.
 
     
 Cenário 9: Você é uma pessoa que deseja visualizar os eventos de adoção.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 12.21 segundos                          |
-| 2       | SIM             | 5                    | 15.44 segundos                          |
+| 1       | SIM             | 5                    | 5.11 segundos                          |
+| 2       | SIM             | 5                    | 6.23 segundos                          |
 |  |  |  |  |
-| **Média**     | 100%           | 5                | 14,02 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 5 segundos |
+| **Média**     | 100%           | 5                | 5,67 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 2 segundos |
 
 
-    Comentários dos usuários: Muito bom, mas se tiver escrito errado não vai achar.
+    Comentários dos usuários: É só clicar um botão e pronto, então é bem simples.
 
     
 Cenário 10: Você representa uma ONG que deseja gerenciar seus anúncios de eventos de adoção.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 12.21 segundos                          |
-| 2       | SIM             | 5                    | 15.44 segundos                          |
+| 1       | SIM             | 5                    | 23.56 segundos                          |
+| 2       | SIM             | 5                    | 25.48 segundos                          |
 |  |  |  |  |
-| **Média**     | 100%           | 5                | 14,02 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 5 segundos |
+| **Média**     | 100%           | 5                | 24,52 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 20 segundos |
 
 
-    Comentários dos usuários: Muito bom, mas se tiver escrito errado não vai achar.
+    Comentários dos usuários: Todas as funções são bem intuitivas.
 
     
 Cenário 11: Você é uma pessoa que deseja encontar eventos de adoção em uma cidade específica.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 12.21 segundos                          |
-| 2       | SIM             | 5                    | 15.44 segundos                          |
+| 1       | SIM             | 5                    | 13.22 segundos                          |
+| 2       | SIM             | 5                    | 16.45 segundos                          |
 |  |  |  |  |
-| **Média**     | 100%           | 5                | 14,02 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 5 segundos |
+| **Média**     | 100%           | 5                | 14,83 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 6 segundos |
 
 
-    Comentários dos usuários: Muito bom, mas se tiver escrito errado não vai achar.
+    Comentários dos usuários: Muito bom, mas tem que escrever o nome certinho ou não vai achar.
     
 
 ## Avaliação dos Testes de Usabilidade
