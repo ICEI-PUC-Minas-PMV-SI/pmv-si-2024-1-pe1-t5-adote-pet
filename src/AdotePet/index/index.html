@@ -279,34 +279,34 @@
           </div>
       </div>
   </footer>
-  
+
 
     <!-- SCRIPT TO LOAD MURAL DOS FELPUDOS -->
     <script>
       document.addEventListener("DOMContentLoaded", () => {
         const mural = document.getElementById("mural");
         const felpudosData = JSON.parse(localStorage.getItem("pets")) || [];
-        
+
         felpudosData.forEach(felpudo => {
           const card = document.createElement("div");
           card.classList.add("relative", "rounded-xl", "flex", "flex-col", "gap-1", "items-center", "shadow-xl");
-          
+
           const img = document.createElement("img");
           img.classList.add("rounded-t-xl", "h-[50%]", "w-full");
           img.src = felpudo.image;
           img.alt = "felpudo";
-          
+
           const infoContainer = document.createElement("div");
           infoContainer.classList.add("w-full", "h-[40%]", "px-2", "flex", "flex-col", "items-center", "justify-center", "text-center", "rounded-b-xl");
-          
+
           const description = document.createElement("p");
           description.classList.add("text-primary", "font-bold");
           description.textContent = felpudo.description;
-          
+
           infoContainer.appendChild(description);
           card.appendChild(img);
           card.appendChild(infoContainer);
-          
+
           mural.appendChild(card);
         });
       });

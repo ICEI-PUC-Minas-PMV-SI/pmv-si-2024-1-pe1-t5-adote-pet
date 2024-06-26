@@ -36,7 +36,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-007| A aplicação deverá permitir que o usuário gerencie seu cadastro para exclusão, consulta e alteração  | Francisco | index.html |
 |RF-008| A aplicação Web permitirá apenas aos usuários cadastrados criarem/alterarem/atualizarem seus cadastros dos seus animais domésticos disponíveis para adoção   | Pedro Valente | cadastropet.html // seuspets.html // editarpet.html |
 |RF-009| A aplicação deverá permitir que as ONGs cadastrem seus eventos de adoção   | Kelly | cadastrodeeventos.html |
-|RF-010| A aplicação permitirá a vizualização dos “pets" cadastrados e postados pelos doadores   | Pedro Valente | prontoadoção.html |
+|RF-010| A aplicação permitirá a vizualização dos “pets" cadastrados e postados pelos doadores   | Pedro Valente | prontoadocao.html |
 |RF-011| A aplicação deverá permitir a vizualização dos perfis dos possíveis tutores e também dos doadores   | Francisco | index.html |
 |RF-012| A aplicação Web permitirá que os eventos cadastrados pelas ONGs sejam visualizados, pelo usuários, em uma página especial de destaque   | Kelly | agendadeeventos.html e saibamaiseventos.html|
 |RF-013| A aplicação deverá permitir que as ONGs gerenciem seus anúncios de eventos de adoção   | Kelly | seuseventos.html |
@@ -53,7 +53,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RNF-004| O sistema deve garantir a segurança dos dados de acordo com A Lei Geral de Proteção de Dados Pessoais (Lei brasileira 13 709/2018) | Francisco | index.html |
 |RNF-005| A aplicação deve enviar ao usuário um email para confirmação de cadastro | Diego | index.html |
 |RNF-006| A aplicação Web oferecerá informações relevantes sobre abrigos e recursos locais através do mecanismo de localização geográfica | Kelly | agendadeeventos.html |
-|RNF-007| A aplicação Web deverá ter um mecanismo de filtro, por Estado e porte, para facilitar a busca dos possíveis tutores pelo animal ideal  | Pedro Valente | prontoadoção.html |
+|RNF-007| A aplicação Web deverá ter um mecanismo de filtro, por Estado e porte, para facilitar a busca dos possíveis tutores pelo animal ideal  | Pedro Valente | prontoadocao.html |
 
 ## Descrição das estruturas:
 
