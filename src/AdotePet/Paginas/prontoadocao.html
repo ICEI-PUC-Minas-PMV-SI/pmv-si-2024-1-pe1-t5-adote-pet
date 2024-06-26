@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prontos para adoção</title>
+    <link rel="stylesheet" href="../Css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="../imgs/LogoCompletaAdotePet.png" class="logo">
+            <ul class="nav-links">
+                <li><a href="">Início</a></li>
+                <li><a href="prontoadocao.html">Adoções</a></li>
+                <li><a href="saibamaiseventos.html">Eventos</a></li>
+                <li><a href="">Suporte</a></li>
+            </ul>
+            <ul class="nav-linkentrar">
+                <li><a href="login.html">Entrar</a></li>
+            </ul>
+            <ul class="nav-linkcadastrar">
+                <li><a href="">Cadastre-se</a></li> 
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <div class="voltar_editarpet">
+                <button class="image-button" onclick="history.back()">
+                    <img src="../imgs/Botao-voltar.png">
+                </button>
+            </div>
+            <div class="titulo-main_editarpet">
+                <h1>Prontos para adoção!</h1>
+                <h2>Aqui estão todos os peludos disponíveis para adoção.</h2>
+            </div>
+        </div>
+        <div class="pesquisa">
+            <img src="../imgs/Localizacao.png" width="4%">
+            <input type="text" id="local" name="local">
+        </div>
+        <div style="justify-content: space-around; flex-wrap: wrap; display: flex;" id="petCards">
+            <!-- Cards de pets serão adicionados aqui -->
+        </div>
+        <div class="paginação">
+            <a class="pagina" href="">Próxima</a>
+        </div>
+    </main>
+   <footer>
+    <div class="rodape">
+        <div class="div-rodape">
+            <h1 class="titulo-rodape">ADOTE PET</h1>
+            <p class="texto-rodape"> Atuando desde 2024 - Projeto<br>Web pela PUCMINAS</p>
+        </div>
+        <div class="div-rodape">
+            <h1 class="titulo-rodape">REDES SOCIAIS</h1>
+            <p class="texto-rodape"> Facebook<br> Instagram<br> Telegram<br> Twitter</p>
+        </div>
+        <div class="div-rodape">
+            <h1 class="titulo-rodape">CONTATO</h1>
+            <p class="texto-rodape"> (31)91234-1234<br> adotepetbrasil@gmail.com</p>
+        </div>
+        <div class="div-rodape">
+            <h1 class="titulo-rodape">CENTRAL DE AJUDA</h1>
+            <p class="texto-rodape"> Suporte<br> Termos de uso<br> Politica de privacidade</p>
+        </div>
+    </div>
+   </footer>
+
+<script>
+ function carregarPets() {
+    var petsCadastrados = JSON.parse(localStorage.getItem("pets")) || [];
+    var petCardsContainer = document.getElementById("petCards");
+
+    petCardsContainer.innerHTML = "";
+
+    petsCadastrados.forEach(function(pet) {
+        var cardDiv = document.createElement("div");
+        cardDiv.classList.add("cards");
+        cardDiv.style.textAlign = "center";
+        cardDiv.style.width = "20%";
+        cardDiv.style.margin = "0 5%";
+
+        cardDiv.innerHTML = `
+             <img src="${pet.imagem}" style="margin-top:10px; max-width: 100px; max-height: 100px;">
+            <h2 class="card_titulo">${pet.nome}</h2>
+            <div class="card-body">
+                <ul class="list-group list-group-flush">
+                    <li> ${pet.especie}</li>
+                    <li>Cidade: ${pet.localizacao}</li>
+                    <li>Sexo do pet: ${pet.sexo}</li>
+                    <li>Descrição: ${pet.descricao}</li>
+                </ul>
+            </div>
+            <a class="saibamais" href="perfilpet.html?id=${pet.id}">Saiba mais</a>
+        `;
+
+        petCardsContainer.appendChild(cardDiv);
+    });
+}
+
+// Função para pesquisar pets com base na localização
+function pesquisarPetsPorLocalizacao() {
+    var inputLocal = document.getElementById("local").value.toLowerCase(); // Obtém o valor do campo de entrada e converte para minúsculas
+    var petsCadastrados = JSON.parse(localStorage.getItem("pets")) || []; // Obtém os pets do localStorage
+    var petCardsContainer = document.getElementById("petCards"); // Container para os cards de pets
+
+    // Limpa o conteúdo atual dos cards
+    petCardsContainer.innerHTML = "";
+
+    // Filtra os pets com base na localização inserida
+    var petsFiltrados = petsCadastrados.filter(function(pet) {
+        return pet.localizacao.toLowerCase().includes(inputLocal) 
+    });
+
+    
+
+    // Cria os cards para os pets filtrados e adiciona ao container
+    petsFiltrados.forEach(function(pet) {
+        var cardDiv = document.createElement("div");
+        cardDiv.classList.add("cards");
+        cardDiv.style.textAlign = "center";
+        cardDiv.style.width = "20%";
+        cardDiv.style.margin = "0 5%";
+
+        cardDiv.innerHTML = `
+            <img src="${pet.imagem}" style="margin-top:10px; max-width: 100px; max-height: 100px;">
+            <h2 class="card_titulo">${pet.nome}</h2>
+            <div class="card-body">
+                <ul class="list-group list-group-flush">
+                    <li> ${pet.especie}</li>
+                    <li>Cidade: ${pet.localizacao}</li>
+                    <li>Sexo do pet: ${pet.sexo}</li>
+                    <li>Descrição: ${pet.descricao}</li>
+                </ul>
+            </div>
+            <a class="saibamais" href="">Saiba mais</a>
+        `;
+
+        petCardsContainer.appendChild(cardDiv);
+    });
+}
+
+// Adiciona um evento de escuta ao campo de entrada de texto para chamar a função de pesquisa
+document.getElementById("local").addEventListener("input", pesquisarPetsPorLocalizacao);
+
+
+window.onload = carregarPets;
+
+</script>
+</body>
+</html>
