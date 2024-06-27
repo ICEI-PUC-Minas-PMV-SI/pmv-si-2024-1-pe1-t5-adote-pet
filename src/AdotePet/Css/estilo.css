@@ -116,6 +116,18 @@ nav{
     left: -6px;
 }
 
+.header_list_username{
+    text-decoration: underline;
+    color: #3399bb;
+    opacity: 0.5;
+    font-family:'Open Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    padding: 45px 0;
+    position: relative;
+    left: 20%;
+  }
+
 main{
     width: 100%;
     background-color: #F2F2F2;
@@ -583,6 +595,8 @@ footer {
   font-size: 120%;
   margin: 0px;
 }
+
+
 
 .texto-rodape {
     font-family: "Roboto", sans-serif;

@@ -135,6 +135,33 @@
             </div>
         </div>
     </footer>
-    
+    <script>
+        window.onload = function() {
+            var usuarioLogado = localStorage.getItem("usuarioLogado");
+            var usuarioEmailLink = document.getElementById('usuario-email');
+            var loginLink = document.getElementById('login-link');
+            var cadastroLink = document.getElementById('cadastro-link');
+        
+            if (usuarioLogado) {
+                // Usuário está logado
+                var usuario = JSON.parse(usuarioLogado);
+                usuarioEmailLink.textContent = usuario.emailCad; 
+                usuarioEmailLink.href = 'perfil-usuario.html'; 
+        
+                document.querySelector('.header_list_username').style.display = 'inline'; 
+                loginLink.style.display = 'none'; 
+                cadastroLink.style.display = 'none'; 
+        
+                usuarioEmailLink.addEventListener('click', function() {
+                window.location.href = 'perfil-usuario.html';
+            });
+            } else {
+               
+                document.querySelector('.header_list_username').style.display = 'none';
+                loginLink.style.display = 'inline'; 
+                cadastroLink.style.display = 'inline'; 
+            }
+        }
+    </script>
 </body>
 </html>
