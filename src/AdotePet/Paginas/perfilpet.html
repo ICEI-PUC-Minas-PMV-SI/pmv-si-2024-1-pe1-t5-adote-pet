@@ -83,6 +83,11 @@
             var petCard = document.createElement("div");
             petCard.style.width="50%";
 
+            var listaUser2 = JSON.parse(localStorage.getItem("listaUser2")) || [];
+        var lisUser2 = listaUser2.find(function(user) {
+            return user.id === pet.userId;
+        });
+            
             // Adiciona conteúdo ao card do pet
             petCard.innerHTML = `
                  <div class='container' style="background-color: white">
@@ -115,7 +120,7 @@
                     </div>
                 </div>
             <div class="cadastrar" style="margin-top: 5%;">
-                <button type="submit" style="font-size: 130%;" class="meu-botao">Quero Adotar</button>
+                <a class="saibamais" href="https://api.whatsapp.com/send?phone=${lisUser2.telefoneCad}">Quero Adotar</a>
             </div>
             `;
 

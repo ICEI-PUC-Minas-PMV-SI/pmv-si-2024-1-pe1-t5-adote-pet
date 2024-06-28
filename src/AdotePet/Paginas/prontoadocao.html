@@ -88,24 +88,19 @@
         cardDiv.style.width = "20%";
         cardDiv.style.margin = "0 5%";
 
-        var listaUser2 = JSON.parse(localStorage.getItem("listaUser2")) || [];
-        var lisUser2 = listaUser2.find(function(user) {
-            return user.id === pet.userId;
-        });
-
-            cardDiv.innerHTML = `
-                <img src="${pet.imagem}" style="margin-top:10px; max-width: 100px; max-height: 100px;">
-                <h2 class="card_titulo">${pet.nome}</h2>
-                <div class="card-body">
-                    <ul class="list-group list-group-flush">
-                        <li> ${pet.especie}</li>
-                        <li>Cidade: ${pet.localizacao}</li>
-                        <li>Sexo do pet: ${pet.sexo}</li>
-                        <li>Descrição: ${pet.descricao}</li>
-                    </ul>
-                </div>
-                <a class="saibamais" href="https://api.whatsapp.com/send?phone=${lisUser2.telefoneCad}">Saiba mais</a>
-            `;
+        cardDiv.innerHTML = `
+             <img src="${pet.imagem}" style="margin-top:10px; max-width: 100px; max-height: 100px;">
+            <h2 class="card_titulo">${pet.nome}</h2>
+            <div class="card-body">
+                <ul class="list-group list-group-flush">
+                    <li> ${pet.especie}</li>
+                    <li>Cidade: ${pet.localizacao}</li>
+                    <li>Sexo do pet: ${pet.sexo}</li>
+                    <li>Descrição: ${pet.descricao}</li>
+                </ul>
+            </div>
+            <a class="saibamais" href="perfilpet.html?id=${pet.id}">Saiba mais</a>
+        `;
 
         petCardsContainer.appendChild(cardDiv);
     });
