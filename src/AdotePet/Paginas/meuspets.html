@@ -38,7 +38,9 @@
                 </button>
             </div>
             <div class="mais">
-                <a href="cadastropet.html"><img src="../imgs/mais.png" width="4%"></a>
+                <a href="cadastropet.html?userId=" id="linkAdicionarPet">
+                    <img src="../imgs/mais.png" width="4%">
+                </a>
             </div>
             <div class="titulo-main_meuspets">
                 <h1>Seus Pets</h1>
@@ -138,8 +140,12 @@ window.onload = function() {
     var cadastroLink = document.getElementById('cadastro-link');
 
     if (usuarioLogado) {
-        // Usuário está logado
         var usuario = JSON.parse(usuarioLogado);
+        var userId = usuario.id; 
+
+        var linkAdicionarPet = document.getElementById('linkAdicionarPet');
+        linkAdicionarPet.href += encodeURIComponent(userId);
+
         usuarioEmailLink.textContent = usuario.emailCad; 
         usuarioEmailLink.href = 'perfil-usuario.html'; 
 
