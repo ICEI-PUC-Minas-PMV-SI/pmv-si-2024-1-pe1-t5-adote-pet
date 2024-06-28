@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="../Css/estilo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet"> 
-</head> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
 <body>
     <header>
         <nav>
@@ -23,7 +23,7 @@
                 <li><a href="login.html">Entrar</a></li>
             </ul>
             <ul id='cadastro-link' class="nav-linkcadastrar">
-                <li><a href="">Cadastre-se</a></li> 
+                <li><a href="">Cadastre-se</a></li>
             </ul>
             <ul id='usuario-logado-texto' class="header_list_username">
                 <li id="usuario-email"><a href="perfil-usuario.html"></a></li>
@@ -42,64 +42,126 @@
             <div class="card">
                 <div class="container">
                     <img class="iconelogin" src="../imgs/icone.png" width="50%">
+                    <div id="msgError" style="color: red; display: none;"></div>
+                    <div id="msgSuccess" style="color: green; display: none;"></div>
                     <h1 class="login">Digite seu email</h1>
                     <input type="text" id="email" placeholder="exemplo@gmail.com">
                     <h1 class="login">Digite sua nova senha</h1>
-                    <input type="text" id="senha" placeholder="*******">
+                    <input type="text" id="senha" placeholder="*">
                     <div class="entrar">
-                        <button href="meuspets.html" type="submit" id="btn_cadastrar" class="meu-botao">Recuperar senha</button>
+                        <button type="button" onclick="recupera()" id="btn_cadastrar" class="meu-botao">Recuperar senha</button>
                     </div>
                 </div>
             </div>
-        </form>        
+        </form>
     </main>
-   <footer>
-    <div class="rodape">
-        <div class="div-rodape">
-            <h1 class="titulo-rodape">ADOTE PET</h1>
-            <p class="texto-rodape"> Atuando desde 2024 - Projeto<br>Web pela PUCMINAS</p>
+    <footer>
+        <div class="rodape">
+            <div class="div-rodape">
+                <h1 class="titulo-rodape">ADOTE PET</h1>
+                <p class="texto-rodape"> Atuando desde 2024 - Projeto<br>Web pela PUCMINAS</p>
+            </div>
+            <div class="div-rodape">
+                <h1 class="titulo-rodape">REDES SOCIAIS</h1>
+                <p class="texto-rodape"> Facebook<br> Instagram<br> Telegram<br> Twitter</p>
+            </div>
+            <div class="div-rodape">
+                <h1 class="titulo-rodape">CONTATO</h1>
+                <p class="texto-rodape"> (31)91234-1234<br> adotepetbrasil@gmail.com</p>
+            </div>
+            <div class="div-rodape">
+                <h1 class="titulo-rodape">CENTRAL DE AJUDA</h1>
+                <p class="texto-rodape"> Suporte<br> Termos de uso<br> Politica de privacidade</p>
+            </div>
         </div>
-        <div class="div-rodape">
-            <h1 class="titulo-rodape">REDES SOCIAIS</h1>
-            <p class="texto-rodape"> Facebook<br> Instagram<br> Telegram<br> Twitter</p>
-        </div>
-        <div class="div-rodape">
-            <h1 class="titulo-rodape">CONTATO</h1>
-            <p class="texto-rodape"> (31)91234-1234<br> adotepetbrasil@gmail.com</p>
-        </div>
-        <div class="div-rodape">
-            <h1 class="titulo-rodape">CENTRAL DE AJUDA</h1>
-            <p class="texto-rodape"> Suporte<br> Termos de uso<br> Politica de privacidade</p>
-        </div>
-    </div>
-   </footer>
-   <script>
-    window.onload = function() {
-    var usuarioLogado = localStorage.getItem("usuarioLogado");
-    var usuarioEmailLink = document.getElementById('usuario-email');
-    var loginLink = document.getElementById('login-link');
-    var cadastroLink = document.getElementById('cadastro-link');
+    </footer>
+    <script>
+        function recupera() {
+            let listaUser = [
+                ...JSON.parse(localStorage.getItem('listaUser') || '[]'),
+            ];
+            let listaUser2 = [
+                ...JSON.parse(localStorage.getItem('listaUser2') || '[]'),
+            ];
+            let listaUser3 = [
+                ...JSON.parse(localStorage.getItem('listaUser3') || '[]'),
+            ];
 
-    if (usuarioLogado) {
-        // Usuário está logado
-        var usuario = JSON.parse(usuarioLogado);
-        usuarioEmailLink.textContent = usuario.emailCad; 
-        usuarioEmailLink.href = 'perfil-usuario.html'; 
+            let senha = document.getElementById("senha").value;
+            let email = document.getElementById("email").value;
 
-        document.querySelector('.header_list_username').style.display = 'inline'; 
-        loginLink.style.display = 'none'; 
-        cadastroLink.style.display = 'none'; 
+            let userValid = listaUser.find(user => user.emailCad === email);
+            let userValid2 = listaUser2.find(user => user.emailCad === email);
+            let userValid3 = listaUser3.find(user => user.emailCad === email);
 
-        usuarioEmailLink.addEventListener('click', function() {
-        window.location.href = 'perfil-usuario.html';
-    });
-    } else {
-       
-        document.querySelector('.header_list_username').style.display = 'none';
-        loginLink.style.display = 'inline'; 
-        cadastroLink.style.display = 'inline'; 
-    }
-}
-   </script>
+            let msgError = document.getElementById('msgError');
+            let msgSuccess = document.getElementById('msgSuccess');
+
+            if (userValid) {
+                userValid.senhaCad = senha;
+                setTimeout(() => {
+                    localStorage.setItem('listaUser', JSON.stringify(listaUser));
+                    msgSuccess.setAttribute('style', 'display: block; color: green;');
+                    msgSuccess.innerHTML = '<strong>Senha atualizada com sucesso!</strong>';
+                    msgError.innerHTML = '';
+                    msgError.setAttribute('style', 'display: none');
+                    window.location.href = 'login.html';
+                }, 1500);
+            } else if (userValid2) {
+                userValid2.senhaCad = senha;
+                setTimeout(() => {
+                    localStorage.setItem('listaUser2', JSON.stringify(listaUser2));
+                    msgSuccess.setAttribute('style', 'display: block; color: green;');
+                    msgSuccess.innerHTML = '<strong>Senha atualizada com sucesso!</strong>';
+                    msgError.innerHTML = '';
+                    msgError.setAttribute('style', 'display: none');
+                    window.location.href = 'login.html';
+                }, 1500);
+            } else if (userValid3) {
+                userValid3.senhaCad = senha;
+                setTimeout(() => {
+                    localStorage.setItem('listaUser3', JSON.stringify(listaUser3));
+                    msgSuccess.setAttribute('style', 'display: block; color: green;');
+                    msgSuccess.innerHTML = '<strong>Senha atualizada com sucesso!</strong>';
+                    msgError.innerHTML = '';
+                    msgError.setAttribute('style', 'display: none');
+                    window.location.href = 'login.html';
+                }, 1500);
+            } else {
+                setTimeout(() => {
+                    msgError.setAttribute('style', 'display: block; color: red;');
+                    msgError.innerHTML = '<strong>Email não encontrado!</strong>';
+                    msgSuccess.innerHTML = '';
+                    msgSuccess.setAttribute('style', 'display: none');
+                }, 1500);
+            }
+        }
+
+        window.onload = function() {
+            var usuarioLogado = localStorage.getItem("usuarioLogado");
+            var usuarioEmailLink = document.getElementById('usuario-email');
+            var loginLink = document.getElementById('login-link');
+            var cadastroLink = document.getElementById('cadastro-link');
+
+            if (usuarioLogado) {
+                // Usuário está logado
+                var usuario = JSON.parse(usuarioLogado);
+                usuarioEmailLink.textContent = usuario.emailCad;
+                usuarioEmailLink.href = 'perfil-usuario.html';
+
+                document.querySelector('.header_list_username').style.display = 'inline';
+                loginLink.style.display = 'none';
+                cadastroLink.style.display = 'none';
+
+                usuarioEmailLink.addEventListener('click', function() {
+                    window.location.href = 'perfil-usuario.html';
+                });
+            } else {
+                document.querySelector('.header_list_username').style.display = 'none';
+                loginLink.style.display = 'inline';
+                cadastroLink.style.display = 'inline';
+            }
+        }
+    </script>
 </body>
 </html>
