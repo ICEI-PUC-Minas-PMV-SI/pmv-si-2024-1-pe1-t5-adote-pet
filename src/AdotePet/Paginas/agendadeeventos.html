@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
-    <link href="imgs/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="../imgs/favicon.ico" rel="shortcut icon" type="image/x-icon">
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js"></script>
 </head>
@@ -38,7 +38,9 @@
         <div class="container">
             <div>
                 <div class="voltar">
-                    <button class="image-button-blue" onclick="history.back()"><img src="imgs/Botao-voltar.png">
+                    <button class="image-button" onclick="history.back()">
+                        <img src="../imgs/Botao-voltar.png">
+                    </button>
                 </div>
                 <div class="titulo-main">
                     <h1>Agenda de Eventos</h1>
@@ -47,19 +49,34 @@
             </div>
             <div class="evento_navbar">
                 <div class="img_navbar">
-                    <img src="imgs/localizacao.png" class="localizacaonavbar"> 
+                    <img src="../imgs/localizacao.png" class="localizacaonavbar"> 
                 </div>
                 <input type="text" id="local" class="evento_searchbar">
             </div>
             <div id="cardrow" class="cardrow">
                 <div id="cardcolumn" class="cardcolumn">
                     <div class="centered-img-agenda">
-                        <img src="imgs/calendariosaibamais.png" class="calendarioagendaevento">
+                        <img src="../imgs/calendariosaibamais.png" class="calendarioagendaevento">
                     </div>
                     <h1 class="nomeagendaevento">Nome do Evento</h1>
                     <ul class="info_agendaeventos">
-                        <li class="info_lista_agenda"><img src="imgs/localizacao.png" class="localizacaopng"> Localização</li>
-                        <li class="info_lista_agenda"><img src="imgs/telefone.png" class="telefonepng"> Contato</li>
+                        <li class="info_lista_agenda"><img src="../imgs/localizacao.png" class="localizacaopng"> Localização</li>
+                        <li class="info_lista_agenda"><img src="../imgs/telefone.png" class="telefonepng"> Contato</li>
+                    </ul>
+                    <div class="saibamais">
+                        <a href="../imgs/calendariosaibamais.png">
+                        <button class="botaosaiba_mais">Saiba Mais</button>
+                        </a>
+                    </div>
+                </div>
+                <div id="cardcolumn" class="cardcolumn">
+                    <div class="centered-img-agenda">
+                        <img src="../imgs/calendariosaibamais.png" class="calendarioagendaevento">
+                    </div>
+                    <h1 class="nomeagendaevento">Nome do Evento</h1>
+                    <ul class="info_agendaeventos">
+                        <li class="info_lista_agenda"><img src="../imgs/localizacao.png" class="localizacaopng"> Localização</li>
+                        <li class="info_lista_agenda"><img src="../imgs/telefone.png" class="telefonepng"> Contato</li>
                     </ul>
                     <div class="saibamais">
                         <a href="saibamaiseventos.html">
@@ -69,27 +86,12 @@
                 </div>
                 <div id="cardcolumn" class="cardcolumn">
                     <div class="centered-img-agenda">
-                        <img src="imgs/calendariosaibamais.png" class="calendarioagendaevento">
+                        <img src="../imgs/calendariosaibamais.png" class="calendarioagendaevento">
                     </div>
                     <h1 class="nomeagendaevento">Nome do Evento</h1>
                     <ul class="info_agendaeventos">
-                        <li class="info_lista_agenda"><img src="imgs/localizacao.png" class="localizacaopng"> Localização</li>
-                        <li class="info_lista_agenda"><img src="imgs/telefone.png" class="telefonepng"> Contato</li>
-                    </ul>
-                    <div class="saibamais">
-                        <a href="saibamaiseventos.html">
-                        <button class="botaosaiba_mais">Saiba Mais</button>
-                        </a>
-                    </div>
-                </div>
-                <div id="cardcolumn" class="cardcolumn">
-                    <div class="centered-img-agenda">
-                        <img src="imgs/calendariosaibamais.png" class="calendarioagendaevento">
-                    </div>
-                    <h1 class="nomeagendaevento">Nome do Evento</h1>
-                    <ul class="info_agendaeventos">
-                        <li class="info_lista_agenda"><img src="imgs/localizacao.png" class="localizacaopng"> Localização</li>
-                        <li class="info_lista_agenda"><img src="imgs/telefone.png" class="telefonepng"> Contato</li>
+                        <li class="info_lista_agenda"><img src="../imgs/localizacao.png" class="localizacaopng"> Localização</li>
+                        <li class="info_lista_agenda"><img src="../imgs/telefone.png" class="telefonepng"> Contato</li>
                     </ul>
                     <div class="saibamais">
                         <a href="saibamaiseventos.html">
@@ -99,12 +101,12 @@
                  </div>
                 <div id="cardcolumn" class="cardcolumn">
                     <div class="centered-img-agenda">
-                        <img src="imgs/calendariosaibamais.png" class="calendarioagendaevento">
+                        <img src="../imgs/calendariosaibamais.png" class="calendarioagendaevento">
                     </div>
                     <h1 class="nomeagendaevento">Nome do Evento</h1>
                     <ul class="info_agendaeventos">
-                        <li class="info_lista_agenda"><img src="imgs/localizacao.png" class="localizacaopng"> Localização</li>
-                        <li class="info_lista_agenda"><img src="imgs/telefone.png" class="telefonepng"> Contato</li>
+                        <li class="info_lista_agenda"><img src="../imgs/localizacao.png" class="localizacaopng"> Localização</li>
+                        <li class="info_lista_agenda"><img src="../imgs/telefone.png" class="telefonepng"> Contato</li>
                      </ul>
                     <div class="saibamais">
                         <a href="saibamaiseventos.html">
@@ -160,8 +162,8 @@
                         </div>
                         <h1 class="nomeagendaevento">${eventos.tituloevento}</h1>
                         <ul class="info_agendaeventos">
-                            <li class="info_lista_agenda"><img src="imgs/localizacao.png" class="localizacaopng"> ${eventos.endereco}</li>
-                            <li class="info_lista_agenda"><img src="imgs/telefone.png" class="telefonepng"> ${eventos.telefone}</li>
+                            <li class="info_lista_agenda"><img src="../imgs/localizacao.png" class="localizacaopng"> ${eventos.endereco}</li>
+                            <li class="info_lista_agenda"><img src="../imgs/telefone.png" class="telefonepng"> ${eventos.telefone}</li>
                         </ul>
                         <div class="saibamais">
                             <a href="saibamaiseventos.html">
@@ -203,8 +205,8 @@
                         </div>
                         <h1 class="nomeagendaevento">${eventos.tituloevento}</h1>
                         <ul class="info_agendaeventos">
-                            <li class="info_lista_agenda"><img src="imgs/localizacao.png" class="localizacaopng"> ${eventos.endereco}</li>
-                            <li class="info_lista_agenda"><img src="imgs/telefone.png" class="telefonepng"> ${eventos.telefone}</li>
+                            <li class="info_lista_agenda"><img src="../imgs/localizacao.png" class="localizacaopng"> ${eventos.endereco}</li>
+                            <li class="info_lista_agenda"><img src="../imgs/telefone.png" class="telefonepng"> ${eventos.telefone}</li>
                         </ul>
                         <div class="saibamais">
                             <a href="saibamaiseventos.html">

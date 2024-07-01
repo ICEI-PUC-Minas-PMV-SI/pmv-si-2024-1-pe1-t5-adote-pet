@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-header {
+header{
     height: 20vh;
     width: 100%;
     padding: 0 10%;
@@ -14,68 +14,120 @@ header {
     position: relative;
 }
 
-nav {
+nav{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+    align-items: left;
 }
 
 .logo{
-    height: 220px;
-    width: 220px;
+    width: 200px;
+    height: 200px;
     position: relative;
-    cursor: pointer;
     bottom: 30px;
 }
-
-.iconedeperfil{
-    height: 49px;
+.iconeperfil{
     width: 49px;
-    cursor: pointer;
+    height: 49px;
     border-radius: 100%;
     opacity: 0.5;
-    margin-bottom: 50px;
 }
-
-nav ul{
-    list-style: none;
-    width: 100%;
-    text-align: right;
+.nav-links{
     padding: 28px 0;
 }
-
-nav ul li{
-    display: inline-block;
-    margin: 15px 25px;
+.nav-linkentrar{
+    padding: 28px 0;
 }
-
-.header_list_item{
-    margin-right: 50px;
-    margin-bottom: 60px;
+.nav-linkcadastrar{
+    padding: 28px 0;
+}
+.nav-linkperfil{
+    padding: 28px 0;
+}
+.nav-links li{
+    display: inline-block;
+    margin: 0 20px;
+}
+.nav-linkentrar li{
+    display: inline-block;
+}
+.nav-linkcadastrar li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.nav-linkperfil li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: #d971a1;
+    font-family:'Open Sans';
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 5px 0;
+    position: relative;
+    left: -30px;
+    top: 20px;
+}
+.nav-linkentrar li a{
+    text-decoration: none;
+    color: #d971a1;
+    font-family:'Open Sans';
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 5px 0;
+    position: relative;
+    top: 20px;
+    left: 230px;
+}
+.nav-linkcadastrar li a{
+    text-decoration: none;
+    color: #fff;
+    font-family:'Open Sans';
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 5px 0;
+    position: relative;
+    z-index: 1;
+    top: 20px;
+    left: 250px;
+}
+.nav-linkperfil li a{
+    text-decoration: none;
+    color: #3399bb;
+    opacity: 0.5;
+    font-family:'Open Sans';
+    font-weight: bolder;
+    font-size: 16px;
+    padding: 5px 0;
+    position: relative; 
+    left: 170px;
+}
+.nav-linkcadastrar li a::before{
+    content: '';
+    background: #d971a1;
+    width: 100%;
+    height: 35px;
+    width: 130px;
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    border-radius: 8%;
+    left: -6px;
 }
 
 .header_list_username{
-    margin-bottom: 60px;
-}
-
-nav ul li a{
-    color: #d971a1;
-    text-decoration: none;
-    font-family: "Open Sans", sans-serif;
-    font-size: 20px;
-    font-weight: 800;
-}
-
-.header_list_username a{
     text-decoration: underline;
     color: #3399bb;
     opacity: 0.5;
     font-family:'Open Sans', sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    margin-bottom: 60px;
-}
+    font-weight: bolder;
+    font-size: 15px;
+    padding: 45px 0;
+    position: relative;
+    left: 20%;
+  }
 
 .button{
     display: flex;
@@ -148,6 +200,25 @@ main{
     width: 115px;
     height: 40px; 
 }
+.image-button{
+    position: relative;
+    background-color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    display: inline-flex;
+    padding: 30px;
+    border: none;
+    align-items: center;
+}
+
+.image-button img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 100%;
+}
 
 .image-button-blue{
     position: relative;
@@ -209,7 +280,7 @@ main{
     font-weight: 800;
     color: #F2A97E;
     position: relative;
-    bottom: 60px;
+    bottom: 40px;
 }
 
 .titulo-main h1{
