@@ -47,7 +47,7 @@
                 <form class="form-saiba-evento" action="">
                     <div class="topo_formulario">
                          <img src="../imgs/calendariosaibamais.png" class="calendariosaibamais">
-                         <h1 class="tituloeventosaibamais">Nome do Evento</h1>
+                         <h4 class="tituloeventosaibamais">Nome do Evento</h4>
                     </div>
                 <div class="form-column">
                     <div>
@@ -90,35 +90,38 @@
     </footer>
     <script>
         function carregarEventos() {
-            // Armazena os cadastros 
-            var eventosCadastrados = JSON.parse(localStorage.getItem("eventos")) || [];
-            // Armazena uma parte do html
-            var eventoCardsContainer = document.getElementById("columnform");
+            const urlParams = new URLSearchParams(window.location.search);
+            const eventId = urlParams.get('id');
 
-            // Apaga todos os Cards que estavam antes (os usados no html puro só como exemplo)
-            eventoCardsContainer.innerHTML = "";
-    
-            // Laço de repetição pra mostrar todos os cadastros
-            eventosCadastrados.forEach(function(eventos) {
+            var eventosCadastrados = JSON.parse(localStorage.getItem("eventos")) || [];
+            const eventos = eventosCadastrados.find(e => e.id === eventId);
+
+            if (eventos) {
+                var eventoCardsContainer = document.getElementById("columnform");
+
+                // Limpa o conteúdo atual
+                eventoCardsContainer.innerHTML = "";
+
                 // Criando o div que no js que vai armazenar o código do card
                 var cardDiv = document.createElement("div");
                 cardDiv.classList.add("cards");
                 cardDiv.style.textAlign = "center";
-    
+                
+
                 // Código do card concatenado com as váriaveis que quero retornar
                 cardDiv.innerHTML = `
                 <form class="form-saiba-evento" action="">
                     <div class="topo_formulario">
-                         <img src="${eventos.imagem}" class="calendariosaibamais">
-                         <h1 class="tituloeventosaibamais">${eventos.tituloevento}</h1>
+                         <img src="../imgs/calendariosaibamais.png" class="calendariosaibamais">
+                         <h4 class="tituloeventosaibamais">${eventos.tituloevento}</h4>
                     </div>
                 <div class="form-column">
                     <div>
-                        <label for="endereco"><img src="imgs/localizacao.png" class="localizacaopng"> Localização:</label>
+                        <label for="endereco"><img src="../imgs/localizacao.png" class="localizacaopng"> Localização:</label>
                         <h1 class="input-left">${eventos.endereco}</h1>
-                        <label for="telefone"><img src="imgs/telefone.png" class="telefonepng"> Telefone para contato:</label>
+                        <label for="telefone"><img src="../imgs/telefone.png" class="telefonepng"> Telefone para contato:</label>
                         <h1 class="input-left">${eventos.telefone}</h1>
-                        <label for="datadoevento"><img src="imgs/Eventotarefa.png" class="eventotarefapng"> Data do Evento:</label>
+                        <label for="datadoevento"><img src="../imgs/Eventotarefa.png" class="eventotarefapng"> Data do Evento:</label>
                         <h1 class="input-rightA">${eventos.datadoevento}</h1>
                     </div>
                     <div class="descricaoevento">
@@ -128,41 +131,43 @@
                 </div>
                 </form>
                 `;
-    
+
                 // Mostrando na tela
                 eventoCardsContainer.appendChild(cardDiv);
-            });
+            } else {
+                console.log("Evento não encontrado");
+            }
         }
-        
-        // Essa função vai ser carregada assim que a tela abrir
-        window.onload = carregarEventos;
+
+        function carregarUsuarioLogado() {
+            var usuarioLogado = localStorage.getItem("usuarioLogado");
+            var usuarioEmailLink = document.getElementById('usuario-email');
+            var loginLink = document.getElementById('login-link');
+            var cadastroLink = document.getElementById('cadastro-link');
+
+            if (usuarioLogado) {
+                var usuario = JSON.parse(usuarioLogado);
+                usuarioEmailLink.textContent = usuario.emailCad; 
+                usuarioEmailLink.href = 'perfil-usuario.html'; 
+
+                document.querySelector('.header_list_username').style.display = 'inline'; 
+                loginLink.style.display = 'none'; 
+                cadastroLink.style.display = 'none'; 
+
+                usuarioEmailLink.addEventListener('click', function() {
+                    window.location.href = 'perfil-usuario.html';
+                });
+            } else {
+                document.querySelector('.header_list_username').style.display = 'none';
+                loginLink.style.display = 'inline'; 
+                cadastroLink.style.display = 'inline'; 
+            }
+        }
 
         window.onload = function() {
-    var usuarioLogado = localStorage.getItem("usuarioLogado");
-    var usuarioEmailLink = document.getElementById('usuario-email');
-    var loginLink = document.getElementById('login-link');
-    var cadastroLink = document.getElementById('cadastro-link');
-
-    if (usuarioLogado) {
-        // Usuário está logado
-        var usuario = JSON.parse(usuarioLogado);
-        usuarioEmailLink.textContent = usuario.emailCad; 
-        usuarioEmailLink.href = 'perfil-usuario.html'; 
-
-        document.querySelector('.header_list_username').style.display = 'inline'; 
-        loginLink.style.display = 'none'; 
-        cadastroLink.style.display = 'none'; 
-
-        usuarioEmailLink.addEventListener('click', function() {
-        window.location.href = 'perfil-usuario.html';
-    });
-    } else {
-       
-        document.querySelector('.header_list_username').style.display = 'none';
-        loginLink.style.display = 'inline'; 
-        cadastroLink.style.display = 'inline'; 
-    }
-}
+            carregarEventos();
+            carregarUsuarioLogado();
+        }
     </script>
     <script type="text/javascript" src="eventos.js"></script>
 </body>
