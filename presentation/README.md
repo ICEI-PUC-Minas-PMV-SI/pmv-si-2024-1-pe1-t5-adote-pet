@@ -1,6 +1,6 @@
 # Apresentação
 
-Aqui estão todos os arquivos de apresentação do projeto Adote Pet. Nestes documentos, você encontrará uma visão detalhada do nosso projeto. Esperamos que essa apresentação proporcionem uma compreensão abrangente do nosso trabalho e inspirem mais pessoas a se unirem a esta causa nobre.
+Aqui estão todos os arquivos de apresentação do projeto Adote Pet. Nestes documentos, você encontrará uma visão detalhada do nosso projeto. Esperamos que essa apresentação proporcione uma compreensão abrangente do nosso trabalho e inspirem mais pessoas a se unirem a esta causa.
 
 * [Pitch inicial](./adotepet-pitchinicial.pdf) -- Adote Pet - Pitch Inicial
 * [Apresentação final](./sample-presentation.pdf) -- arquivo com os slides da apresentação final
