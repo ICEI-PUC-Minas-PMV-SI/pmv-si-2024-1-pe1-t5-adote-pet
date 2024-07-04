@@ -6,10 +6,6 @@ Aqui estão todos os arquivos de apresentação do projeto Adote Pet. Nestes doc
 * [Apresentação final](./sample-presentation.pdf) -- arquivo com os slides da apresentação final
 * [Vídeo de demonstração](./sample-video.mp4) -- arquivo com a demonstração do funcionamento do sistema
 
-##### Adote Pet
-
-## Identidade Visual (Marca, Design)
-
 ![Imagem do WhatsApp de 2024-06-23 à(s) 17 54 44_15347c0e](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-adote-pet/assets/160288705/6ec58139-35fe-40ce-80c6-3a4e37725773)
 
 ## Conjunto de Slides (Estrutura)
